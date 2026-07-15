@@ -5,7 +5,7 @@
   description: "Постер Wacky Adventure"
   components:
   - type: Sprite
-    sprite: _AA_MyTextures/posters.rsi
+    sprite: _WackyAdventure/posters.rsi
     state: poster_wackyadventure1
     
 - type: entity
@@ -15,5 +15,5 @@
   description: "Постер Wacky Adventure"
   components:
   - type: Sprite
-    sprite: _AA_MyTextures/posters.rsi
+    sprite: _WackyAdventure/posters.rsi
     state: poster_wackyadventure2

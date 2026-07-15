@@ -7,7 +7,7 @@
   components:
     - type: Appearance
     - type: Sprite
-      sprite: Structures/Power/Generation/nuckealreactor.rsi
+      sprite: _WackyAdventure/Structures/Power/Generation/nuckealreactor.rsi
       state: portgenUr
       noRot: true
       layers:
