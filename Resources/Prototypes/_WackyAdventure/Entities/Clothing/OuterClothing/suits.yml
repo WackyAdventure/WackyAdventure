@@ -34,94 +34,39 @@
     - jumpsuit
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  parent: ClothingOuterSuitRadFullDefense
   id: ClothingOuterSuitRadHalfDefense
   name: противорадиационный костюм
   suffix: "50%"
   description: "Костюм защищающий на 50% от радиации"
   components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Arm
-    - Hand
-    - Leg
-    - Foot
-    - Tail
-    - Other
     modifiers:
       coefficients:
         Heat: 0.85
         Radiation: 0.5
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
-  - type: GroupExamine
-  - type: ToggleableClothing # Goobstation - Modsuits change
-    clothingPrototypes:
-      head: ClothingHeadHatHoodRad
-  - type: ProtectedFromStepTriggers
-    slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  parent: ClothingOuterSuitRadFullDefense
   id: ClothingOuterSuitRadThreeQuatersDefense
   name: противорадиационный костюм
   suffix: "75%"
   description: "Костюм защищающий на 75% от радиации"
   components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Arm
-    - Hand
-    - Leg
-    - Foot
-    - Tail
-    - Other
     modifiers:
       coefficients:
         Heat: 0.85
         Radiation: 0.25
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
-  - type: GroupExamine
-  - type: ToggleableClothing # Goobstation - Modsuits change
-    clothingPrototypes:
-      head: ClothingHeadHatHoodRad
-  - type: ProtectedFromStepTriggers
-    slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  parent: ClothingOuterSuitRadFullDefense
   id: ClothingOuterSuitRadArmorFullDefense
   name: усиленный противорадиационный костюм
   suffix: "100%"
   description: "Костюм защищающий на 100% от радиации"
   components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Arm
-    - Hand
-    - Leg
-    - Foot
-    - Tail
-    - Other
     modifiers:
       coefficients:
         Heat: 0.85
@@ -130,20 +75,9 @@
         Slash: 0.6
         Piercing: 0.65
         Caustic: 0.6
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
-  - type: GroupExamine
-  - type: ToggleableClothing # Goobstation - Modsuits change
-    clothingPrototypes:
-      head: ClothingHeadHatHoodRad
-  - type: ProtectedFromStepTriggers
-    slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
 
 - type: entity
-  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  parent: ClothingOuterSuitRadFullDefense
   id: ClothingHardSuitRadArmorFullDefense
   name: противорадиационный броне скафандр
   suffix: "100%"
@@ -152,18 +86,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: Armor
-    coverage:
-    - Chest
-    - Groin
-    - Arm
-    - Hand
-    - Leg
-    - Foot
-    - Tail
-    - Other
     modifiers:
       coefficients:
         Heat: 0.85
@@ -172,17 +95,9 @@
         Slash: 0.6
         Piercing: 0.65
         Caustic: 0.6
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
-  - type: GroupExamine
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHardHatRad
-  - type: ProtectedFromStepTriggers
-    slots: WITHOUT_POCKET
-  - type: HideClothingLayerClothing # Goobstation
-    hiddenSlots:
-    - jumpsuit
 
 - type: entity
   parent: ClothingHeadBase
