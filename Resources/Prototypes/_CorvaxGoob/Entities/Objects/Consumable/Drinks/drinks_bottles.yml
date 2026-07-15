@@ -1,0 +1,37 @@
+- type: entity
+  parent: DrinkBottleGlassBaseFull
+  id: DrinkCampariBottleFull
+  name: campari bottle
+  description: Tincture based on aromatic herbs and citrus fruits. Non-GMO!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Campari
+          Quantity: 100
+  - type: Sprite
+    sprite: _CorvaxGoob/Objects/Consumable/Drinks/campari.rsi
+  - type: SolutionContainerVisuals
+    maxFillLevels: 10
+    fillBaseName: fill-
+    inHandsMaxFillLevels: 0
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: DrinkJuiceAppleCartonXL
+  name: apple juice XL
+  description: A pure set of vitamins that is useful for corporate employees.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 150
+        reagents:
+        - ReagentId: JuiceApple
+          Quantity: 150
+  - type: Label
+    currentLabel: reagent-name-juice-apple
+  - type: Sprite
+    sprite: _CorvaxGoob/Objects/Consumable/Drinks/applejuice.rsi

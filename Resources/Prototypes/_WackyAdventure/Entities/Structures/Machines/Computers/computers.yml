@@ -1,0 +1,44 @@
+- type: entity
+  id: ComputerNTContractor
+  parent: [BaseComputer, StorePresetNTContractor]
+  name: оригинальная консоль контрактника НТ
+  description: Абсолютно оригинальная система купле-продажи для контрактников корпорации НТ.
+  components:
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      NTContractorCurrency: 100
+  - type: Sprite
+    sprite: Structures/Machines/computers.rsi
+    layers:
+    - map: [ "computerLayerBody" ]
+      state: computer
+    - map: [ "computerLayerKeyboard" ]
+      state: generic_keyboard
+    - map: [ "computerLayerScreen" ]
+      state: comm_syndie
+    - map: [ "computerLayerKeys" ]
+      state: generic_keys
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        showEnts: False
+        occludes: True
+        ents: [ ]
+      documentSlot: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
+      board: !type:Container
+        showEnts: False
+        occludes: True
+        ents: [ ]

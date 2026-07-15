@@ -1,0 +1,6 @@
+- type: lavalandLayout
+  id: IceMoonOutpost
+  layouts:
+  - gridPath: /Maps/_WackyAdventure/ArcticOutpost.yml
+    position: 0,0
+    name: lavaland-planet-outpost

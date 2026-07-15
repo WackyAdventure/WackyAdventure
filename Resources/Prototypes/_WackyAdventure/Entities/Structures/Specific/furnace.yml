@@ -1,0 +1,76 @@
+- type: entity
+  id: Furnace
+  parent: BaseStructure
+  name: Камин
+  description: A place that has fire. Cozy!
+  components:
+  - type: Sprite
+    sprite: Structures/Decoration/fireplace.rsi
+    layers:
+      - state: fireplace
+      - state: fireplacefestive
+        map: ["christmas"]
+        visible: false
+      - state: fireplace_fire4
+        shader: unshaded
+      - state: fireplace_glow
+        shader: unshaded
+  - type: Appearance
+  - type: HolidayVisuals
+    holidays:
+      festive:
+      - FestiveSeason
+  - type: GenericVisualizer
+    visuals:
+      enum.HolidayVisuals.Holiday:
+        christmas:
+          festive: { visible: true }
+  - type: AmbientSound
+    volume: -6
+    range: 5
+    sound:
+      path: /Audio/Ambience/Objects/fireplace.ogg
+  - type: PointLight
+    radius: 3
+    energy: 3
+    color: "#FF6F00"
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 200
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: AlwaysHot 
+  - type: MaterialStorage
+    ignoreMaterialWhiteList: true # Goob edit
+    connectToSilo: true # Goob edit
+    disconnectSiloOffMap: true # Goob edit
+    disallowOreEjection: false # Goob edit
+    ignoreColor: true
+    whitelist:
+      tags:
+      - Ore
+      - Sheet
+      - RawMaterial
+      - Ingot
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    defaultProductionAmount: 1
+    outputToStorage: true # Goob edit
+    staticPacks:
+      - OreSmeltingFireplace
+  - type: UserInterface
+    interfaces:
+      enum.LatheUiKey.Key:
+        type: LatheBoundUserInterface
+      enum.ResearchClientUiKey.Key:
+        type: ResearchClientBoundUserInterface
+  - type: ActivatableUI
+    key: enum.LatheUiKey.Key
+    

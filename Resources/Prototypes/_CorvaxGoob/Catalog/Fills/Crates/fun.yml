@@ -1,0 +1,33 @@
+- type: entity
+  id: CrateFunCarc3
+  parent: CrateGenericSteel
+  name: "\"Spacessonne\" crate"
+  description: Big crate with 3 Spacessonne copies in price of 2.
+  components:
+  - type: StorageFill
+    contents:
+      - id: CarcBoxClassic
+        amount: 3
+
+- type: entity
+  id: CrateColoredPaper
+  parent: CrateGenericSteel
+  name: "crate with colored paper"
+  description: A big crate filled with boxes of paper in every color of the rainbow.
+  components:
+  - type: StorageFill
+    contents:
+      - id: YellowPaperBox
+        amount: 1
+      - id: RedPaperBox
+        amount: 1
+      - id: OrangePaperBox
+        amount: 1
+      - id: GreenPaperBox
+        amount: 1
+      - id: CyanPaperBox
+        amount: 1
+      - id: BluePaperBox
+        amount: 1
+      - id: VioletPaperBox
+        amount: 1

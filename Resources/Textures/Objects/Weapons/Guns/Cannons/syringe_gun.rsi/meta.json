@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Resprited by Golden_Jerusalem (Discord) for Corvax Station",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "syringe_gun"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    }
+  ]
+}

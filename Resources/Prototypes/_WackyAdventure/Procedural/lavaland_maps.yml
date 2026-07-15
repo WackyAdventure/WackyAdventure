@@ -1,0 +1,5 @@
+- type: lavalandMap
+  id: IceMoon
+  planet: IceMoonPlanet
+  layout: IceMoonOutpost
+  ruins: IceMoonRuins

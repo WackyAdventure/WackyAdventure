@@ -1,0 +1,129 @@
+- type: entity
+  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  id: ClothingOuterSuitRadFullDefense
+  name: противорадиационный костюм
+  suffix: "100%"
+  description: "Костюм защищающий на 100% от радиации"
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/rad.rsi
+  - type: Armor
+    coverage:
+    - Chest
+    - Groin
+    - Arm
+    - Hand
+    - Leg
+    - Foot
+    - Tail
+    - Other
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/rad.rsi
+  - type: GroupExamine
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHatHoodRad
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
+
+- type: entity
+  parent: ClothingOuterSuitRadFullDefense
+  id: ClothingOuterSuitRadHalfDefense
+  name: противорадиационный костюм
+  suffix: "50%"
+  description: "Костюм защищающий на 50% от радиации"
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0.5
+
+- type: entity
+  parent: ClothingOuterSuitRadFullDefense
+  id: ClothingOuterSuitRadThreeQuatersDefense
+  name: противорадиационный костюм
+  suffix: "75%"
+  description: "Костюм защищающий на 75% от радиации"
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0.25
+
+- type: entity
+  parent: ClothingOuterSuitRadFullDefense
+  id: ClothingOuterSuitRadArmorFullDefense
+  name: усиленный противорадиационный костюм
+  suffix: "100%"
+  description: "Костюм защищающий на 100% от радиации"
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.65
+        Caustic: 0.6
+
+- type: entity
+  parent: ClothingOuterSuitRadFullDefense
+  id: ClothingHardSuitRadArmorFullDefense
+  name: противорадиационный броне скафандр
+  suffix: "100%"
+  description: "Костюм защищающий на 100% от радиации и от давления"
+  components:
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.65
+        Caustic: 0.6
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHardHatRad
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHardHatRad
+  name: капюшон противорадиационного скафандра
+  description: A hood of the hazmat suit, designed for protection from high radioactivity.
+  components:
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Sprite
+    sprite: Clothing/Head/Hoods/rad.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hoods/rad.rsi
+  - type: Armor
+    coverage:
+    - Head
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide

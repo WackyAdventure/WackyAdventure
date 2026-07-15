@@ -1,0 +1,14 @@
+- type: storeCategory
+  id: NTContractorWeaponry
+  name: Оружие
+  priority: 0
+
+- type: storeCategory
+  id: NTContractorMedicine
+  name: Медицина
+  priority: 1
+
+- type: storeCategory
+  id: NTContractorTools
+  name: Инструменты
+  priority: 2

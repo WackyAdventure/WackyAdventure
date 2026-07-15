@@ -1,0 +1,13 @@
+- type: entity
+  id: SpawnerSheetSteel1
+  name: Спавнер Стали
+  parent: BaseERTSpawner
+  suffix: 1
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: SheetSteel1

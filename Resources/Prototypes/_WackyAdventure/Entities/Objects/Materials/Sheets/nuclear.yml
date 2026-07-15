@@ -1,0 +1,545 @@
+- type: entity
+  parent: [SheetOtherBase, EdibleBase]
+  abstract: true
+  id: BaseNuclearMaterial
+  name: BaseMaterial
+  components:
+  - type: Tag
+    tags:
+    - NuclearMaterial
+  - type: RadiationSource
+    intensity: 0.05
+  - type: Material
+  - type: Food
+    transferAmount: 10
+  - type: BadFood
+  - type: PhysicalComposition
+    materialComposition:
+      Uranium-235: 100
+  - type: Stack
+    stackType: Uranium-235
+    baseLayer: base
+    layerStates:
+    - uranium-235
+    - uranium-235_2
+    - uranium-235_3
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    state: uranium-235_3
+    layers:
+    - state: uranium-235_3
+      map: ["base"]
+  - type: Item
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Uranium
+          Quantity: 8
+        - ReagentId: Radium
+          Quantity: 2
+        canReact: false
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetUranium-235
+  name: уран-235
+  suffix: Full
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Uranium
+          Quantity: 8
+        - ReagentId: Radium
+          Quantity: 2
+        canReact: false
+
+- type: entity
+  parent: SheetUranium-235
+  id: SheetUranium-2351
+  name: уран-235
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetUranium-238
+  name: уран-238
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.01
+  - type: PhysicalComposition
+    materialComposition:
+      Uranium-238: 100
+  - type: Stack
+    stackType: Uranium-238
+    baseLayer: base
+    layerStates:
+    - uranium-238
+    - uranium-238_2
+    - uranium-238_3
+  - type: Sprite
+    state: uranium-238_3
+    layers:
+    - state: uranium-238_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetUranium-238
+  id: SheetUranium-2381
+  name: уран-238
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: SheetUranium-238
+  id: SheetUranium-23819
+  name: уран-238
+  suffix: Single
+  components:
+  - type: Stack
+    count: 19
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetUraniumFuel
+  name: урановое топливо
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.025
+  - type: PhysicalComposition
+    materialComposition:
+      UraniumFuel: 100
+  - type: Stack
+    stackType: UraniumFuel
+    baseLayer: base
+    layerStates:
+    - uraniumFuel
+    - uraniumFuel_2
+    - uraniumFuel_3
+  - type: Sprite
+    state: uraniumFuel_3
+    layers:
+    - state: uraniumFuel_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetUraniumFuel
+  id: SheetUraniumFuel1
+  name: урановое топливо
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetLitium
+  name: литий
+  suffix: Full
+  components:
+  - type: PhysicalComposition
+    materialComposition:
+      Litium: 100
+  - type: RadiationSource
+    intensity: 0.0
+  - type: Stack
+    stackType: Litium
+    baseLayer: base
+    layerStates:
+    - litium
+    - litium_2
+    - litium_3
+  - type: Sprite
+    state: litium_3
+    layers:
+    - state: litium_3
+      map: ["base"]
+  - type: Item
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Lithium
+          Quantity: 10
+        canReact: false
+
+- type: entity
+  parent: SheetLitium
+  id: Sheetlitium1
+  name: литий
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetFluorite
+  name: флюорит
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.0
+  - type: PhysicalComposition
+    materialComposition:
+      Fluorite: 100
+  - type: Stack
+    stackType: Fluorite
+    baseLayer: base
+    layerStates:
+    - fluorite
+    - fluorite_2
+    - fluorite_3
+  - type: Sprite
+    state: fluorite_3
+    layers:
+    - state: fluorite_3
+      map: ["base"]
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Fluorine
+          Quantity: 5
+        - ReagentId: Potassium
+          Quantity: 5
+        canReact: false
+
+- type: entity
+  parent: SheetFluorite
+  id: Sheetfluorite1
+  name: флюорит
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetNeptunium
+  name: нептуний
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.5
+  - type: PhysicalComposition
+    materialComposition:
+      Neptunium: 100
+  - type: Stack
+    stackType: Neptunium
+    baseLayer: base
+    layerStates:
+    - neptunium
+    - neptunium_2
+    - neptunium_3
+  - type: Sprite
+    state: neptunium_3
+    layers:
+    - state: neptunium_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetNeptunium
+  id: SheetNeptunium1
+  name: нептуний
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetNeptuniumFuel
+  name: нептуниевое топливо
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.3
+  - type: PhysicalComposition
+    materialComposition:
+      NeptuniumFuel: 100
+  - type: Stack
+    stackType: NeptuniumFuel
+    baseLayer: base
+    layerStates:
+    - neptuniumFuel
+    - neptuniumFuel_2
+    - neptuniumFuel_3
+  - type: Sprite
+    state: neptuniumFuel_3
+    layers:
+    - state: neptuniumFuel_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetNeptuniumFuel
+  id: SheetNeptuniumFuel1
+  name: нептуниевое топливо
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetPlutonium-238
+  name: плутоний-238
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 1
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Plutonium-238: 100
+  - type: Stack
+    stackType: Plutonium-238
+    baseLayer: base
+    layerStates:
+    - plutonium-238
+    - plutonium-238_2
+    - plutonium-238_3
+  - type: Sprite
+    state: plutonium-238_3
+    layers:
+    - state: plutonium-238_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetPlutonium-238
+  id: SheetPlutonium-2381
+  name: плутоний-238
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: SheetPlutonium-238
+  id: SheetPlutonium-2383
+  name: плутоний-238
+  suffix: 3
+  components:
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetPlutonium-239
+  name: плутоний-239
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.4
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Plutonium-239: 100
+  - type: Stack
+    stackType: Plutonium-239
+    baseLayer: base
+    layerStates:
+    - plutonium-239
+    - plutonium-239_2
+    - plutonium-239_3
+  - type: Sprite
+    state: plutonium-239_3
+    layers:
+    - state: plutonium-239_3
+      map: ["base"]
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Uranium
+          Quantity: 8
+        - ReagentId: Radium
+          Quantity: 2
+        canReact: false
+
+- type: entity
+  parent: SheetPlutonium-239
+  id: SheetPlutonium-2391
+  name: плутоний-239
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: SheetPlutonium-239
+  id: SheetPlutonium-2393
+  name: плутоний-239
+  suffix: 3
+  components:
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetPlutonium-240
+  name: плутоний-240
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.6
+  - type: PhysicalComposition
+    materialComposition:
+      Plutonium-240: 100
+  - type: Stack
+    stackType: Plutonium-240
+    baseLayer: base
+    layerStates:
+    - plutonium-240
+    - plutonium-240_2
+    - plutonium-240_3
+  - type: Sprite
+    state: plutonium-240_3
+    layers:
+    - state: plutonium-240_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetPlutonium-240
+  id: SheetPlutonium-2401
+  name: плутоний-240
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+    
+- type: entity
+  parent: SheetPlutonium-240
+  id: SheetPlutonium-2403
+  name: плутоний-240
+  suffix: 3
+  components:
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetPlutoniumFuel
+  name: плутониевое топливо
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.8
+  - type: PhysicalComposition
+    materialComposition:
+      PlutoniumFuel: 100
+  - type: Stack
+    stackType: PlutoniumFuel
+    baseLayer: base
+    layerStates:
+    - plutoniumFuel
+    - plutoniumFuel_2
+    - plutoniumFuel_3
+  - type: Sprite
+    state: plutoniumFuel_3
+    layers:
+    - state: plutoniumFuel_3
+      map: ["base"]
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Uranium
+          Quantity: 8
+        - ReagentId: Radium
+          Quantity: 2
+        canReact: false
+
+- type: entity
+  parent: SheetPlutoniumFuel
+  id: SheetPlutoniumFuel1
+  name: плутониевое топливо
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: BaseNuclearMaterial
+  id: SheetPlutonium
+  name: плутоний
+  suffix: Full
+  components:
+  - type: RadiationSource
+    intensity: 0.6
+  - type: PhysicalComposition
+    materialComposition:
+      Plutonium: 100
+  - type: Stack
+    stackType: Plutonium
+    baseLayer: base
+    layerStates:
+    - plutonium
+    - plutonium_2
+    - plutonium_3
+  - type: Sprite
+    state: plutonium_3
+    layers:
+    - state: plutonium_3
+      map: ["base"]
+
+- type: entity
+  parent: SheetPlutonium
+  id: SheetPlutonium1
+  name: плутоний
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: [SheetOtherBase, EdibleBase]
+  id: SheetUranium-235-238
+  name: уран-235-238
+  suffix: Full
+  components:
+  - type: TimedDespawn
+    lifetime: 0
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    state: uranium-235_3
+    layers:
+    - state: uranium-235_3
+      map: ["base"]
+  - type: SpawnTableOnDespawn
+    table: !type:AllSelector
+      children:
+      - id: SheetUranium-2351
+      - id: SheetUranium-23819
+
+- type: entity
+  parent: [SheetOtherBase, EdibleBase]
+  id: SheetPlutonium-238-239-2401
+  name: плутонии 238, 239 и 240
+  suffix: Full
+  components:
+  - type: TimedDespawn
+    lifetime: 0
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    state: plutonium_3
+    layers:
+    - state: plutonium_3
+      map: ["base"]
+  - type: SpawnTableOnDespawn
+    table: !type:AllSelector
+      children:
+      - id: SheetPlutonium-2383
+      - id: SheetPlutonium-2393
+      - id: SheetPlutonium-2403

@@ -1,0 +1,11 @@
+ent-JetpackChrono = futuristic jetpack
+    .desc = Magnetically attached jetpack that holds extreme amount of gas. It is used as an oxygen cylinder.
+ent-JetpackChronoUnremoveable = { ent-JetpackChrono }
+    .suffix = Unremoveable
+    .desc = { ent-JetpackChrono.desc }
+ent-JetpackContractor = contractor's jetpack
+    .suffix = Empty
+    .desc = { ent-BaseJetpack.desc }
+ent-JetpackContractorFilled = contractor's jetpack
+    .suffix = Filled
+    .desc = { ent-JetpackContractor.desc }

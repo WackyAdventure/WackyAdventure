@@ -1,0 +1,71 @@
+- type: entity
+  parent: BaseCdDisk
+  name: CD "Вареный"
+  id: CdDiskVarenyi
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/Varenyi_CD.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "CYPERHOCOK - Не вздумай работать на НТ"
+  id: CdDiskNTWork
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/NTWork.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "CYPERHOCOK - Кадет vs ЯО"
+  id: CdDiskCadetVSNO
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/CadetVSNO.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "CYPERHOCOK - РДМ"
+  id: CdDiskRDM
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/RDM.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "MERFITCH - Эскадрон Смерти"
+  id: CdDiskDeathSquad
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/DeathSquad.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "В краю магнолий"
+  id: CdDiskCargo
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/Cargo.ogg
+      
+- type: entity
+  parent: BaseCdDisk
+  name: CD "ПОШЛАЯ МОЛЛИ - ХАННАМОНТАНА"
+  id: CdDiskHannamontana
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/Hannamontana.ogg
+      
+- type: entity
+  parent: BaseCdDisk
+  name: CD "Крохи прячут ножи - ПЛЭЙБОЙ"
+  id: CdDiskPlayboy
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/Playboy.ogg

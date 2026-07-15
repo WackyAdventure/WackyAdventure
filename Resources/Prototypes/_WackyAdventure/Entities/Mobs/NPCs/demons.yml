@@ -1,0 +1,243 @@
+- type: entity
+  parent: [ SimpleSpaceMobBase, FlyingMobBase ]
+  id: MobTumper
+  name: Саранча
+  description: Вам очень страшно... БЕГИТЕ!
+  suffix: DO NOT MAP
+  categories: [ DoNotMap ]
+  components:
+#  - type: Bloodstream
+#    bloodMaxVolume: 1984
+#    bleedReductionAmount: 5
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 10000 # no gibbing at 400
+      behaviors:
+      - !type:GibBehavior
+  - type: NpcFactionMember
+    factions:
+    - Passive
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 6
+    weightlessModifier: 1.5
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _WackyAdventure/Mobs/Demons/tumper.rsi
+    noRot: true
+    scale: 0.75,0.75
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: tumper
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: tumper
+      Dead:
+        Base: tumper1
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.40
+        density: 100
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: MobState
+    allowedStates:
+      - Alive
+      - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      5000: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      15: 0.75 # it's an unstoppable flesh abomination
+  - type: Damageable
+    damageContainer: FlimsyMetallic
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    autoAttack: false
+    range: 2.2 # Goob
+    attackRate: 0.8
+    damage:
+      types:
+       Piercing: 20
+       Structural: 10
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    animation: WeaponArcFist
+  - type: Devourer
+    foodPreferenceWhitelist:
+      components:
+      - HumanoidAppearance
+    stomachStorageWhitelist:
+      components:
+      - MobState
+    chemical: Ichor
+    healRate: 50.0
+    whitelist:
+      components:
+      - MobState
+      - Door
+      tags:
+      - Wall
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - DoorBumpOpener
+  - type: Examiner
+  - type: Pullable
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepThud
+  - type: Flammable
+    damage:
+      types: {}
+  - type: Temperature
+    damageCap: 0 # immune to temperature damage
+  - type: Puller
+    needsHands: false
+
+- type: entity
+  parent: MobTumper
+  id: MobTumperAgressive
+  name: Саранча
+  suffix: Agressive
+  components:
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: Damageable
+    damageContainer: Biological
+    
+- type: entity
+  abstract: true
+  id: MobGavriil
+  name: Ангел Гавриил
+  description: Deus propitius esto mihi peccatori
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: _WackyAdventure/Mobs/Demons/gavriil.rsi
+    drawdepth: Ghosts
+    layers:
+    - state: gavriil
+      shader: unshaded
+      
+- type: entity
+  parent: MobTumper
+  id: MobBoiled
+  name: Вареный
+  description: Вы не можете понять, что это такое, однако вам определённо не хочется находиться рядом с этим
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _WackyAdventure/Mobs/Demons/boiled.rsi
+    noRot: true
+    scale: 0.75,0.75
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: boiled
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: boiled
+      Dead:
+        Base: boiled
+  
+- type: entity
+  parent: MobBoiled
+  id: MobBoiledAgressive
+  suffix: Agressive
+  components:
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+
+- type: entity
+  parent: [MobGavriil, BaseMob]
+  id: MobCosmicGavriil
+  name: Ангел Гавриил
+  components:
+  - type: CargoSellBlacklist
+  # big mob needs to see everything
+  - type: ContentEye
+    maxZoom: 2.2,2.2
+  - type: Eye
+    drawFov: false
+  - type: Fixtures
+    fixtures:
+      EventHorizonCollider:
+        shape:
+          !type:PhysShapeCircle
+            radius: 5
+        hard: false
+        restitution: 0.8
+        density: 1
+        mask:
+        - Opaque
+        layer:
+        - GlassLayer
+      EventHorizonConsumer:
+        shape:
+          !type:PhysShapeCircle
+            radius: 6
+        hard: false
+        mask:
+        - Opaque
+        layer:
+        - GlassLayer
+  - type: Input
+    context: "ghost"
+  - type: MovementIgnoreGravity
+  - type: GhostHearing
+  - type: Physics
+    bodyType: Dynamic
+    bodyStatus: InAir
+  - type: CanMoveInAir
+  - type: AmbientSound
+    enabled: true
+    volume: 0
+    range: 25
+    sound:
+      path: /Audio/_WackyAdventure/mobs/demons/gavriil.ogg
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/_WackyAdventure/mobs/demons/gavriilspawn.ogg
+  - type: PointLight
+    enabled: true
+    radius: 3
+    energy: 4
+    color: "#ffffff"
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: false
+    makeSentient: true
+    name: ghost-role-information-theunknown-name
+    description: ghost-role-information-theunknown-description
+    rules: ghost-role-information-theunknown-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle:
+        settings: short
+  - type: GhostTakeoverAvailable

@@ -1,0 +1,36 @@
+- type: entity
+  id: NukeLathe
+  parent: [BaseLatheLube, BaseSiloUtilizer] # Goob edit
+  name: ЯдерЛат
+  description: Позволяет производить операции с радиоактивными веществами.
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Structures/Machines/nukelathe.rsi
+    state: base_1
+    snapCardinals: true
+  - type: Machine
+    board: NukeLatheMachineCircuitboard
+  - type: MaterialStorage
+ #   whitelist:
+ #     tags:
+ #       - SheetUranium-235
+ #       - SheetUranium-238
+ #       - Uranium
+ #       - SheetLitium
+ #       - SheetFluorite
+ #       - Sheetneptunium
+ #       - SheetPlutonium-238
+ #       - SheetPlutonium-239
+ #       - SheetPlutonium-240
+ #       - SheetPlutonium
+  - type: Lathe
+    idleState: icon
+    unlitIdleState: unlit
+    staticPacks: 
+    - NukeLatheStatic
+    dynamicPacks:
+    - NuclearFusionUranium
+    - NeptuniumSynthesis
+    - NuclearFusionNeptunium
+    - PlutoniumSynthesis
+    - NuclearFusionPlutonium

@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/c6e3401f2e7e1e55c57060cdf956a98ef1fefc24  and skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/commit/72ef384db938dfef549413970258cda93d42dafb, plasma_2 & plasma_3 combined from plasma",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "uranium-235"
+    },
+    {
+      "name": "uranium-235_2"
+    },
+    {
+      "name": "uranium-235_3"
+    },
+    {
+      "name": "uranium-235-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "uranium-235-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "uranium-235-238"
+    },
+    {
+      "name": "uranium-235-238_2"
+    },
+    {
+      "name": "uranium-235-238_3"
+    },
+    {
+      "name": "uranium-235-238-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "uranium-235-238-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "uranium-238"
+    },
+    {
+      "name": "uranium-238_2"
+    },
+    {
+      "name": "uranium-238_3"
+    },
+    {
+      "name": "uranium-238-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "uranium-238-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "uraniumFuel"
+    },
+    {
+      "name": "uraniumFuel_2"
+    },
+    {
+      "name": "uraniumFuel_3"
+    },
+    {
+      "name": "uraniumFuel-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "uraniumFuel-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "litium"
+    },
+    {
+      "name": "litium_2"
+    },
+    {
+      "name": "litium_3"
+    },
+    {
+      "name": "litium-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "litium-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "fluorite"
+    },
+    {
+      "name": "fluorite_2"
+    },
+    {
+      "name": "fluorite_3"
+    },
+    {
+      "name": "fluorite-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "fluorite-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "neptunium"
+    },
+    {
+      "name": "neptunium_2"
+    },
+    {
+      "name": "neptunium_3"
+    },
+    {
+      "name": "neptunium-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "neptunium-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "neptuniumFuel"
+    },
+    {
+      "name": "neptuniumFuel_2"
+    },
+    {
+      "name": "neptuniumFuel_3"
+    },
+    {
+      "name": "neptuniumFuel-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "neptuniumFuel-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-238"
+    },
+    {
+      "name": "plutonium-238_2"
+    },
+    {
+      "name": "plutonium-238_3"
+    },
+    {
+      "name": "plutonium-238-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-238-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-239"
+    },
+    {
+      "name": "plutonium-239_2"
+    },
+    {
+      "name": "plutonium-239_3"
+    },
+    {
+      "name": "plutonium-239-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-239-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-240"
+    },
+    {
+      "name": "plutonium-240_2"
+    },
+    {
+      "name": "plutonium-240_3"
+    },
+    {
+      "name": "plutonium-240-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-240-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "plutoniumFuel"
+    },
+    {
+      "name": "plutoniumFuel_2"
+    },
+    {
+      "name": "plutoniumFuel_3"
+    },
+    {
+      "name": "plutoniumFuel-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "plutoniumFuel-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "plutonium"
+    },
+    {
+      "name": "plutonium_2"
+    },
+    {
+      "name": "plutonium_3"
+    },
+    {
+      "name": "plutonium-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "plutonium-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "generic_materials"
+    }
+  ]
+}

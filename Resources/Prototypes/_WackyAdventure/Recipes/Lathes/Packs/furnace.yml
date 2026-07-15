@@ -1,0 +1,8 @@
+- type: latheRecipePack
+  id: OreSmeltingFireplace
+  recipes:
+  - SheetSteelFireplace
+  - SheetGlass1Fireplace
+  - IngotGold1Fireplace
+  - IngotSilver1Fireplace
+  - SheetPlasma1Fireplace

@@ -1,0 +1,50 @@
+- type: constructionGraph
+  id: APCCable
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: APCCable
+          completed:
+            - !type:SetStackCount
+              amount: 2
+          steps:
+            - material: Steel
+              amount: 1
+
+    - node: APCCable
+      entity: CableApcStack1
+  
+- type: constructionGraph
+  id: MVCable
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: MVCable
+          completed:
+            - !type:SetStackCount
+              amount: 2
+          steps:
+            - material: Steel
+              amount: 1
+
+    - node: MVCable
+      entity: CableMVStack1
+ 
+- type: constructionGraph
+  id: HVCable
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: HVCable
+          completed:
+            - !type:SetStackCount
+              amount: 2
+          steps:
+            - material: Steel
+              amount: 1
+
+    - node: HVCable
+      entity: CableHVStack1

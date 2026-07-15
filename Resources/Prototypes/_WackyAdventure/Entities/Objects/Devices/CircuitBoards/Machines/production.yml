@@ -1,0 +1,13 @@
+- type: entity
+  id: NukeLatheMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: плата ЯдерЛата
+  description: Напечатанная плата для создания ЯдерЛата.
+  components:
+    - type: MachineBoard
+      prototype: NukeLathe
+      stackRequirements:
+        Manipulator: 5
+        Cable: 3
+        Glass: 2
+        Steel: 2

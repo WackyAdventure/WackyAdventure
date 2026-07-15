@@ -1,0 +1,19 @@
+- type: entity
+  parent: PosterBase
+  id: PosterWackyAdventure1
+  name: "Wacky Adventure"
+  description: "Постер Wacky Adventure"
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/posters.rsi
+    state: poster_wackyadventure1
+    
+- type: entity
+  parent: PosterBase
+  id: PosterWackyAdventure2
+  name: "Wacky Adventure"
+  description: "Постер Wacky Adventure"
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/posters.rsi
+    state: poster_wackyadventure2

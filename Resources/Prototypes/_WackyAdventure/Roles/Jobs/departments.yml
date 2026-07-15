@@ -1,0 +1,9 @@
+- type: department
+  id: CentralCommandWL
+  name: department-CentralCommand
+  description: department-CentralCommand-description
+  color: "#0c344d"
+  roles:
+  - CentralCommandRepresentative
+  editorHidden: true
+  weight: 120

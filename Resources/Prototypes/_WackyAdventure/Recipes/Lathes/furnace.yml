@@ -1,0 +1,35 @@
+- type: latheRecipe
+  id: SheetSteelFireplace
+  result: SheetSteel1
+  completetime: 0
+  materials:
+    RawIron: 300
+    Coal: 90
+
+- type: latheRecipe
+  id: SheetGlass1Fireplace
+  result: SheetGlass1
+  completetime: 0
+  materials:
+    RawQuartz: 600
+
+- type: latheRecipe
+  id: SheetPlasma1Fireplace
+  result: SheetPlasma1
+  completetime: 0
+  materials:
+    RawPlasma: 1000
+
+- type: latheRecipe
+  id: IngotGold1Fireplace
+  result: IngotGold1
+  completetime: 0
+  materials:
+    RawGold: 1500
+
+- type: latheRecipe
+  id: IngotSilver1Fireplace
+  result: IngotSilver1
+  completetime: 0
+  materials:
+    RawSilver: 1500

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "inspiration from TGstation, made by whateverusername0",
+  "size": {
+    "x": 128,
+    "y": 128
+  },
+  "states": [
+    {
+      "name": "tumper"
+    },
+    {
+      "name": "tumper1"
+    }
+  ]
+}

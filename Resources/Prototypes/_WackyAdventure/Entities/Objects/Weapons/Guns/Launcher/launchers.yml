@@ -1,0 +1,18 @@
+- type: entity
+  name: БСА лаунчер
+  parent: WeaponLauncherMultipleRocket
+  id: WeaponLauncherAdmemeBSA
+  suffix: Admeme
+  description: Запускает снаряды от чайны (БСА)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 999
+    whitelist:
+      tags:
+        - CartridgeRocket
+    proto: GrenadeBlast
+  - type: Gun
+    requiresSkill: false
+    
+    
+    

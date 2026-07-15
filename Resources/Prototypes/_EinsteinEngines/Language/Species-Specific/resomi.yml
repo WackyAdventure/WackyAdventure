@@ -1,0 +1,96 @@
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Marty <martynashagriefer@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# PORTED FROM FLOOFSTATION
+# Resomi language
+- type: language
+  id: Schechi
+  isVisibleLanguage: true
+  speech:
+    color: "#4DBFD9"
+    # CorvaxGoob - Font do not support russian
+    # fontId: Schoolbell
+    fontSize: 14
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 4
+    replacement: # CorvaxGoob-Localization
+    - ми
+    - мви
+    - фи
+    - фви
+    - ви
+    - вви
+    - ни
+    - нви
+    - ри
+    - рви
+    - зи
+    - зви
+    - си
+    - щи
+    - ши
+    - тси
+    - тви
+    - ви
+    - и
+    - мии
+    - мвии
+    - фии
+    - фвии
+    - вии
+    - ввии
+    - нии
+    - нвии
+    - рии
+    - рвии
+    - зии
+    - звии
+    - сии
+    - щии
+    - шии
+    - тсии
+    - твии
+    - вии
+    - ии
+    - мех
+    - мвех
+    - фех
+    - фвех
+    - вех
+    - ввех
+    - нех
+    - нвех
+    - рех
+    - рвех
+    - зех
+    - звех
+    - сех
+    - щех
+    - чех
+    - тсех
+    - твех
+    - вех
+    - ех
+    - ма
+    - мва
+    - фа
+    - фва
+    - ва
+    - вва
+    - на
+    - нва
+    - ра
+    - рва
+    - за
+    - зва
+    - са
+    - ща
+    - ша
+    - тса
+    - тва
+    - ва
+    - а

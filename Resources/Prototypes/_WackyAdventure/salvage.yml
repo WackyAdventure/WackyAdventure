@@ -1,0 +1,188 @@
+# Чертежи
+- type: latheRecipe
+  id: MagazineBoxPistol1
+  result: MagazineBoxPistol
+  categories:
+  - Tools
+  completetime: 4
+  materials:
+    Steel: 600
+
+- type: latheRecipe
+  id: MagazinePistol1
+  result: MagazinePistol
+  categories:
+  - Tools
+  completetime: 4
+  materials:
+    Steel: 145
+
+- type: latheRecipe
+  id: ClothingHandsGlovesCombat1
+  result: ClothingHandsGlovesCombat
+  categories:
+  - Tools
+  completetime: 4
+  materials:
+    Durathread: 600
+    Steel: 100
+
+- type: latheRecipe
+  id: SheetUranium-235-2381
+  result: SheetUranium-235-238
+  categories:
+  - Tools
+  completetime: 4
+  materials:
+    Uranium: 2000
+
+- type: latheRecipe
+  id: NukeLatheCircuitBoard2
+  result: NukeLatheMachineCircuitboard
+  categories:
+  - Tools
+  completetime: 5
+  materials:
+    Steel: 500
+    Plasma: 300
+    Gold: 200
+    Silver: 200
+    Uranium: 200
+    Diamond: 100
+
+- type: latheRecipe
+  id: SheetUraniumFuel
+  result: SheetUraniumFuel1
+  categories:
+  - Tools
+  completetime: 4
+  materials:
+    Uranium-238: 60
+    Uranium-235: 10
+
+
+- type: latheRecipe
+  id: Titanium12
+  result: SheetTitanium1
+  categories:
+  - Tools
+  completetime: 2
+  materials:
+    Steel: 500
+    Plastic: 500
+    Gold: 200
+
+- type: latheRecipe
+  id: Plastal12
+  result: SheetPlasteel1
+  categories:
+  - Tools
+  completetime: 0
+  materials:
+    Steel: 30
+    Plasma: 30
+
+- type: latheRecipe
+  id: Plastitan12
+  result: SheetPlastitanium1
+  categories:
+  - Tools
+  completetime: 1
+  materials:
+    Titanium: 500
+    Plasteel: 500
+
+- type: latheRecipe
+  id: Plastic12
+  result: SheetPlastic1
+  categories:
+  - Tools
+  completetime: 0
+  materials:
+    Plasma: 50
+
+- type: latheRecipe
+  id: CircuitImprinterMachineCircuitboard12
+  result: CircuitImprinterMachineCircuitboard
+  categories:
+  - Tools
+  completetime: 3
+  materials:
+    Plasma: 500
+    Steel: 1000
+    Plastic: 300
+    Titanium: 100
+    Gold: 300
+    Silver: 200
+
+- type: latheRecipe
+  id: ClothingHandsGlovesColorYellow
+  result: ClothingHandsGlovesColorYellow
+  categories:
+  - Tools
+  completetime: 3
+  materials:
+    Durathread: 300
+
+- type: latheRecipe
+  id: WeaponPistolMk58
+  result: WeaponPistolMk58
+  categories:
+  - Tools
+  completetime: 5
+  materials:
+    SheetTrigger: 200
+    Steel: 1500
+    Titanium: 200
+    Plastic: 500
+
+- type: latheRecipe
+  id: ResearchAndDevelopmentServerMachineCircuitboard
+  result: ResearchAndDevelopmentServerMachineCircuitboard
+  categories:
+  - Tools
+  completetime: 5
+  materials:
+    Steel: 1500
+    Titanium: 200
+    Plastic: 500
+    Gold: 300
+    Silver: 500
+    Uranium: 1000
+
+- type: latheRecipe
+  id: MedicalTechFabCircuitboard
+  result: MedicalTechFabCircuitboard
+  categories:
+  - Tools
+  completetime: 3
+  materials:
+    Steel: 1500
+    Plastic: 500
+    Silver: 500
+    Gold: 300
+    Titanium: 500
+
+- type: latheRecipe
+  id: SecurityTechFabCircuitboard
+  result: SecurityTechFabCircuitboard
+  categories:
+  - Tools
+  completetime: 3
+  materials:
+    Steel: 1500
+    Plastic: 500
+    Silver: 500
+    Gold: 300
+    Plastitanium: 500
+
+- type: latheRecipe
+  id: OreProcessorMachineCircuitboard11
+  result: OreProcessorMachineCircuitboard
+  categories:
+  - Tools
+  completetime: 3
+  materials:
+    Steel: 500
+    Silver: 200
+    Gold: 100

@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineMerfitch
+  name: фигурка Merfitch
+  description: Фигурка, изображающая некую важную персону. (Его никто не уважает)
+  components:
+  - type: Sprite
+    state: merfitch
+  - type: SpeakOnTrigger
+    pack: FigurinesMerfitch
+
+- type: localizedDataset
+  id: FigurinesMerfitch
+  values:
+    prefix: figurines-merfitch-
+    count: 8

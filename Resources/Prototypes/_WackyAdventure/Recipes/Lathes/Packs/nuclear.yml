@@ -1,0 +1,35 @@
+- type: latheRecipePack
+  id: NukeLatheCircuitBoard1
+  recipes:
+  - NukeLatheCircuitBoard
+
+- type: latheRecipePack
+  id: NukeLatheStatic
+  recipes:
+  - UraniumCentrifugation
+
+- type: latheRecipePack
+  id: NuclearFusionUranium
+  recipes:
+  - SheetUraniumFuel2
+
+- type: latheRecipePack
+  id: NeptuniumSynthesis
+  recipes:
+  - SheetNeptunium
+
+- type: latheRecipePack
+  id: NuclearFusionNeptunium
+  recipes:
+  - SheetNeptuniumFuel
+
+- type: latheRecipePack
+  id: PlutoniumSynthesis
+  recipes:
+  - SheetPlutonium
+  - SheetPlutonium-238-239-240
+
+- type: latheRecipePack
+  id: NuclearFusionPlutonium
+  recipes:
+  - SheetPlutoniumFuel

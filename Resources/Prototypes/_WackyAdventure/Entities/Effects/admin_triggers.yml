@@ -1,0 +1,55 @@
+- type: entity
+  id: EffectScream1
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 8
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/_WackyAdventure/scream/scream1.ogg
+
+- type: entity
+  id: AdminInstantEffectScream1
+  suffix: Scream
+  parent: AdminInstantEffectBase
+  components:
+  - type: SpawnOnTrigger
+    proto: EffectScream1
+    
+    
+- type: entity
+  id: EffectScream2
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 9
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/_WackyAdventure/scream/scream2.ogg
+
+- type: entity
+  id: AdminInstantEffectScream2
+  suffix: Scream
+  parent: AdminInstantEffectBase
+  components:
+  - type: SpawnOnTrigger
+    proto: EffectScream2
+    
+    
+- type: entity
+  id: EffectScream3
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 9
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/_WackyAdventure/scream/scream3.ogg
+
+- type: entity
+  id: AdminInstantEffectScream3
+  suffix: Scream
+  parent: AdminInstantEffectBase
+  components:
+  - type: SpawnOnTrigger
+    proto: EffectScream3

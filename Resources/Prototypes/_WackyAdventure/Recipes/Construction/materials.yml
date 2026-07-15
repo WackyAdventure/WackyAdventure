@@ -1,0 +1,23 @@
+- type: construction
+  id: APCCable
+  graph: APCCable
+  startNode: start
+  targetNode: APCCable
+  category: construction-category-materials
+  objectType: Item
+
+- type: construction
+  id: MVCable
+  graph: MVCable
+  startNode: start
+  targetNode: MVCable
+  category: construction-category-materials
+  objectType: Item
+  
+- type: construction
+  id: HVCable
+  graph: HVCable
+  startNode: start
+  targetNode: HVCable
+  category: construction-category-materials
+  objectType: Item

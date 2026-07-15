@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "resprited by @mishutka09(discord:1152277579206774854)",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "Shadowling"
+        },
+        {
+            "name": "Thrall"
+        }
+    ]
+}

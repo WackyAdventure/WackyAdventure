@@ -1,0 +1,103 @@
+# SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 John Willis <143434770+CerberusWolfie@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: language
+  id: Calcic
+  isVisibleLanguage: true
+  speech:
+    # CorvaxGoob - Font do not support russian
+    # fontId: LDFComicSans
+    # boldFontId: LDFComicSansBold
+    color: "#e3dac9"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 4
+    replacement: # CorvaxGoob-Localization
+    - за
+    - аз
+    - зе
+    - ез
+    - зи
+    - из
+    - зо
+    - оз
+    - зу
+    - уз
+    - зс
+    - сз
+    - ха
+    - ах
+    - хе
+    - ех
+    - хи
+    - их
+    - хо
+    - ох
+    - ху
+    - ух
+    - хс
+    - ш
+    - ла
+    - ал
+    - ле
+    - ел
+    - ли
+    - ил
+    - ло
+    - ол
+    - лу
+    - ул
+    - лс
+    - сл
+    - ка
+    - ак
+    - ке
+    - ек
+    - ки
+    - ик
+    - ко
+    - ок
+    - ку
+    - ук
+    - кс
+    - ск
+    - са
+    - ас
+    - се
+    - ес
+    - си
+    - ис
+    - со
+    - ос
+    - су
+    - ус
+    - сс
+    - сс
+    - ра
+    - ар
+    - ре
+    - ер
+    - ри
+    - ир
+    - ро
+    - ор
+    - ру
+    - ур
+    - рс
+    - ср
+    - а
+    - а
+    - е
+    - е
+    - и
+    - и
+    - о
+    - о
+    - у
+    - у
+    - с
+    - с

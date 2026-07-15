@@ -1,0 +1,128 @@
+# SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 John Willis <143434770+CerberusWolfie@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Language spoken by Harpies and Squackroaches.
+# Based on Polish, Greek, Serbian, Turkish.
+- type: language
+  id: ValyrianStandard
+  isVisibleLanguage: true
+  speech:
+    # CorvaxGoob - Font do not support russian
+    # fontId: Delius # Goob Edit - Different Font
+    # boldFontId: Delius
+    fontSize: 13 # Goob Edit - Increased by 1 to account for slight size difference.
+    color: "#46ce83" # Goob Edit - Original "#008ecc"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 5
+    replacement: # CorvaxGoob-Localization
+    - ш
+    - ж
+    - зь
+    - ж
+    - ё
+    - ю
+    - чи
+    - бю
+    - ка
+    - чу
+    - дю
+    - до
+    - фа
+    - фе
+    - фи
+    - гю
+    - ха
+    - же
+    - жю
+    - ла
+    - ле
+    - ли
+    - ме
+    - ми
+    - мо
+    - че
+    - нь
+    - ба
+    - це
+    - да
+    - фи
+    - го
+    - ха
+    - жи
+    - ка
+    - ла
+    - ма
+    - на
+    - па
+    - ра
+    - са
+    - та
+    - ва
+    - за
+    - аб
+    - ед
+    - иф
+    - ог
+    - уп
+    - ык
+    - за
+    - та
+    - ва
+    - чк
+    - жд
+    - сак
+    - анз
+    - эмн
+    - окл
+    - упн
+    - баб
+    - циц
+    - дед
+    - фиг
+    - гог
+    - хиб
+    - жуж
+    - кик
+    - лал
+    - мам
+    - нан
+    - пап
+    - рар
+    - сас
+    - тат
+    - ваб
+    - заб
+    - страс
+    - брам
+    - клам
+    - трам
+    - стры
+    - зрак
+    - дек
+    - мист
+    - але
+    - огн
+    - эмт
+    - брат
+    - скар
+    - плик
+    - клат
+    - ае
+    - аи
+    - ау
+    - еи
+    - оу
+    - бл
+    - др
+    - фл
+    - гр
+    - пр
+    - ш
+    - ч
+    - зк
+    - йн

@@ -1,0 +1,11 @@
+- type: entity
+  id: SpawnPointCentcommRepresentative
+  parent: SpawnPointJobBase
+  name: CentcommRepresentative
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandRepresentative
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom

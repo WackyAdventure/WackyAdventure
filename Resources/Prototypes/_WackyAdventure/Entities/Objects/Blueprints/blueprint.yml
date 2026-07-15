@@ -1,0 +1,141 @@
+
+# Долбаёб, не забудь что для чертижей нужно несколько файлов, и прописать 1 тайп в прототипе предмета, salvage 1 из файлов
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintMagazineBoxPistol
+  name: Чертеж коробки патронов .35
+  description: Чертеж который позволяет делать коробку патронов .35.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - MagazineBoxPistol1
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintMagazinePistol
+  name: Чертеж магазина патронов .35
+  description: Чертеж который позволяет делать магазин патронов .35.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - MagazinePistol1
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintClothingHandsGlovesCombat
+  name: Чертеж боевых перчаток
+  description: Чертеж который позволяет делать боевые перчатки.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingHandsGlovesCombat1
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintSheetTitanium1
+  name: Чертеж титана
+  description: ну буквально чертеж титана.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - Titanium12
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintSheetPlastitanium1
+  name: Чертеж пластитана
+  description: УРА! ПЛАСТИТАН! И БЕЗ РП ДЕЙСТВИЙ!
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - Plastitan12
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintPlasteel1
+  name: Чертеж пластали
+  description: Ну блять буквально чертеж пластали.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - Plastal12
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintPlastic1
+  name: Чертеж пластика
+  description: Ну блять буквально чертеж пластика.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - Plastic12
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintCircuitImprinterMachineCircuitboard
+  name: Чертеж платы принтера схем
+  description: Нихуя себе.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - CircuitImprinterMachineCircuitboard12
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintClothingHandsGlovesColorYellow
+  name: Чертеж изолек
+  description: Нихуя себе.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingHandsGlovesColorYellow
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintWeaponPistolMk58
+  name: Чертеж МК58
+  description: Ого.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - WeaponPistolMk58
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintResearchAndDevelopmentServerMachineCircuitboard1
+  name: Чертеж Сервера РнД
+  description: Ого.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ResearchAndDevelopmentServerMachineCircuitboard
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintSecurityTechFabCircuitboard1
+  name: Чертеж Платы сбфаба
+  description: Ого.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - SecurityTechFabCircuitboard
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintMedicalTechFabCircuitboard1
+  name: Чертеж Платы медфаба
+  description: Ого.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - MedicalTechFabCircuitboard
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintOreProcessorMachineCircuitboard1
+  name: Чертеж Платы переработчика руды
+  description: Да ну нахуй...
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - OreProcessorMachineCircuitboard11

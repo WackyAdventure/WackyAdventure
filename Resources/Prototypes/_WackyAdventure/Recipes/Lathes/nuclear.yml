@@ -1,0 +1,83 @@
+- type: latheRecipe
+  id: UraniumCentrifugation
+  result: SheetUranium-235-238
+  categories:
+  - NukeLatheStatic
+  completetime: 4
+  materials:
+    Uranium: 2000
+
+- type: latheRecipe
+  id: SheetUraniumFuel2
+  result: SheetUraniumFuel1
+  categories:
+  - NuclearFusionUranium
+  completetime: 5
+  materials:
+    Uranium-238: 60
+    Uranium-235: 10
+
+- type: latheRecipe
+  id: SheetNeptunium
+  result: SheetNeptunium1
+  categories:
+  - NeptuniumSynthesis
+  completetime: 6
+  materials:
+    Uranium: 100
+    Litium: 100
+
+- type: latheRecipe
+  id: SheetNeptuniumFuel
+  result: SheetNeptuniumFuel1
+  categories:
+  - NuclearFusionNeptunium
+  completetime: 5
+  materials:
+    Neptunium: 33
+    Uranium-238: 67
+
+- type: latheRecipe
+  id: SheetPlutonium
+  result: SheetPlutonium1
+  categories:
+  - PlutoniumSynthesis
+  completetime: 6
+  materials:
+    Neptunium: 100
+    Litium: 100
+
+- type: latheRecipe
+  id: SheetPlutonium-238-239-240
+  result: SheetPlutonium-238-239-2401
+  categories:
+  - PlutoniumSynthesis
+  completetime: 10
+  materials:
+    Fluorite: 300
+    Plutonium: 700
+
+- type: latheRecipe
+  id: SheetPlutoniumFuel
+  result: SheetPlutoniumFuel1
+  categories:
+  - NuclearFusionPlutonium
+  completetime: 10
+  materials:
+    Plutonium-238: 10
+    Plutonium-239: 60
+    Plutonium-240: 30
+
+- type: latheRecipe
+  id: NukeLatheCircuitBoard
+  result: NukeLatheMachineCircuitboard
+  categories:
+  - Circuitry
+  completetime: 5
+  materials:
+    Steel: 500
+    Plasma: 300
+    Gold: 200
+    Silver: 200
+    Uranium: 200
+    Diamond: 100

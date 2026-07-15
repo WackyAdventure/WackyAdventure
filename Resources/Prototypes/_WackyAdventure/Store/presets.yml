@@ -1,0 +1,13 @@
+- type: entity
+  id: StorePresetNTContractor
+  abstract: true
+  components:
+  - type: Store
+    name: Запатентованная система купле-продажи контрактников НТ
+    categories:
+    - NTContractorWeaponry
+    - NTContractorMedicine
+    - NTContractorTools
+    - NTContractorStructures
+    currencyWhitelist:
+    - NTContractorCurrency

@@ -1,0 +1,23 @@
+- type: lavalandRuinPool
+  id: IceMoonRuins
+  gridRuins:
+    #SyndicateBaseIce: 1
+    RougeAIIce: 1
+    BiodomeBeachIce: 2
+    Biodomelava: 2
+    GolemShuttleIce: 1
+    ToyShopIce: 1
+    ChemistryIce: 1
+    GraveyardIce: 1
+    SeedVaultIce: 1
+    HermitIce: 2
+    WaffleCoIce: 1
+    ArrivalsBackIce: 1
+    ArrivalsFrontIce: 1
+    VulpLabIce: 1
+    ShelterIce: 1
+    MiningPostIce: 3
+    AbductorDebrisIce: 1
+    CultBaseIce: 1
+    HunterIce: 1
+    XenoNestIce: 1

@@ -1,0 +1,54 @@
+- type: language
+  id: Gruntish
+  isVisibleLanguage: true
+  speech:
+    fontSize: 14
+    color: "#8C5353"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement: # CorvaxGoob-Localization
+    - бах
+    - гаагх
+    - грр
+    - уг
+    - бунга
+    - аг
+    - бругх
+    - унга
+    - уга
+    - хух
+    - грог
+    - хмх
+    - хмм
+    - аарх
+    - ууга
+    - хааа!
+    - пффф
+    - ах-ух'
+    - тщ'
+    - ваа!
+    - чк'
+    - ех
+    - уп
+    - рах
+    - хргх
+    - снрр
+    - блух
+    - нух
+    - буг
+    - угга
+    - рах
+    - Уугх
+    - йе'
+    - ууф
+    - йагх!
+    - маха
+    - хух
+    - йагх
+    - умпф
+    - ееех
+    - ууух
+    - ууух!
+    - рах!

@@ -1,0 +1,64 @@
+- type: entity
+  name: Печать Юридического Депортамента
+  parent: RubberStampBase
+  id: RubberStampLegalDepartment
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Юридический Депортамент
+    stampedColor: "#006600"
+    stampState: "paper_stamp-centcom"
+  - type: Sprite
+    state: stamp-centcom
+
+- type: entity
+  name: Печать Совета Директоров
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampDirector
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Совет Директоров
+    stampedColor: "#18e21d"
+    stampState: "paper_stamp-cap"
+  - type: Sprite
+    state: stamp-cap
+
+- type: entity
+  name: Печать ДСО
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampSOD
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: Депортамент Специальных Операций
+    stampedColor: "#50bd05"
+    stampState: "paper_stamp-cap"
+  - type: Sprite
+    state: stamp-cap
+
+- type: entity
+  name: Печать НШЦК
+  parent: RubberStampBase
+  id: RubberStampCSCC
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: НШЦК
+    stampedColor: "#006600"
+    stampState: "paper_stamp-centcom"
+  - type: Sprite
+    state: stamp-centcom
+
+- type: entity
+  name: Печать NanoTrasen
+  parent: RubberStampBase
+  id: RubberStampNanoTrasen
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: NanoTrasen
+    stampedColor: "#0A53E8"
+    stampState: "paper_stamp-centcom"
+  - type: Sprite
+    state: stamp-centcom

@@ -1,0 +1,20 @@
+# Крафт платы автолата, эта-то хуйня устанавливается легко, но нужно похуячится в коде, 1 тайп добавить
+#    - type: Construction
+#      graph: AutolatheMachineCircuitboard
+#      node: autolatheMachineCircuitboard
+
+- type: construction
+  id: AutolatheMachineCircuitboard
+  graph: AutolatheMachineCircuitboard
+  startNode: start
+  targetNode: autolatheMachineCircuitboard
+  category: construction-category-materials
+  objectType: Item
+
+- type: construction
+  id: MicroManipulatorStockPart
+  graph: MicroManipulatorStockPart
+  startNode: start
+  targetNode: microManipulatorStockPart
+  category: construction-category-materials
+  objectType: Item
