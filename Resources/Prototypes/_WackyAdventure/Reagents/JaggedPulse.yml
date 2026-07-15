@@ -1,7 +1,7 @@
 - type: shader
   id: JaggedPulse
   kind: source
-  path: /Textures/Shaders/jagged_pulse.swsl
+  path: /Textures/_WackyAdventure/Shaders/jagged_pulse.swsl
 
 - type: entity
   parent: MobStatusEffectDebuff

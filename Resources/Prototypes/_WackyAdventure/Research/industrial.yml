@@ -18,7 +18,7 @@
   id: UraniumFuel
   name: Урановое Топливо
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uraniumFuel
   discipline: Industrial
   tier: 2
@@ -33,7 +33,7 @@
   id: Neptunium
   name: Нептуний
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: neptuniumFuel
   discipline: Industrial
   tier: 3
@@ -48,7 +48,7 @@
   id: NeptuniumFuel
   name: Нептуниевое топливо
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: neptuniumFuel
   discipline: Industrial
   tier: 3
@@ -63,7 +63,7 @@
   id: Plutonium
   name: Плутоний
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutoniumFuel
   discipline: Industrial
   tier: 3
@@ -79,7 +79,7 @@
   id: PlutoniumFuel
   name: Плутониевое топливо
   icon:
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutoniumFuel
   discipline: Industrial
   tier: 3

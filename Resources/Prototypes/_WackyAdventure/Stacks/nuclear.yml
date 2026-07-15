@@ -1,90 +1,90 @@
 - type: stack
   id: Uranium-235
   name: stack-uranium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium-235 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uranium-235 }
   spawn: SheetUranium-2351
   maxCount: 30
 
 - type: stack
   id: Uranium-235-238
   name: stack-uranium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium-235-238 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uranium-235-238 }
   spawn: SheetUranium-235-2381
   maxCount: 50
 
 - type: stack
   id: Uranium-238
   name: stack-uranium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uranium-238 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uranium-238 }
   spawn: SheetUranium-2381
   maxCount: 100
 
 - type: stack
   id: UraniumFuel
   name: stack-uranium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
   spawn: SheetUraniumFuel1
   maxCount: 30
 
 - type: stack
   id: Litium
   name: stack-litium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: litium }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: litium }
   spawn: Sheetlitium1
   maxCount: 30
 
 - type: stack
   id: Fluorite
   name: stack-fluorite
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: fluorite }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: fluorite }
   spawn: Sheetfluorite1
   maxCount: 30
 
 - type: stack
   id: Neptunium
   name: stack-neptunium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: neptunium }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptunium }
   spawn: Sheetneptunium1
   maxCount: 30
 
 - type: stack
   id: NeptuniumFuel
   name: stack-neptuniumFuel
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
   spawn: SheetneptuniumFuel1
   maxCount: 30
 
 - type: stack
   id: Plutonium-238
   name: stack-plutonium-238
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plutonium-238 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-238 }
   spawn: Sheetplutonium-2381
   maxCount: 30
 
 - type: stack
   id: Plutonium-239
   name: stack-plutonium-239
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plutonium-239 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-239 }
   spawn: Sheetplutonium-2391
   maxCount: 30
 
 - type: stack
   id: Plutonium-240
   name: stack-plutonium-240
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plutonium-240 }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-240 }
   spawn: Sheetplutonium-2401
   maxCount: 30
 
 - type: stack
   id: Plutonium
   name: stack-plutonium
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plutonium }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium }
   spawn: Sheetplutonium1
   maxCount: 30
 
 - type: stack
   id: PlutoniumFuel
   name: stack-plutoniumFuel
-  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
   spawn: SheetplutoniumFuel1
   maxCount: 30

@@ -2,7 +2,7 @@
   id: Uranium-235
   stackEntity: SheetUranium-2351
   name: materials-uranium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: uranium-235 }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uranium-235 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -10,7 +10,7 @@
   id: Uranium-238
   stackEntity: SheetUranium-2381
   name: materials-uranium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: uranium-238 }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uranium-238 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -18,7 +18,7 @@
   id: UraniumFuel
   stackEntity: SheetUraniumFuel1
   name: materials-uranium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -26,7 +26,7 @@
   id: Litium
   stackEntity: SheetLitium1
   name: materials-litium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: litium }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: litium }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -34,7 +34,7 @@
   id: Fluorite
   stackEntity: SheetFluorite1
   name: materials-fluorite
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: fluorite }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: fluorite }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -42,7 +42,7 @@
   id: Neptunium
   stackEntity: SheetNeptunium1
   name: materials-neptunium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: neptunium }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptunium }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -50,7 +50,7 @@
   id: NeptuniumFuel
   stackEntity: SheetNeptuniumFuel1
   name: materials-neptuniumFuel
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -58,7 +58,7 @@
   id: Plutonium-238
   stackEntity: SheetPlutonium-238
   name: materials-plutonium-238
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plutonium-238 }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-238 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -66,7 +66,7 @@
   id: Plutonium-239
   stackEntity: SheetPlutonium-2391
   name: materials-plutonium-239
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plutonium-239 }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-239 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -74,7 +74,7 @@
   id: Plutonium-240
   stackEntity: SheetPlutonium-2401
   name: materials-plutonium-240
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plutonium-240 }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-240 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -82,7 +82,7 @@
   id: PlutoniumFuel
   stackEntity: SheetPlutoniumFuel1
   name: materials-plutoniumFuel
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 
@@ -90,6 +90,6 @@
   id: Plutonium
   stackEntity: SheetPlutonium1
   name: materials-plutonium
-  icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plutonium }
+  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
