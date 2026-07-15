@@ -2,7 +2,7 @@
   id: NukeLathe
   name: ЯдерЛат
   icon:
-    sprite: Structures/Machines/nukelathe.rsi
+    sprite: /Textures/_WackyAdventure/Structures/Machines/nukelathe.rsi
     state: base_1
   discipline: Industrial
   tier: 2
