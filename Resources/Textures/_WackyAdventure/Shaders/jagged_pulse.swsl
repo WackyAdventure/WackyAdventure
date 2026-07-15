@@ -1,0 +1,127 @@
+// jagged_pulse.swsl
+//
+// Тёмная виньетка, стягивающаяся от краёв экрана к центру, с расползающимися
+// по границе трещинами "запёкшейся крови" (процедурный Вороной-паттерн, без
+// текстур) и прогрессирующим обесцвечиванием видимой области. По духу похоже
+// на "тоннельное зрение" при удушье/крите: чем больше amount (0..1), тем
+// сильнее давит темнота и тем дальше внутрь заходят трещины.
+//
+// uniform amount - 0..1, общая тяжесть состояния (например, 1 - O2/MaxO2).
+// uniform pulse  - 0..1, необязательный "удар сердца": лёгкая пульсация
+//                  радиуса виньетки в такт (прокачивается из C#, как pulse
+//                  в JaggedPulseOverlay). Можно всегда слать 0, если пульс
+//                  не нужен - тогда просто статичная виньетка по amount.
+
+uniform sampler2D SCREEN_TEXTURE;
+uniform highp float amount;
+uniform highp float pulse;
+
+// Хэш точки на плоскости -> псевдослучайный 2D-вектор (фичи для Вороного).
+highp vec2 hash2(highp vec2 p)
+{
+    highp vec2 q = vec2(
+        dot(p, vec2(127.1, 311.7)),
+        dot(p, vec2(269.5, 183.3))
+    );
+    return fract(sin(q) * 43758.5453123);
+}
+
+// Классический Вороной: возвращает (F1, F2) - расстояния до ближайшей и
+// второй ближайшей "фичи"-точки. Разница F2 - F1 около нуля ровно на
+// границах ячеек - это и даёт сетку трещин.
+highp vec2 voronoi(highp vec2 uv)
+{
+    highp vec2 cell = floor(uv);
+    highp vec2 local = fract(uv);
+
+    highp float f1 = 8.0;
+    highp float f2 = 8.0;
+
+    for (int j = -1; j <= 1; j++)
+    {
+        for (int i = -1; i <= 1; i++)
+        {
+            highp vec2 offset = vec2(float(i), float(j));
+            highp vec2 point = hash2(cell + offset);
+            highp vec2 r = offset + point - local;
+            highp float d = dot(r, r);
+
+            if (d < f1)
+            {
+                f2 = f1;
+                f1 = d;
+            }
+            else if (d < f2)
+            {
+                f2 = d;
+            }
+        }
+    }
+
+    return vec2(sqrt(f1), sqrt(f2));
+}
+
+void fragment()
+{
+    highp vec2 uv = FRAGCOORD.xy * SCREEN_PIXEL_SIZE;
+    highp vec4 scene = texture(SCREEN_TEXTURE, uv);
+
+    if (amount <= 0.0)
+    {
+        COLOR = scene;
+        return;
+    }
+
+    // "Удар сердца" - на пике pulse виньетка заметно ныряет глубже внутрь,
+    // а не просто чуть колышется. Между ударами (pulse == 0) держится
+    // базовый уровень amount.
+    highp float pulsedAmount = clamp(amount + pulse * 0.4, 0.0, 1.0);
+
+    // Расстояние от центра экрана с поправкой на соотношение сторон,
+    // чтобы виньетка была круглой, а не эллиптической.
+    highp float aspect = SCREEN_PIXEL_SIZE.y / SCREEN_PIXEL_SIZE.x;
+    highp vec2 centered = (uv - vec2(0.5));
+    centered.x *= aspect;
+    highp float dist = length(centered) * 2.0; // ~0 в центре, ~1 у ближнего края
+
+    // Виньетка стягивается внутрь по мере роста pulsedAmount: при amount=0
+    // темнота почти не видна (граница у самого края), при amount=1 темнота
+    // доходит почти до центра.
+    highp float vignetteStart = mix(1.05, 0.05, pulsedAmount);
+    highp float vignetteEnd   = mix(1.35, 0.55, pulsedAmount);
+    highp float darkness = clamp((dist - vignetteStart) / max(vignetteEnd - vignetteStart, 0.001), 0.0, 1.0);
+
+    // Обесцвечивание видимой (ещё не потемневшей) области - усиливается
+    // вместе с amount, даже там, где темнота ещё не накрыла картинку.
+    highp float gray = dot(scene.rgb, vec3(0.299, 0.587, 0.114));
+    highp vec3 desaturated = mix(scene.rgb, vec3(gray), amount * 0.85);
+
+    // Тёмный "провал" в центре виньетки - не чистый чёрный, а чуть тёплый
+    // почти-чёрный, чтобы не выглядело как обрезанный экран.
+    highp vec3 voidColor = vec3(0.02, 0.01, 0.01);
+    highp vec3 withVignette = mix(desaturated, voidColor, darkness);
+
+    // Дополнительная кратковременная вспышка темноты по всему кадру на
+    // пике удара - без неё pulse ощущается только как сдвиг границы
+    // виньетки, а с ней читается как настоящий "укол"/удар.
+    highp float flash = pulse * 0.3 * (1.0 - darkness);
+    withVignette = mix(withVignette, voidColor, flash);
+
+    // Трещины: Вороной на UV, растянутых по экрану. Плотность сетки трещин
+    // задаём через масштаб - крупнее число - мельче и чаще трещины.
+    highp vec2 crackUv = uv * vec2(14.0, 14.0 / aspect);
+    highp vec2 vor = voronoi(crackUv);
+    highp float crackWidth = mix(0.05, 0.09, pulsedAmount);
+    highp float crack = step(vor.y - vor.x, crackWidth);
+
+    // Трещины видимы только в поясе вокруг границы виньетки (там, где тьма
+    // "наступает"), а не по всему экрану - имитирует расползающиеся по
+    // краю сосуды/трещины, а не случайный узор поверх всей картинки.
+    highp float crackBand = smoothstep(vignetteStart - 0.35, vignetteStart, dist)
+                           * (1.0 - smoothstep(vignetteEnd, vignetteEnd + 0.25, dist));
+    highp vec3 crackColor = vec3(0.35, 0.02, 0.03);
+    highp float crackStrength = clamp(pulsedAmount * 1.4, 0.0, 1.0) * (0.5 + 0.5 * pulse);
+    highp vec3 withCracks = mix(withVignette, crackColor, crack * crackBand * crackStrength);
+
+    COLOR = vec4(withCracks, scene.a);
+}
