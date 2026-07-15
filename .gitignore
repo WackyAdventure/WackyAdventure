@@ -327,3 +327,4 @@ config.json
 core
 
 update.sh
+update.build.sh
