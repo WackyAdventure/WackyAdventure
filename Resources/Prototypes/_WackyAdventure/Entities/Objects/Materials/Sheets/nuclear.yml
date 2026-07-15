@@ -24,6 +24,7 @@
     - uranium-235_2
     - uranium-235_3
   - type: Sprite
+    path: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-235_3
     layers:
     - state: uranium-235_3
