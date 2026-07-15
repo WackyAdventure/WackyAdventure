@@ -177,7 +177,7 @@
   - type: GroupExamine
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
-      head: ClothingHeadHatHoodRad1
+      head: ClothingHardHatRad
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: HideClothingLayerClothing # Goobstation
