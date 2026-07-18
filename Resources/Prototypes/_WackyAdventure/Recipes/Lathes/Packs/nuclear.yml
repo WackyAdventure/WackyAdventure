@@ -12,12 +12,6 @@
   - NukeLatheCircuitBoard
 
 - type: latheRecipePack
-  id: UraniumSynthesis
-  recipes:
-  - UraniumFuelRod
-  - UraniumCentrifugation
-
-- type: latheRecipePack
   id: NeptuniumSynthesis
   recipes:
   - SheetNeptunium
