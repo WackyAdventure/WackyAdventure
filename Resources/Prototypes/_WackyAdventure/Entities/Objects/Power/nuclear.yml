@@ -6,8 +6,8 @@
   abstract: true
   parent: BaseItem
   id: BaseFuelRod
-  name: fuel rod
-  description: A fuel rod for the nuclear reactor.
+  name: топливный стержень
+  description: Топливный стержень для ядерного реактора.
   components:
   - type: Item
     size: Normal
@@ -30,9 +30,9 @@
 - type: entity
   parent: BaseItem
   id: UraniumFuelRod
-  name: uranium fuel rod
-  suffix: "300 KWatt"
-  description: A fuel rod for the nuclear reactor.
+  name: урановый топливный стержень
+  suffix: "300 Киловатт"
+  description: Топливный стержень для ядерного реактора, способен выдавать 300 киловатт и является крайне долговечным.
   components:
   - type: Item
     size: Normal
@@ -53,9 +53,9 @@
 - type: entity
   parent: BaseItem
   id: NeptuniumFuelRod
-  name: neptunium fuel rod
-  suffix: "750 KWatt"
-  description: A fuel rod for the nuclear reactor.
+  name: нептуниевый топливный стержень
+  suffix: "750 Киловатт"
+  description: Топливный стержень для ядерного реактора, золотая середина, способен выдавать 750 киловатт и имеет средний срок годности.
   components:
   - type: Item
     size: Normal
@@ -76,9 +76,9 @@
 - type: entity
   parent: BaseItem
   id: PlutoniumFuelRod
-  name: plutonium fuel rod
-  suffix: "2500 KWatt"
-  description: A fuel rod for the nuclear reactor.
+  name: плутониевый топливный стержень
+  suffix: "2500 Киловатт"
+  description: Топливный стержень для ядерного реактора, способен выдавать 2500 киловатт и имеет малый запас мощности.
   components:
   - type: Item
     size: Normal
@@ -99,9 +99,9 @@
 - type: entity
   parent: BaseItem
   id: MOXFuelRod
-  name: MOX fuel rod
-  suffix: "1.5 MGWatt"
-  description: Mixed-oxide (MOX) fuel rods blend plutonium with depleted uranium.
+  name: МОКС топливный стержень
+  suffix: "1500 Киловатт"
+  description: Топливный стержень для ядерного реактора, способен выдавать 1500 киловатт и является крайне долговечным.
   components:
   - type: Item
     size: Normal

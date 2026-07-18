@@ -4,7 +4,7 @@
 - type: entity
   parent: OreBase
   id: OreTitanium
-  name: titanium ore
+  name: титановая руда
   suffix: Full
   components:
   - type: Stack
