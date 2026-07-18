@@ -602,7 +602,7 @@
     - CargoBoards
     - MedicalBoards
     - ServiceBoards
-    - NukeLatheCircuitBoard1
+    - NukeLatheCircuitBoard
     #- ScienceBoards - Goobstation - Moved to Scifab
     - CameraBoards
     #- MechBoards - Goobstation - split between departmental lathes
