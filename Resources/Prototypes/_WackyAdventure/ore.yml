@@ -2,4 +2,23 @@
   id: OreTitanium
   oreEntity: OreTitanium1 # Lavaland Change
   minOreYield: 1
-  maxOreYield: 3
+  maxOreYield: 2
+
+- type: ore
+  id: OreFluorite
+  oreEntity: OreFluorite1 # Lavaland Change
+  minOreYield: 1
+  maxOreYield: 2
+
+- type: ore
+  id: OreLitium
+  oreEntity: OreLitium1 # Lavaland Change
+  minOreYield: 1
+  maxOreYield: 2
+
+- type: weightedRandomOre
+  id: RandomOreTitanium
+  weights:
+    OreTitanium: 33
+    OreFluorite: 33
+    OreLitium: 33
