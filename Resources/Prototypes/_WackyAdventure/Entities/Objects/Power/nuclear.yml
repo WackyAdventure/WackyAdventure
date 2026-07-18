@@ -62,7 +62,7 @@
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
-    state: NeptuniumFuelRod
+    state: neptuniumFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 6.2 # 750 Kilowatt
     fuelCapacity: 2500

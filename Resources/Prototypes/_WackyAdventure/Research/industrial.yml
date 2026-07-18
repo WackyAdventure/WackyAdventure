@@ -80,7 +80,7 @@
   - Plutonium
 
 - type: technology
-  id: Radsuits
+  id: Radsuits+
   name: Продвинутая Защита от радиации
   icon:
     sprite: _WackyAdventure/Clothing/OuterClothing/Armor/rad.rsi
