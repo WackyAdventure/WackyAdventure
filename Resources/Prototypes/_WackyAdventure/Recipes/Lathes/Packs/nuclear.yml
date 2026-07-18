@@ -12,7 +12,7 @@
   - NukeLatheCircuitBoard
 
 - type: latheRecipePack
-  id: NuclearFusionUranium
+  id: UraniumSynthesis
   recipes:
   - UraniumFuelRod
   - UraniumCentrifugation
@@ -22,6 +22,11 @@
   recipes:
   - SheetNeptunium
   - PlutoniumFuelRod
+
+- type: latheRecipePack
+  id: MOXFuel
+  recipes:
+  - MOXFuelRod
 
 - type: latheRecipePack
   id: PlutoniumSynthesis

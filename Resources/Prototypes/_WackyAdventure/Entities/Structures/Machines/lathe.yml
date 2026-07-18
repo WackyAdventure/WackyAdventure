@@ -27,10 +27,9 @@
     idleState: icon
     unlitIdleState: unlit
     staticPacks: 
-    - NukeLatheStatic
+    - BaseNuclear
     dynamicPacks:
-    - NuclearFusionUranium
+    - UraniumSynthesis
     - NeptuniumSynthesis
-    - NuclearFusionNeptunium
     - PlutoniumSynthesis
     - NuclearFusionPlutonium
