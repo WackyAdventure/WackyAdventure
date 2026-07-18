@@ -62,3 +62,35 @@
   position: 4,-3
   technologyPrerequisites:
   - Plutonium
+
+- type: technology
+  id: Radsuits
+  name: Защита от радиации
+  icon:
+    sprite: Clothing/OuterClothing/Suits/rad.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - RadSuit75Percent
+  - RadSuit100Percent
+  position: 10,10
+  technologyPrerequisites:
+  - Plutonium
+
+- type: technology
+  id: Radsuits
+  name: Продвинутая Защита от радиации
+  icon:
+    sprite: _WackyAdventure/Clothing/OuterClothing/Armor/rad.rsi
+    state: icon
+  discipline: Industrial
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - RadArmor
+  - RadHardSuit
+  position: 10,11
+  technologyPrerequisites:
+  - Plutonium

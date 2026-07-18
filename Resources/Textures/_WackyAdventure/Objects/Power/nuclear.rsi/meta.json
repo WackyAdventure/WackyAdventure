@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Made by Merfitch",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "uraniumFuelRod"
+    },
+    {
+      "name": "neptuniumFuelRod"
+    },
+    {
+      "name": "plutoniumFuelRod"
+    },
+    {
+      "name": "mOXFuelRod"
+    }
+    
+  ]
+}

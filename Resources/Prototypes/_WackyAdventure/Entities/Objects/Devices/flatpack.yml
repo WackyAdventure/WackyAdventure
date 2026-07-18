@@ -1,0 +1,35 @@
+- type: entity
+  parent: BaseFlatpack
+  id: NuclearShieldingFlatpack
+  name: nuclear shielding flatpack
+  description: A flatpack used for constructing an nuclear reactor.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: NuclearReactorShielding
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power
+
+- type: entity
+  parent: BaseFlatpack
+  id: NuclearControllerFlatpack
+  name: nuclear reactor controller flatpack
+  description: A flatpack used for constructing an nuclear reactor.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: NuclearReactorComputer
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power

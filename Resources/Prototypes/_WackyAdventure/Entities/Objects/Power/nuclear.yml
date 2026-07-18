@@ -11,10 +11,10 @@
   components:
   - type: Item
     size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: uraniumFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 2.5 # 300 Kilowatt
     fuelCapacity: 5000
@@ -36,10 +36,10 @@
   components:
   - type: Item
     size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: uraniumFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 2.5 # 300 Kilowatt
     fuelCapacity: 5000
@@ -59,10 +59,10 @@
   components:
   - type: Item
     size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: NeptuniumFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 6.2 # 750 Kilowatt
     fuelCapacity: 2500
@@ -82,10 +82,10 @@
   components:
   - type: Item
     size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: plutoniumFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 20.7 # 2500 Kilowatt
     fuelCapacity: 1000
@@ -105,10 +105,10 @@
   components:
   - type: Item
     size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
   - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
+    sprite: _WackyAdventure/Objects/Power/nuclear.rsi
+    state: mOXFuelRod
   - type: AmeFuelContainer
     powerMultiplier: 12.5 # 1.5 MegaWatt
     fuelCapacity: 5000

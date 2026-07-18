@@ -89,3 +89,82 @@
     Steel: 100
     Gold: 100
     Glass: 500
+
+- type: latheRecipe
+  id: RadSuit75Percent
+  result: ClothingOuterSuitRadThreeQuatersDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 3000
+    Silver: 500
+    Steel: 1500
+    Titanium: 100
+
+- type: latheRecipe
+  id: RadSuit100Percent
+  result: ClothingOuterSuitRadFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 6000
+    Silver: 1000
+    Steel: 1500
+    Titanium: 500
+    Gold: 500
+
+- type: latheRecipe
+  id: RadArmor
+  result: ClothingOuterSuitRadArmorFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 6000
+    Silver: 1000
+    Steel: 4000
+    Titanium: 1000
+    Plastitanium: 100
+    Gold: 500
+
+- type: latheRecipe
+  id: RadHardSuit
+  result: ClothingHardSuitRadArmorFullDefense
+  categories:
+  - Clothing
+  completetime: 10
+  materials:
+    Durathread: 6000
+    Silver: 1000
+    Steel: 5000
+    Titanium: 1000
+    Plastitanium: 300
+    Gold: 500
+
+- type: latheRecipe
+  id: NuclearShieldingFlatpack
+  result: NuclearShieldingFlatpack
+  categories:
+  - NuclearFusionUranium
+  completetime: 1
+  materials:
+    Durathread: 500
+    Steel: 3000
+    Titanium: 500
+    Plastitanium: 500
+    Glass: 200
+
+- type: latheRecipe
+  id: NuclearControllerFlatpack
+  result: NuclearControllerFlatpack
+  categories:
+  - NuclearFusionUranium
+  completetime: 10
+  materials:
+    Gold: 500
+    Steel: 3000
+    Titanium: 500
+    Silver: 100
+    Uranium: 300

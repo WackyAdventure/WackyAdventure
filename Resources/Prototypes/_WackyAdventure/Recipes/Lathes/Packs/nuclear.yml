@@ -1,35 +1,47 @@
 - type: latheRecipePack
-  id: NukeLatheCircuitBoard1
+  id: BaseNuclear
   recipes:
   - NukeLatheCircuitBoard
-
-- type: latheRecipePack
-  id: NukeLatheStatic
-  recipes:
+  - UraniumFuelRod
   - UraniumCentrifugation
+  - NuclearShieldingFlatpack
+  - NuclearControllerFlatpack
 
 - type: latheRecipePack
   id: NuclearFusionUranium
   recipes:
-  - SheetUraniumFuel2
+  - UraniumFuelRod
+  - UraniumCentrifugation
 
 - type: latheRecipePack
   id: NeptuniumSynthesis
   recipes:
   - SheetNeptunium
-
-- type: latheRecipePack
-  id: NuclearFusionNeptunium
-  recipes:
-  - SheetNeptuniumFuel
+  - PlutoniumFuelRod
 
 - type: latheRecipePack
   id: PlutoniumSynthesis
   recipes:
   - SheetPlutonium
+  - PlutoniumFuelRod
   - SheetPlutonium-238-239-240
 
 - type: latheRecipePack
-  id: NuclearFusionPlutonium
+  id: RadArmor
   recipes:
-  - SheetPlutoniumFuel
+  - RadArmor
+
+- type: latheRecipePack
+  id: RadHardSuit
+  recipes:
+  - RadHardSuit
+
+- type: latheRecipePack
+  id: RadSuit75Percent
+  recipes:
+  - RadSuit75Percent
+
+- type: latheRecipePack
+  id: RadSuit100Percent
+  recipes:
+  - RadSuit100Percent
