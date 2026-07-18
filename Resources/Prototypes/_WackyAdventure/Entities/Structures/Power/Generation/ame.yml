@@ -124,7 +124,7 @@
 
 - type: entity
   categories: [ HideSpawnMenu ]
-  parent: NuclearReactorComputer
+  parent: NuclearReactorConsole
   id: NuclearReactorConsoleUnanchored
   suffix: Unanchored
   components:
