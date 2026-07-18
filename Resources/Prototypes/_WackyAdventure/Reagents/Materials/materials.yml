@@ -15,14 +15,6 @@
   price: 0.85 # $85 for 1 unit
 
 - type: material
-  id: UraniumFuel
-  stackEntity: SheetUraniumFuel1
-  name: урановое топливо
-  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
-  color: "#32a852"
-  price: 0.85 # $85 for 1 unit
-
-- type: material
   id: Litium
   stackEntity: SheetLitium1
   name: литий
@@ -47,14 +39,6 @@
   price: 0.85 # $85 for 1 unit
 
 - type: material
-  id: NeptuniumFuel
-  stackEntity: SheetNeptuniumFuel1
-  name: нептуниевое топливо
-  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
-  color: "#32a852"
-  price: 0.85 # $85 for 1 unit
-
-- type: material
   id: Plutonium-238
   stackEntity: SheetPlutonium-238
   name: плутоний-238
@@ -75,14 +59,6 @@
   stackEntity: SheetPlutonium-2401
   name: плутоний-240
   icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-240 }
-  color: "#32a852"
-  price: 0.85 # $85 for 1 unit
-
-- type: material
-  id: PlutoniumFuel
-  stackEntity: SheetPlutoniumFuel1
-  name: плутониевое топливо
-  icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
 

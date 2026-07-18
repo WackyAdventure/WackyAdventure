@@ -13,24 +13,17 @@
   maxCount: 100
 
 - type: stack
-  id: UraniumFuel
-  name: урановое топливо
-  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: uraniumFuel }
-  spawn: SheetUraniumFuel1
-  maxCount: 30
-
-- type: stack
   id: Litium
   name: литий
   icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: litium }
-  spawn: Sheetlitium1
+  spawn: SheetLitium1
   maxCount: 30
 
 - type: stack
   id: Fluorite
   name: флюорит
   icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: fluorite }
-  spawn: Sheetfluorite1
+  spawn: SheetFluorite1
   maxCount: 30
 
 - type: stack
@@ -38,13 +31,6 @@
   name: нептуний
   icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptunium }
   spawn: SheetNeptunium1
-  maxCount: 30
-
-- type: stack
-  id: NeptuniumFuel
-  name: нептуниевое топливо
-  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: neptuniumFuel }
-  spawn: SheetNeptuniumFuel1
   maxCount: 30
 
 - type: stack
@@ -73,11 +59,4 @@
   name: плутоний
   icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium }
   spawn: SheetPlutonium1
-  maxCount: 30
-
-- type: stack
-  id: PlutoniumFuel
-  name: плутониевое топливо
-  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutoniumFuel }
-  spawn: SheetPlutoniumFuel1
   maxCount: 30

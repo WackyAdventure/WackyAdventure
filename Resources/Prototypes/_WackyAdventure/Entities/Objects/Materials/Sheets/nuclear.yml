@@ -64,6 +64,12 @@
   name: уран-235
   suffix: Single
   components:
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    state: uranium-235_1
+    layers:
+    - state: uranium-235_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -97,6 +103,12 @@
   name: уран-238
   suffix: Single
   components:
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    state: uranium-238_1
+    layers:
+    - state: uranium-238_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -108,39 +120,6 @@
   components:
   - type: Stack
     count: 19
-
-- type: entity
-  parent: BaseNuclearMaterial
-  id: SheetUraniumFuel
-  name: урановое топливо
-  suffix: Full
-  components:
-  - type: RadiationSource
-    intensity: 0.025
-  - type: PhysicalComposition
-    materialComposition:
-      UraniumFuel: 100
-  - type: Stack
-    stackType: UraniumFuel
-    baseLayer: base
-    layerStates:
-    - uraniumFuel
-    - uraniumFuel_2
-    - uraniumFuel_3
-  - type: Sprite
-    state: uraniumFuel_3
-    layers:
-    - state: uraniumFuel_3
-      map: ["base"]
-
-- type: entity
-  parent: SheetUraniumFuel
-  id: SheetUraniumFuel1
-  name: урановое топливо
-  suffix: Single
-  components:
-  - type: Stack
-    count: 1
 
 - type: entity
   parent: BaseNuclearMaterial
@@ -180,6 +159,11 @@
   name: литий
   suffix: Single
   components:
+  - type: Sprite
+    state: litium_1
+    layers:
+    - state: litium_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -222,6 +206,11 @@
   name: флюорит
   suffix: Single
   components:
+  - type: Sprite
+    state: fluorite_1
+    layers:
+    - state: fluorite_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -255,39 +244,11 @@
   name: нептуний
   suffix: Single
   components:
-  - type: Stack
-    count: 1
-
-- type: entity
-  parent: BaseNuclearMaterial
-  id: SheetNeptuniumFuel
-  name: нептуниевое топливо
-  suffix: Full
-  components:
-  - type: RadiationSource
-    intensity: 0.3
-  - type: PhysicalComposition
-    materialComposition:
-      NeptuniumFuel: 100
-  - type: Stack
-    stackType: NeptuniumFuel
-    baseLayer: base
-    layerStates:
-    - neptuniumFuel
-    - neptuniumFuel_2
-    - neptuniumFuel_3
   - type: Sprite
-    state: neptuniumFuel_3
+    state: neptunium_1
     layers:
-    - state: neptuniumFuel_3
+    - state: neptunium_1
       map: ["base"]
-
-- type: entity
-  parent: SheetNeptuniumFuel
-  id: SheetNeptuniumFuel1
-  name: нептуниевое топливо
-  suffix: Single
-  components:
   - type: Stack
     count: 1
 
@@ -322,6 +283,11 @@
   name: плутоний-238
   suffix: Single
   components:
+  - type: Sprite
+    state: plutonium-238_1
+    layers:
+    - state: plutonium-238_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -331,6 +297,11 @@
   name: плутоний-238
   suffix: 3
   components:
+  - type: Sprite
+    state: plutonium-238_1
+    layers:
+    - state: plutonium-238_1
+      map: ["base"]
   - type: Stack
     count: 3
 
@@ -374,6 +345,11 @@
   name: плутоний-239
   suffix: Single
   components:
+  - type: Sprite
+    state: plutonium-239_1
+    layers:
+    - state: plutonium-239_1
+      map: ["base"]
   - type: Stack
     count: 1
 
@@ -383,6 +359,11 @@
   name: плутоний-239
   suffix: 3
   components:
+  - type: Sprite
+    state: plutonium-239_1
+    layers:
+    - state: plutonium-239_1
+      map: ["base"]
   - type: Stack
     count: 3
 
@@ -416,6 +397,11 @@
   name: плутоний-240
   suffix: Single
   components:
+  - type: Sprite
+    state: plutonium-240_1
+    layers:
+    - state: plutonium-240_1
+      map: ["base"]
   - type: Stack
     count: 1
     
@@ -425,50 +411,13 @@
   name: плутоний-240
   suffix: 3
   components:
+  - type: Sprite
+    state: plutonium-240_1
+    layers:
+    - state: plutonium-240_1
+      map: ["base"]
   - type: Stack
     count: 3
-
-- type: entity
-  parent: BaseNuclearMaterial
-  id: SheetPlutoniumFuel
-  name: плутониевое топливо
-  suffix: Full
-  components:
-  - type: RadiationSource
-    intensity: 0.8
-  - type: PhysicalComposition
-    materialComposition:
-      PlutoniumFuel: 100
-  - type: Stack
-    stackType: PlutoniumFuel
-    baseLayer: base
-    layerStates:
-    - plutoniumFuel
-    - plutoniumFuel_2
-    - plutoniumFuel_3
-  - type: Sprite
-    state: plutoniumFuel_3
-    layers:
-    - state: plutoniumFuel_3
-      map: ["base"]
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        reagents:
-        - ReagentId: Uranium
-          Quantity: 8
-        - ReagentId: Radium
-          Quantity: 2
-        canReact: false
-
-- type: entity
-  parent: SheetPlutoniumFuel
-  id: SheetPlutoniumFuel1
-  name: плутониевое топливо
-  suffix: Single
-  components:
-  - type: Stack
-    count: 1
 
 - type: entity
   parent: BaseNuclearMaterial
@@ -500,6 +449,11 @@
   name: плутоний
   suffix: Single
   components:
+  - type: Sprite
+    state: plutonium_3
+    layers:
+    - state: plutonium_3
+      map: ["base"]
   - type: Stack
     count: 1
 
