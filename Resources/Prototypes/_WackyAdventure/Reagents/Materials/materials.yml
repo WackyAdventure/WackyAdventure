@@ -57,7 +57,7 @@
 - type: material
   id: Plutonium-238
   stackEntity: SheetPlutonium-238
-  name: materials-plutonium-238
+  name: плутоний-238
   icon: { sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi, state: plutonium-238 }
   color: "#32a852"
   price: 0.85 # $85 for 1 unit
