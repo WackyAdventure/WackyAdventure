@@ -22,4 +22,7 @@ public sealed partial class AmeFuelContainerComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public int FuelCapacity = 500;
+    
+    [DataField, AutoNetworkedField]
+    public float PowerMultiplier = 1.0f;
 }

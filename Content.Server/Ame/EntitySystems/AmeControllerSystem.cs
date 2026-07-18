@@ -150,7 +150,8 @@ public sealed class AmeControllerSystem : EntitySystem
             else
             {
                 var availableInject = Math.Min(controller.InjectionAmount, fuelContainer.FuelAmount);
-                var powerOutput = group.InjectFuel(availableInject, out var overloading);
+                var multiplier = fuelContainer.PowerMultiplier;
+                var powerOutput = group.InjectFuel(availableInject, multiplier, out var overloading);
                 if (TryComp<PowerSupplierComponent>(uid, out var powerOutlet))
                     powerOutlet.MaxSupply = powerOutput;
 
@@ -196,10 +197,16 @@ public sealed class AmeControllerSystem : EntitySystem
         // how much power can be produced at the current settings, in kW
         // we don't use max. here since this is what is set in the Controller, not what the AME is actually producing
         float targetedPowerSupply = 0;
-        if (TryGetAMENodeGroup(uid, out var group))
+                if (TryGetAMENodeGroup(uid, out var group))
         {
             coreCount = group.CoreCount;
-            targetedPowerSupply = group.CalculatePower(controller.InjectionAmount, group.CoreCount) / 1000;
+            var multiplier = 1.0f;
+            if (controller.FuelSlot.Item is { } fuelUid &&
+            TryComp<AmeFuelContainerComponent>(fuelUid, out var fuelComp))
+            {
+               multiplier = fuelComp.PowerMultiplier;
+            }
+            targetedPowerSupply = group.CalculatePower(controller.InjectionAmount, group.CoreCount) * multiplier / 1000;
         }
 
         // set current power statistics in kW

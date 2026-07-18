@@ -1,2 +1,11 @@
 - type: Tag
   id: NuclearMaterial
+
+- type: Tag
+  id: NuclearFuelRod
+
+- type: Tag
+  id: AMEJar
+
+- type: Tag
+  id: OreTitanium

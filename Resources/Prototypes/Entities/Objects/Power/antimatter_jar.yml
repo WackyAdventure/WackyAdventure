@@ -11,6 +11,7 @@
 # SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2023 moonheart08 <moonheart08@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Merfitch
 #
 # SPDX-License-Identifier: MIT
 
@@ -31,3 +32,29 @@
     price: 500
   - type: GuideHelp
     guides: [ AME, Power ]
+  - type: Tag
+    tags:
+    - AMEJar
+
+- type: entity
+  parent: BaseItem
+  id: AmeJarBuffed
+  name: AME fuel jar
+  suffix: buffed
+  description: A hermetically sealed jar containing antimatter for use in an antimatter reactor.
+  components:
+  - type: Item
+    size: Normal
+    sprite: Objects/Power/AME/ame_jar.rsi
+  - type: Sprite
+    sprite: Objects/Power/AME/ame_jar.rsi
+    state: jar
+  - type: AmeFuelContainer
+    powerMultiplier: 1.5
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides: [ AME, Power ]
+  - type: Tag
+    tags:
+    - AMEJar

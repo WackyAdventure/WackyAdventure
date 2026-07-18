@@ -1,0 +1,60 @@
+
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: OreBase
+  id: OreTitanium
+  name: titanium ore
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: OreTitanium
+  - type: Sprite
+    sprite: /Textures/_WackyAdventure/Objects/Materials/ore.rsi
+    state: titanium
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      RawTitanium: 300 # Goobstation - was 100 
+  - type: Extractable
+    grindableSolutionName: silverore
+  - type: SolutionContainerManager
+    solutions:
+      silverore:
+        reagents:
+        - ReagentId: Silver
+          Quantity: 10
+  - type: Item
+    sprite: /Textures/_WackyAdventure/Objects/Materials/ore.rsi
+  - type: Tag
+    tags:
+    - Ore
+    - OreTitanium
+
+- type: entity
+  parent: OreTitanium
+  id: OreTitanium1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: OreTitanium
+  id: OreTitaniumUnprocessed
+  name: unprocessed titanium ore
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: OreTitanium
+  - type: UnclaimedOre
+    miningPoints: 25
+
+- type: entity
+  parent: OreTitaniumUnprocessed
+  id: OreTitanium1Unprocessed
+  name: unprocessed titanium ore
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1

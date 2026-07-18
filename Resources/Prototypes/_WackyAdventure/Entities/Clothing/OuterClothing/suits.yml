@@ -7,6 +7,8 @@
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/rad.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: Armor
     coverage:
     - Chest
@@ -21,8 +23,6 @@
       coefficients:
         Heat: 0.85
         Radiation: 0
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/rad.rsi
   - type: GroupExamine
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
@@ -66,13 +66,10 @@
   suffix: "100%"
   description: "Костюм защищающий на 100% от радиации"
   components:
-  - type: ToggleableClothing
-    clothingPrototypes:
-      head: ClothingArmorHatRad
   - type: Sprite
-    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/radarmor.rsi
+    sprite: _WackyAdventure/Clothing/OuterClothing/Armor/Rad.rsi
   - type: Clothing
-    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/radarmor.rsi
+    sprite: _WackyAdventure/Clothing/OuterClothing/Armor/Rad.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -82,6 +79,9 @@
         Slash: 0.6
         Piercing: 0.65
         Caustic: 0.6
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHatHoodRad
 
 - type: entity
   parent: ClothingOuterSuitRadFullDefense
@@ -91,9 +91,9 @@
   description: "Костюм защищающий на 100% от радиации и от давления"
   components:
   - type: Sprite
-    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/rad.rsi
+    sprite: _WackyAdventure/Clothing/OuterClothing/Hardsuits/Rad.rsi
   - type: Clothing
-    sprite: _WackyAdventure/Clothing/OuterClothing/Suits/rad.rsi
+    sprite: _WackyAdventure/Clothing/OuterClothing/Hardsuits/Rad.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -112,14 +112,17 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingArmorHatRad
-  name: капюшон усиленного противорадиационного костюма
+  id: ClothingHardHatRad
+  name: капюшон противорадиационного скафандра
   description: A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
   - type: Sprite
-    sprite: _WackyAdventure/Clothing/Head/Hoods/radarmor.rsi
+    sprite: _WackyAdventure/Clothing/Head/Hardhats/Rad.rsi
   - type: Clothing
-    sprite: _WackyAdventure/Clothing/Head/Hoods/radarmor.rsi
+    sprite: _WackyAdventure/Clothing/Head/Hardhats/Rad.rsi
   - type: Armor
     coverage:
     - Head
@@ -137,15 +140,27 @@
     - HeadSide
 
 - type: entity
-  parent: ClothingArmorHatRad
-  id: ClothingHardHatRad
-  name: капюшон противорадиационного скафандра
+  parent: ClothingHeadBase
+  id: ClothingHardSuitHatRad
+  name: капюшон усиленного противорадиационного костюма
   description: A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
-  - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 1000
   - type: Sprite
-    sprite: _WackyAdventure/Clothing/Head/Hoods/radsuits.rsi
+    sprite: _WackyAdventure/Clothing/Head/Helmets/Rad.rsi
   - type: Clothing
-    sprite: _WackyAdventure/Clothing/Head/Hoods/radsuits.rsi
+    sprite: _WackyAdventure/Clothing/Head/Helmets/Rad.rsi
+  - type: Armor
+    coverage:
+    - Head
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Radiation: 0
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide

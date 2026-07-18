@@ -1,91 +1,64 @@
 - type: technology
-  id: NukeLathe
-  name: ЯдерЛат
+  id: NuclearEnergetics
+  name: Основы ядерной энергетики
   icon:
     sprite: /Textures/_WackyAdventure/Structures/Machines/nukelathe.rsi
     state: base_1
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 25000
   recipeUnlocks:
   - NukeLatheCircuitBoard
   - UraniumCentrifugation
-  position: 5,-3
+  - UraniumFuelRod
+  position: 1,-3
   technologyPrerequisites:
   - AdvancedPowerGeneration
 
 - type: technology
-  id: UraniumFuel
-  name: Урановое Топливо
-  icon:
-    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: uraniumFuel
-  discipline: Industrial
-  tier: 2
-  cost: 40000
-  recipeUnlocks:
-  - SheetUraniumFuel2
-  position: 5,-4
-  technologyPrerequisites:
-  - NukeLathe
-
-- type: technology
   id: Neptunium
-  name: Нептуний
+  name: Обработка нептуния
   icon:
     sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: neptuniumFuel
   discipline: Industrial
   tier: 3
-  cost: 60000
+  cost: 10000
   recipeUnlocks:
-  - SheetNeptunium
-  position: 6,-3
+  - NeptuniumSynthesizing
+  - NeptuniumFuelRod
+  position: 2,-3
   technologyPrerequisites:
-  - NukeLathe
-
-- type: technology
-  id: NeptuniumFuel
-  name: Нептуниевое топливо
-  icon:
-    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
-    state: neptuniumFuel
-  discipline: Industrial
-  tier: 3
-  cost: 70000
-  recipeUnlocks:
-  - SheetNeptuniumFuel
-  position: 6,-4
-  technologyPrerequisites:
-  - Neptunium
+  - NuclearEnergetics
 
 - type: technology
   id: Plutonium
-  name: Плутоний
+  name: Обработка плутония
   icon:
     sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutoniumFuel
   discipline: Industrial
   tier: 3
-  cost: 80000
+  cost: 10000
   recipeUnlocks:
-  - SheetPlutonium
-  - SheetPlutonium-238-239-240
-  position: 7,-3
+  - PlutoniumSynthesizing
+  - PlutoniumCentrifugation
+  - PlutoniumFuelRod
+  position: 3,-3
   technologyPrerequisites:
   - Neptunium
 
 - type: technology
-  id: PlutoniumFuel
-  name: Плутониевое топливо
+  id: MOXFuel
+  name: МОКС топливо
   icon:
     sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutoniumFuel
   discipline: Industrial
   tier: 3
-  cost: 120000
+  cost: 10000
   recipeUnlocks:
-  - SheetPlutoniumFuel
-  position: 7,-4
+  - MOXFuelRod
+  position: 4,-3
   technologyPrerequisites:
   - Plutonium

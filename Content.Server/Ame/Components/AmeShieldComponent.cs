@@ -5,6 +5,7 @@
 //
 // SPDX-License-Identifier: MIT
 
+using System.ComponentModel;
 using Content.Server.Ame.EntitySystems;
 using Content.Shared.Ame.Components;
 
@@ -30,4 +31,12 @@ public sealed partial class AmeShieldComponent : SharedAmeShieldComponent
     [DataField("integrity")]
     [ViewVariables]
     public int CoreIntegrity = 100;
+
+    [DataField("neighborscount")]
+    [ViewVariables]
+    public int NeighborsCount = 8;
+
+    [DataField("searchradius")]
+    [ViewVariables]
+    public int SearchRadius = 1;
 }

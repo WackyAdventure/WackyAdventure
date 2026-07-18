@@ -1,0 +1,228 @@
+# SPDX-FileCopyrightText: 2026 Merfitch
+
+- type: entity
+  id: NuclearReactorComputer
+  name: Reactor control console
+  description: It's a controller for the nuclear reactor.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    snapCardinals: true
+    sprite: _WackyAdventure/Structures/Power/Generation/ame.rsi
+    state: control
+    layers:
+    - state: control
+    - state: control_on
+      map: ["display"]
+      visible: false
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 190
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Destructible
+    thresholds:
+    - trigger: # Excess damage, don't spawn entities
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 4
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: Transform
+    anchored: true
+    noRot: true
+  - type: Anchorable
+  - type: Pullable
+  - type: AmeController
+    fuelSlot:
+      whitelist:
+        tags:
+        - NuclearFuelRod
+#        components:
+#        - AmeFuelContainer
+      whitelistFailPopup: ame-controller-component-fuel-slot-fail-whitelist
+      lockedFailPopup: ame-controller-component-fuel-slot-fail-locked
+      insertSuccessPopup: ame-controller-component-fuel-slot-success-insert
+  - type: Explosive
+    explosionType: Radioactive
+    intensitySlope: 50
+    maxIntensity: 60000
+  - type: ActivatableUI
+    key: enum.AmeControllerUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.AmeControllerUiKey.Key:
+        type: AmeControllerBoundUserInterface
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmeControllerVisuals.DisplayState:
+        display:
+          Off: { visible: false }
+          On: { state: control_on, visible: true }
+          Warning: { state: control_warning, visible: true }
+          Critical: { state: control_critical, visible: true }
+          Fuck: { state: control_fuck, visible: true }
+  - type: NodeContainer
+    examinable: true
+    nodes:
+      ame:
+        !type:AdjacentNode
+        nodeGroupID: AMEngine
+      input:
+        !type:CableDeviceNode
+        nodeGroupID: HVPower
+  - type: PowerMonitoringDevice
+    group: Generator
+    loadNode: input
+    sprite: Textures/_WackyAdventure/Structures/Power/Generation/ame.rsi
+    state: static
+  - type: PowerSupplier
+    supplyRate: 0
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      fuelSlot: !type:ContainerSlot
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power
+  - type: Tag
+    tags:
+    - DroneUsable # Goobstation
+  - type: Electrified
+    onHandInteract: false
+    onInteractUsing: false
+    onBump: false
+    requirePower: true
+    highVoltageNode: input
+    mediumVoltageNode: ame
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: NuclearReactorComputer
+  id: NuclearReactorConsoleUnanchored
+  suffix: Unanchored
+  components:
+  - type: Transform
+    anchored: false
+  - type: Physics
+    bodyType: Dynamic
+
+- type: entity
+  id: NuclearReactorShielding
+  name: reactor shielding
+  description: Keeps full radiation isolation for you!
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _WackyAdventure/Structures/Power/Generation/ame.rsi
+    state: shield_0
+    layers:
+    - state: shield_0
+    - state: core
+      map: ["core"]
+      visible: false
+    - state: core_weak
+      map: ["core_glow"]
+      shader: unshaded
+      visible: false
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        density: 190
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Destructible
+    thresholds:
+    - trigger: # Excess damage, don't spawn entities
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 8
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: Transform
+    anchored: true
+  - type: IconSmooth
+    mode: CardinalFlags
+    base: shield_
+    key: ame_shield
+  - type: AmeShield
+    searchradius: 2
+    neighborscount: 24
+  - type: NodeContainer
+    nodes:
+      ame:
+        !type:AdjacentNode
+        nodeGroupID: AMEngine
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmeShieldVisuals.Core:
+        core:
+          True: { visible: true }
+          False: { visible: false }
+      enum.AmeShieldVisuals.CoreState:
+        core_glow:
+          Off: { visible: false }
+  - type: Construction
+    graph: AmeShielding
+    node: ameShielding
+  - type: GuideHelp
+    guides:
+    - AME
+    - Power
+  - type: Electrified
+    onHandInteract: false
+    onInteractUsing: false
+    onBump: false
+    requirePower: true
+    highVoltageNode: ame

@@ -1,0 +1,11 @@
+
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: material
+  id: RawTitanium
+  stackEntity: OreTitanium1
+  name: materials-raw-titanium
+  unit: materials-unit-chunk
+  icon: { sprite: _WackyAdventure/Objects/Materials/ore.rsi, state: titanium }
+  color: "#e9e9e9"
+  price: 0.5

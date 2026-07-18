@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2026 made by Merfitch
+# SPDX-License-Identifier: MIT
+
+- type: soundCollection
+  id: Spamton
+  files:
+  - /Audio/_WackyAdventure/Items/Toys/spamton1.ogg
+  - /Audio/_WackyAdventure/Items/Toys/spamton2.ogg
+  - /Audio/_WackyAdventure/Items/Toys/spamton3.ogg

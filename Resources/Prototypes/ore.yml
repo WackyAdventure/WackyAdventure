@@ -151,6 +151,7 @@
     OreDiamond: 0.1 # to account for its much higher points (1000), as well as its use in endgame schematics
     OreArtifactFragment: 0.5
     OreGibtonite: 2 # Spawns often enough but always as a single piece
+    OreTitanium: 2
   # Lavaland Change End
 
 - type: weightedRandomOre

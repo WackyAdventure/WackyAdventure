@@ -1,0 +1,28 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieSpamton
+  name: spamton plushie
+  description: A cute stuffed toy that resembles a hamster. Its face looks squished.
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Objects/Fun/Plushies/spamton.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_2.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_1.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_3.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_2.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_WackyAdventure/Items/Toys/spamtonsound_2.ogg

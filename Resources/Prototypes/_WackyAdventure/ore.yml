@@ -1,0 +1,5 @@
+- type: ore
+  id: OreTitanium
+  oreEntity: OreTitanium1 # Lavaland Change
+  minOreYield: 1
+  maxOreYield: 3

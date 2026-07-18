@@ -51,6 +51,15 @@
   - type: Vinyl
     song:
       path: /Audio/_WackyAdventure/cds/Cargo.ogg
+
+- type: entity
+  parent: BaseCdDisk
+  name: CD "Лукашенко - МАЛЬЧИК НА ИСТРЕБИТЕЛЕ"
+  id: CdDiskLukashenko
+  components:
+  - type: Vinyl
+    song:
+      path: /Audio/_WackyAdventure/cds/Lukashenko.ogg
       
 - type: entity
   parent: BaseCdDisk

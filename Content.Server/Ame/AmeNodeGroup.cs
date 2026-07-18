@@ -80,10 +80,10 @@ public sealed class AmeNodeGroup : BaseNodeGroup
             else if (gridEnt != xform.GridUid)
                 continue;
 
-            var nodeNeighbors = mapSystem.GetCellsInSquareArea(xform.GridUid.Value, grid, xform.Coordinates, 1)
+            var nodeNeighbors = mapSystem.GetCellsInSquareArea(xform.GridUid.Value, grid, xform.Coordinates, shield.SearchRadius)
                 .Where(entity => entity != nodeOwner && shieldQuery.HasComponent(entity));
 
-            if (nodeNeighbors.Count() >= 8)
+            if (nodeNeighbors.Count() >= shield.NeighborsCount)
             {
                 _cores.Add(nodeOwner);
                 ameShieldingSystem.SetCore(nodeOwner, true, shield);
@@ -131,7 +131,7 @@ public sealed class AmeNodeGroup : BaseNodeGroup
         }
     }
 
-    public float InjectFuel(int fuel, out bool overloading)
+    public float InjectFuel(int fuel, float multiplier, out bool overloading)
     {
         overloading = false;
 
@@ -141,7 +141,7 @@ public sealed class AmeNodeGroup : BaseNodeGroup
 
         var safeFuelLimit = CoreCount * 2;
 
-        var powerOutput = CalculatePower(fuel, CoreCount);
+        var powerOutput = CalculatePower(fuel, CoreCount) * multiplier;
         if (fuel <= safeFuelLimit)
             return powerOutput;
 

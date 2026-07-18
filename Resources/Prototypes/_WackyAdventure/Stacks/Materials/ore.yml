@@ -1,0 +1,6 @@
+- type: stack
+  id: OreTitanium
+  name: stack-titanium-ore
+  icon: { sprite: /Textures/_WackyAdventure/Objects/Materials/ore.rsi, state: titanium }
+  spawn: OreTitanium1
+  maxCount: 30
