@@ -512,7 +512,7 @@
   - type: TimedDespawn
     lifetime: 0
   - type: Sprite
-    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-235_3
     layers:
     - state: uranium-235_3
@@ -532,7 +532,7 @@
   - type: TimedDespawn
     lifetime: 0
   - type: Sprite
-    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: plutonium_3
     layers:
     - state: plutonium_3
