@@ -34,6 +34,8 @@
   suffix: "300 Киловатт"
   description: Топливный стержень для ядерного реактора, способен выдавать 300 киловатт и является крайне долговечным.
   components:
+  - type: RadiationSource 
+    intensity: 2
   - type: Item
     size: Normal
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
@@ -57,6 +59,8 @@
   suffix: "750 Киловатт"
   description: Топливный стержень для ядерного реактора, золотая середина, способен выдавать 750 киловатт и имеет средний срок годности.
   components:
+  - type: RadiationSource 
+    intensity: 3
   - type: Item
     size: Normal
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
@@ -80,6 +84,8 @@
   suffix: "2500 Киловатт"
   description: Топливный стержень для ядерного реактора, способен выдавать 2500 киловатт и имеет малый запас мощности.
   components:
+  - type: RadiationSource 
+    intensity: 5
   - type: Item
     size: Normal
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
@@ -103,6 +109,8 @@
   suffix: "1500 Киловатт"
   description: Топливный стержень для ядерного реактора, способен выдавать 1500 киловатт и является крайне долговечным.
   components:
+  - type: RadiationSource 
+    intensity: 4
   - type: Item
     size: Normal
     sprite: _WackyAdventure/Objects/Power/nuclear.rsi
