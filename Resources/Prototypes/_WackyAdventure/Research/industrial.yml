@@ -6,7 +6,7 @@
     state: base_1
   discipline: Industrial
   tier: 2
-  cost: 25000
+  cost: 10000
   recipeUnlocks:
   - NukeLatheCircuitBoard
   - UraniumCentrifugation
@@ -25,7 +25,7 @@
     state: neptuniumFuelRod
   discipline: Industrial
   tier: 3
-  cost: 10000
+  cost: 15000
   recipeUnlocks:
   - NeptuniumSynthesizing
   - NeptuniumFuelRod
@@ -41,7 +41,7 @@
     state: plutoniumFuelRod
   discipline: Industrial
   tier: 3
-  cost: 10000
+  cost: 20000
   recipeUnlocks:
   - PlutoniumSynthesizing
   - PlutoniumCentrifugation
@@ -58,7 +58,7 @@
     state: mOXFuelRod
   discipline: Industrial
   tier: 3
-  cost: 10000
+  cost: 25000
   recipeUnlocks:
   - MOXFuelRod
   position: 4,-3
