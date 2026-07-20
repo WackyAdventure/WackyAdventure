@@ -61,7 +61,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      5000: Dead
+      10000: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       15: 0.75 # it's an unstoppable flesh abomination
