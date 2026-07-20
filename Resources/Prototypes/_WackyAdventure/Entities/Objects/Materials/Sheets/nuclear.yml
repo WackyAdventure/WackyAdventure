@@ -24,7 +24,7 @@
     - uranium-235_2
     - uranium-235_3
   - type: Sprite
-    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-235_3
     layers:
     - state: uranium-235_3
@@ -65,7 +65,7 @@
   suffix: Single
   components:
   - type: Sprite
-    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-235_1
     layers:
     - state: uranium-235_1
@@ -104,7 +104,7 @@
   suffix: Single
   components:
   - type: Sprite
-    sprite: /Textures/_WackyAdventure/Objects/Materials/Sheets/other.rsi
+    sprite: _WackyAdventure/Objects/Materials/Sheets/other.rsi
     state: uranium-238_1
     layers:
     - state: uranium-238_1
@@ -450,9 +450,9 @@
   suffix: Single
   components:
   - type: Sprite
-    state: plutonium_3
+    state: plutonium_1
     layers:
-    - state: plutonium_3
+    - state: plutonium_1
       map: ["base"]
   - type: Stack
     count: 1
