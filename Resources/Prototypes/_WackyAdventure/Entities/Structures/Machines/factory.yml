@@ -8,9 +8,9 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Furniture/sink.rsi
+    sprite: /_WackyAdventure/Structures/Furniture/oilrig.rsi
     layers:
-      - state: sink_stem
+      - state: base
       - map: [ "enum.SolutionContainerLayers.Fill" ]
         state: sink-fill-1
         visible: false
