@@ -33,3 +33,31 @@
     guides:
     - AME
     - Power
+
+- type: entity
+  parent: BaseFlatpack
+  id: NTTurretFlatpack
+  name: упакованная турель
+  description: Упакованная турель стандарта НТ.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: WeaponTurretNanoTrasen
+  - type: StaticPrice
+    price: 500
+
+- type: entity
+  parent: BaseFlatpack
+  id: SyndiTurretFlatpack
+  name: упакованная турель
+  description: Упакованная турель стандарта НТ, или нет.
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: WeaponTurretSyndicate
+  - type: StaticPrice
+    price: 500
