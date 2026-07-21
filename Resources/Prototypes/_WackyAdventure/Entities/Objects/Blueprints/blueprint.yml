@@ -2,13 +2,13 @@
 
 - type: entity
   parent: BaseBlueprint
-  id: MaterialCloth
+  id: MaterialCloth3
   name: Чертеж ткани
   description: Чертеж который позволяет делать ткань.
   components:
   - type: Blueprint
     providedRecipes:
-    - MaterialCloth1
+    - MaterialCloth2
 
 - type: entity
   parent: BaseBlueprint
