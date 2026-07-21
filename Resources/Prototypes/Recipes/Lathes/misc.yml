@@ -86,6 +86,12 @@
 ## Lights
 
 - type: latheRecipe
+  id: MaterialCloth
+  result: MaterialCloth1
+  materials:
+    Wood: 500
+
+- type: latheRecipe
   parent: BaseLightRecipe
   id: LightTube
   result: LightTube
