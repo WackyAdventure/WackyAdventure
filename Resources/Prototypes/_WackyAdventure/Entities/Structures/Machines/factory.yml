@@ -26,7 +26,7 @@
       tank:
         maxVol: 9999999 # Goobstation - No regenerating water, so lets just give it a fuck ton.
         reagents:
-        - ReagentId: WeldingFuel
+        - ReagentId: Oil1
           Quantity: 9999999
   #- type: SolutionRegeneration Goobstation - laggy
   #  solution: tank
