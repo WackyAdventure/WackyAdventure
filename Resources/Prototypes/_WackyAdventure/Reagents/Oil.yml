@@ -1,0 +1,30 @@
+- type: reagent
+  id: Oil1
+  name: нефть
+  group: Reagents
+  desc: Где-то слышен крик орла
+  physicalDesc: reagent-physical-desc-syrupy
+  flavor: bitter
+  color: "#281e15"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:OrganType # Goobstation - Yowie
+          type: Yowie
+          shouldHave: false
+        damage:
+          types:
+            Poison: 4
+
+- type: reaction
+  id: WeldingFuel
+  reactants:
+    Oil1:
+      amount: 3
+    Plasma:
+      amount: 1
+      catalyst: true
+  products:
+    WeldingFuel: 4
