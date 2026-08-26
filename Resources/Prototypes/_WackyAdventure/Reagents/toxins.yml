@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
+# SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 floatingfeeling <karaadastra@gmail.com>
+# SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: reagent
+  id: Paralizator
+  name: reagent-name-paralizator
+  group: Toxins
+  desc: reagent-desc-paralizator
+  physicalDesc: reagent-physical-desc-powdery
+  color: "#12111221"
+  boilingPoint: 255.0
+  meltingPoint: 36.0
+  metabolisms:
+    Narcotic:
+      effects:
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectForcedSleeping
+        time: 10
+        type: Add
+    Poison:
+      metabolismRate: 3
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+              Blunt: 5
+      - !type:MovespeedModifier
+        walkSpeedModifier: 0
+        sprintSpeedModifier: 0
+      - !type:GenericStatusEffect
+        key: Stutter
+        component: StutteringAccent
+      - !type:PopupMessage
+        type: Local
+        probability: 0.08
+        messages:
+        - generic-reagent-effect-burning-eyes
+        - generic-reagent-effect-burning-eyes-a-bit
+        - generic-reagent-effect-tearing-up
+        - norepinephricacid-effect-eyelids
+        - norepinephricacid-effect-eyes-itch
+        - norepinephricacid-effect-vision-fade
+        - norepinephricacid-effect-vision-fail
+      - !type:PopupMessage
+        type: Local
+        visualType: MediumCaution
+        probability: 0.03
+        messages:
+        - norepinephricacid-effect-eye-disconnect
+        - norepinephricacid-effect-eye-pain
+        - norepinephricacid-effect-darkness
+        - norepinephricacid-effect-blindness
+        conditions:
+        - !type:ReagentThreshold
+          min: 5

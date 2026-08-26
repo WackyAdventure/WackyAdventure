@@ -1,0 +1,18 @@
+- type: entity
+  id: AdvancedMedicalBedMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: autodoc-4k machine board
+  description: A machine printed circuit board for a autodoc-4k.
+  components:
+    - type: MachineBoard
+      prototype: AdvancedMedicalBed
+      stackRequirements:
+        Manipulator: 4
+        Cable: 4
+        Glass: 2
+#        MaterialDiamond: 1
+#        MaterialBSCrystal: 2
+      tagRequirements:
+       GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker

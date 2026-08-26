@@ -241,3 +241,101 @@
     raffle:
         settings: short
   - type: GhostTakeoverAvailable
+
+
+- type: entity
+  parent: Bed
+  id: MedicalBedMattressfolk
+  name: Medical bed
+  description: A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+  suffix: Mattressfolk
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Mobs/Demons/mattressfolk.rsi
+    state: bedMattressfolk-MED
+  - type: DoAfter
+  - type: Actions
+  - type: BedInjecting
+    reagent: Paralizator
+    amount: 2.1
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 10000 # no gibbing at 400
+      behaviors:
+      - !type:GibBehavior
+  - type: CombatMode
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.40
+        density: 100
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: Damageable
+    damageContainer: FlimsyMetallic
+  - type: SolutionContainerManager
+  - type: Devourer
+    foodPreferenceWhitelist:
+      components:
+      - HumanoidAppearance
+    stomachStorageWhitelist:
+      components:
+    healRate: 0
+    chemical: Ichor
+    whitelist:
+      components:
+      - MobState
+      - Door
+      tags:
+      - Wall
+  - type: Examiner
+  - type: Pullable
+  - type: Flammable
+    damage:
+      types: {}
+  - type: Temperature
+    damageCap: 0 # immune to temperature damage
+
+- type: entity
+  parent: MedicalBedMattressfolk
+  id: MattressMattressfolk
+  name: mattress
+  description: Better sleep in that then on the floor i guess.
+  suffix: Mattressfolk
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Mobs/Demons/mattressfolk.rsi
+    state: mattressMattressfolk
+
+- type: entity
+  parent: MedicalBedMattressfolk
+  id: PsychBedMattressfolk
+  name: psychologist bed
+  description: An upholstered bed for the psychological care of patients.
+  suffix: Mattressfolk
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Mobs/Demons/mattressfolk.rsi
+    state: psychbedMattressfolk
+
+- type: entity
+  parent: MedicalBedMattressfolk
+  id: BedMattressfolk
+  name: bed
+  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+  suffix: Mattressfolk
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Mobs/Demons/mattressfolk.rsi
+    state: bedMattressfolk

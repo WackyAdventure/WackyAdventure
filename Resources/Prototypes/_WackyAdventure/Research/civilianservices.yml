@@ -1,0 +1,15 @@
+- type: technology
+  id: AdvancedMedicalEquipment
+  name: research-technology-advanced-medical-equipment
+  icon:
+    sprite: _WackyAdventure/Structures/Furniture/beds.rsi
+    state: bed-MED-Advanced
+  discipline: CivilianServices
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - BluespaceBeaker
+  position: 4,4
+  technologyPrerequisites:
+  - BluespaceChemistry
+  # Goobstation R&D Console rework end

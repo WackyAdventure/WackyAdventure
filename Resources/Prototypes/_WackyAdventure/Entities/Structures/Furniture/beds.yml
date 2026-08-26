@@ -1,0 +1,22 @@
+- type: entity
+  parent: MedicalBed
+  id: AdvancedMedicalBed
+  name: autodoc-4k
+  description: Advanced medical bed that can heal anything (i think so).
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Structures/Furniture/beds.rsi
+    state: bed-MED-Advanced
+  - type: BedInjecting
+    reagent: Stasizium
+    amount: 0.005
+#  - type: Construction
+#    graph: bed
+#    node: medicalbed
+  - type: GuideHelp
+    guides:
+    - MedicalDoctor
+  - type: Machine
+    board: AdvancedMedicalBedMachineCircuitboard
+  - type: Drain
+    range: 1
