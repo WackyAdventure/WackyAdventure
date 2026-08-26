@@ -7,7 +7,7 @@
   - type: Sprite
     sprite: _WackyAdventure/Structures/Furniture/beds.rsi
     state: bed-MED-Advanced
-  - type: BedInjecting
+  - type: BedInjector
     reagent: Stasizium
     amount: 0.005
 #  - type: Construction

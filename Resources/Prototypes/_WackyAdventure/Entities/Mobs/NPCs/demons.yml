@@ -255,7 +255,7 @@
     state: bedMattressfolk-MED
   - type: DoAfter
   - type: Actions
-  - type: BedInjecting
+  - type: BedInjector
     reagent: Paralizator
     amount: 2.1
   - type: Destructible

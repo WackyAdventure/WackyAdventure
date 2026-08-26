@@ -7,18 +7,18 @@ using Robust.Shared.IoC;
 using Robust.Shared.Log;
 
 namespace Content.Goobstation.Server._WackyAdventure.Bed;
-public sealed class BedInjectingSystem : EntitySystem
+public sealed class BedInjectorSystem : EntitySystem
 {
     [Dependency] private readonly SharedSolutionContainerSystem _solutionContainer = default!;
 
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<SleepParalyzeBedComponent, StrappedEvent>(OnStrapped);
-        SubscribeLocalEvent<SleepParalyzeBedComponent, UnstrappedEvent>(OnUnstrapped);
+        SubscribeLocalEvent<BedInjectorComponent, StrappedEvent>(OnStrapped);
+        SubscribeLocalEvent<BedInjectorComponent, UnstrappedEvent>(OnUnstrapped);
     }
 
-    private void OnStrapped(EntityUid uid, SleepParalyzeBedComponent component, StrappedEvent args)
+    private void OnStrapped(EntityUid uid, BedInjectorComponent component, StrappedEvent args)
     {
         EntityUid target = args.Buckle;
 //        Logger.InfoS("SleepBed", $"Кто-то пристегнулся к кровати! Цель: {target}");
@@ -32,7 +32,7 @@ public sealed class BedInjectingSystem : EntitySystem
         _ = InjectLoopAsync(uid, target, component, token);
     }
 
-    private void OnUnstrapped(EntityUid uid, SleepParalyzeBedComponent component, UnstrappedEvent args)
+    private void OnUnstrapped(EntityUid uid, BedInjectorComponent component, UnstrappedEvent args)
     {
 //        Logger.InfoS("SleepBed", "Кто-то встал с кровати.");
         // Останавливаем таймер впрыска
@@ -40,7 +40,7 @@ public sealed class BedInjectingSystem : EntitySystem
         component.CancelToken = null;
     }
 
-    private async Task InjectLoopAsync(EntityUid bedUid, EntityUid target, SleepParalyzeBedComponent component, CancellationToken token)
+    private async Task InjectLoopAsync(EntityUid bedUid, EntityUid target, BedInjectorComponent component, CancellationToken token)
     {
         try
         {

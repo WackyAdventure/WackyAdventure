@@ -3,7 +3,7 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.Serialization.Manager.Attributes;
 namespace Content.Goobstation.Server._WackyAdventure.Bed;
 [RegisterComponent]
-public sealed partial class BedInjectingBedComponent : Component
+public sealed partial class BedInjectorComponent : Component
 {
     [DataField("reagent")]
     public string Reagent = "Sarin2";
