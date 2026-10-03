@@ -12,9 +12,9 @@
     stackType: QuantumMotor
     baseLayer: base
     layerStates:
-    - quantummotor
-    - quantummotor_2
-    - quantummotor_3
+    - QuantumMotor
+    - QuantumMotor_2
+    - QuantumMotor_3
   - type: Sprite
     state: QuantumMotor
     layers:
