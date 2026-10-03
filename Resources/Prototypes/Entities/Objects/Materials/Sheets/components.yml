@@ -1,0 +1,66 @@
+- type: entity
+  parent: SheetMetalBase
+  id: QuantumMotor
+  name: квантовый мотор
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: QuantumMotor
+    baseLayer: base
+    layerStates:
+    - quantummotor
+    - quantummotor_2
+    - quantummotor_3
+  - type: Sprite
+    state: QuantumMotor
+    layers:
+    - state: QuantumMotor
+      map: ["base"]
+  - type: Item
+    heldPrefix: QuantumMotor
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: QuantumMotor
+#  - type: SolutionContainerManager
+#    solutions:
+#      steel:
+#        reagents:
+#        - ReagentId: Iron
+#          Quantity: 7
+#        - ReagentId: Carbon
+#          Quantity: 2
+#        - ReagentId: Lead
+#          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - QuantumMotor
+
+- type: entity
+  parent: QuantumMotor
+  id: QuantumMotor10
+  name: квантовый мотор
+  suffix: 10
+  components:
+  - type: Sprite
+    state: QuantumMotor
+  - type: Stack
+    stackType: QuantumMotor
+    count: 10
+
+- type: entity
+  parent: QuantumMotor
+  id: QuantumMotor1
+  name: steel
+  suffix: Single
+  components:
+  - type: Sprite
+    state: QuantumMotor
+  - type: Stack
+    stackType: QuantumMotor
+    count: 1
