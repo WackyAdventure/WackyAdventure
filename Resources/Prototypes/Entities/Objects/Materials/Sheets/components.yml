@@ -25,16 +25,16 @@
   - type: Appearance
   - type: Extractable
     grindableSolutionName: QuantumMotor
-#  - type: SolutionContainerManager
-#    solutions:
-#      steel:
-#        reagents:
-#        - ReagentId: Iron
-#          Quantity: 7
-#        - ReagentId: Carbon
-#          Quantity: 2
-#        - ReagentId: Lead
-#          Quantity: 1
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
   - type: Tag # Goobstation
     tags:
     - Sheet
