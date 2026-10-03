@@ -1,0 +1,6 @@
+- type: stack
+  id: QuantumMotor
+  name: stack-quantummotor
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: QuantumMotor }
+  spawn: QuantumMotor1
+  maxCount: 30
