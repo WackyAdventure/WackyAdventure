@@ -56,7 +56,7 @@
 - type: entity
   parent: QuantumMotor
   id: QuantumMotor1
-  name: steel
+  name: квантовый мотор
   suffix: Single
   components:
   - type: Sprite
