@@ -1,6 +1,6 @@
 - type: entity
   parent: SheetMetalBase
-  id: QuantumMotor
+  id: ElectricMotorT5
   name: квантовый мотор
   description: Он не определился в какой руке находится.
   suffix: Full
@@ -10,7 +10,7 @@
     materialComposition:
       Steel: 100
   - type: Stack
-    stackType: QuantumMotor
+    stackType: ElectricMotorT5
     baseLayer: base
     layerStates:
     - QuantumMotor
@@ -22,10 +22,10 @@
     - state: QuantumMotor
       map: ["base"]
   - type: Item
-    heldPrefix: QuantumMotor
+    heldPrefix: ElectricMotorT5
   - type: Appearance
   - type: Extractable
-    grindableSolutionName: QuantumMotor
+    grindableSolutionName: ElectricMotorT5
   - type: SolutionContainerManager
     solutions:
       steel:
@@ -40,32 +40,32 @@
     tags:
     - Sheet
     - Metal
-    - QuantumMotor
+    - ElectricMotorT5
 
 - type: entity
-  parent: QuantumMotor
-  id: QuantumMotor10
+  parent: ElectricMotorT5
+  id: ElectricMotorT510
   name: квантовый мотор
   description: Он не определился в какой руке находится.
   suffix: 10
   components:
   - type: Sprite
-    state: QuantumMotor
+    state: ElectricMotorT5
   - type: Stack
-    stackType: QuantumMotor
+    stackType: ElectricMotorT5
     count: 10
 
 - type: entity
-  parent: QuantumMotor
-  id: QuantumMotor1
+  parent: ElectricMotorT5
+  id: ElectricMotorT51
   name: квантовый мотор
   description: Он не определился в какой руке находится.
   suffix: Single
   components:
   - type: Sprite
-    state: QuantumMotor
+    state: ElectricMotorT5
   - type: Stack
-    stackType: QuantumMotor
+    stackType: ElectricMotorT5
     count: 1
 
 - type: entity
