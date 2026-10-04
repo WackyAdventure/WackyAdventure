@@ -67,3 +67,74 @@
   - type: Stack
     stackType: QuantumMotor
     count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: UnStabilityCrystal
+  name: нестабильный кристал
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: UnStabilityCrystal
+    baseLayer: base
+    layerStates:
+    - UnStabilityCrystal
+    - UnStabilityCrystal_2
+    - UnStabilityCrystal_3
+  - type: Sprite
+    state: UnStabilityCrystal
+    layers:
+    - state: UnStabilityCrystal
+      map: ["base"]
+  - type: Item
+    heldPrefix: UnStabilityCrystal
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: UnStabilityCrystal
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - UnStabilityCrystal
+
+- type: entity
+  parent: UnStabilityCrystal
+  id: UnStabilityCrystal10
+  name: нестабильный кристал
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: UnStabilityCrystal
+  - type: Stack
+    stackType: UnStabilityCrystal
+    count: 10
+
+- type: entity
+  parent: UnStabilityCrystal
+  id: UnStabilityCrystal1
+  name: нестабильный кристал
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: UnStabilityCrystal
+  - type: Stack
+    stackType: UnStabilityCrystal
+    count: 1
+
