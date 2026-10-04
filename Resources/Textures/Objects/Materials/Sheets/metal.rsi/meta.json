@@ -93,7 +93,7 @@
       "directions": 4
     },
     {
-      "name": "QuantumMotor",
+      "name": "ElectricMotorT5",
       "delays": [
         [
           0.3,
@@ -118,68 +118,6 @@
           0.1
         ]
       ]
-    },
-    {
-      "name": "QuantumMotor_2",
-      "delays": [
-        [
-          0.3,
-          0.3,
-          0.2,
-          0.2,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.08,
-          0.05,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.05,
-          0.1,
-          0.1
-        ]
-      ]
-    },
-    {
-      "name": "QuantumMotor_3",
-      "delays": [
-        [
-          0.3,
-          0.3,
-          0.2,
-          0.2,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.08,
-          0.05,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.05,
-          0.1,
-          0.1
-        ]
-      ]
-    },
-    {
-      "name": "QuantumMotor-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "QuantumMotor-inhand-right",
-      "directions": 4
     },
     {
       "name": "LaserT1"
