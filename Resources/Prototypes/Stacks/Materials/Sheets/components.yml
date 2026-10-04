@@ -1,8 +1,8 @@
 - type: stack
-  id: QuantumMotor
-  name: stack-QuantumMotor
+  id: ElectricMotorT5
+  name: stack-ElectricMotorT5
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: QuantumMotor }
-  spawn: QuantumMotor1
+  spawn: ElectricMotorT51
   maxCount: 30
 
 - type: stack
