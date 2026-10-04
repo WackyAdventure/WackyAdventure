@@ -1,0 +1,5 @@
+- type: latheRecipePack
+  id: T1Components
+  recipes:
+  - MechanicalComponent
+  - AdvMechanicalComponent

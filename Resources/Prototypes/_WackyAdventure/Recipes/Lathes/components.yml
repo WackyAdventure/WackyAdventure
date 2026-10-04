@@ -1,0 +1,281 @@
+# Mechanical components
+- type: latheRecipe
+  id: MechanicalComponent
+  result: SheetMechanicalComponent1
+  categories:
+  - Components
+  completetime: 1
+  materials:
+    Steel: 500
+
+- type: latheRecipe
+  id: AdvMechanicalComponent
+  result: SheetAdvMechanicalComponent1
+  categories:
+  - Components
+  completetime: 2
+  materials:
+    Steel: 500
+    Plasteel: 300
+
+- type: latheRecipe
+  id: SuperMechanicalComponent
+  result: SheetSuperMechanicalComponent1
+  categories:
+  - Components
+  completetime: 3
+  materials:
+    Steel: 500
+    Titanium: 500
+    Plasteel: 300
+    Gold: 100
+
+- type: latheRecipe
+  id: BSMechanicalComponent
+  result: SheetBSMechanicalComponent1
+  categories:
+  - Components
+  completetime: 4
+  materials:
+    Steel: 1000
+    Plastitanium: 500
+    MaterialBSCrystal: 200
+    Uranium-235: 100
+
+- type: latheRecipe
+  id: QuantumMechanicalComponent
+  result: SheetQuantumMechanicalComponent1
+  categories:
+  - Components
+  completetime: 5
+  materials:
+    Plasteel: 500
+    Plastitanium: 300
+    Plutonium-239: 300
+    UnStableCrystal: 200
+
+# Electric components
+
+- type: latheRecipe
+  id: ElectricComponent
+  result: SheetElectricComponent1
+  categories:
+  - Components
+  completetime: 1
+  materials:
+    Steel: 600
+
+- type: latheRecipe
+  id: AdvElectricComponent
+  result: SheetAdvElectricComponent1
+  categories:
+  - Components
+  completetime: 2
+  materials:
+    Steel: 700
+    Plasteel: 300
+    Silver: 100
+
+- type: latheRecipe
+  id: SuperElectricComponent
+  result: SheetSuperElectricComponent1
+  categories:
+  - Components
+  completetime: 3
+  materials:
+    Steel: 1300
+    Gold: 200
+    Silver: 100
+    Titanium: 100
+
+- type: latheRecipe
+  id: BSElectricComponent
+  result: SheetBSElectricComponent1
+  categories:
+  - Components
+  completetime: 4
+  materials:
+    Steel: 1300
+    Gold: 300
+    BSCrystal: 200
+    Titanium: 100
+    Plastitanium: 100
+
+- type: latheRecipe
+  id: QuantumElectricComponent
+  result: SheetQuantumElectricComponent1
+  categories:
+  - Components
+  completetime: 5 
+  materials:
+    Plasteel: 500
+    Plastitanium: 500
+    UnStableCrystal: 300
+    Steel: 300
+    Titanium: 200
+
+#Electric motor
+
+- type: latheRecipe
+  id: ElectricMotor
+  result: SheetElectricMotor1
+  categories:
+  - Components
+  completetime: 2
+  materials:
+    Steel: 2000
+    ElectricCompT1: 200
+    MechCompT1: 100
+
+- type: latheRecipe
+  id: AdvElectricMotor
+  result: SheetAdvElectricMotor1
+  categories:
+  - Components
+  completetime: 4
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    ElectricCompT2: 200
+    MechCompT2: 200
+
+- type: latheRecipe
+  id: SupElectricMotor
+  result: SheetSupElectricMotor1
+  categories:
+  - Components
+  completetime: 6
+  materials:
+    Steel: 1000
+    Plasteel: 1000
+    Titanium: 500
+    ElectricCompT3: 300
+    MechCompT3: 200
+
+- type: latheRecipe
+  id: BSElectricMotor
+  result: SheetBSElectricMotor1
+  categories:
+  - Components
+  completetime: 8
+  materials:
+    Plastitanium: 1000
+    Steel: 500
+    Titanium: 300
+    ElectricCompT4: 400
+    MechCompT4: 200
+
+- type: latheRecipe
+  id: QuantumElectricMotor
+  result: QuantumElectricMotor1
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Plastitanium: 1000
+    Plasteel: 500
+    Steel: 1000
+    UnStableCrystal: 300
+    ElecticCompT5: 300
+    MechCompT5: 300
+
+#Lasers
+
+- type: latheRecipe
+  id: Laser
+  result: Laser1
+  categories:
+  - Components
+  completetime: 2
+  materials:
+   ElectricCompT2: 200
+   Glass: 200
+   Diamond: 100
+   Gold: 100
+   Steel: 50 
+
+- type: latheRecipe
+  id: AdvLaser
+  result: AdvLaser1
+  categories:
+  - Components
+  completetime: 4
+  materials:
+   ElectricCompT3: 300
+   UraniumGlass: 200
+   Diamond: 100
+   Silver: 100
+   Steel: 100 
+
+- type: latheRecipe
+  id: SuperLaser
+  result: SuperLaser1
+  categories:
+  - Components
+  completetime: 6
+  materials:
+   ElectricCompT4: 300
+   PlasmaGlass: 200
+   Diamond: 200
+   Silver: 200
+   Gold: 200
+   Steel: 150 
+
+#Plates
+
+- type: latheRecipe
+  id: LightPlate
+  result: LightPlate1
+  categories:
+  - Components
+  completetime: 5
+  materials:
+   Steel: 2000
+   Plasteel: 500
+
+- type: latheRecipe
+  id: MiddlePlate
+  result: MiddlePlate1
+  categories:
+  - Components
+  completetime: 10
+  materials:
+   Plasteel: 2000
+   Titanium: 500
+   Steel: 100
+
+- type: latheRecipe
+  id: HardPlate
+  result: HardPlate1
+  categories:
+  - Components
+  completetime: 15
+  materials:
+   Titanium: 3000
+   Plastitanium: 1000
+   Steel: 100
+
+- type: latheRecipe
+  id: BSPlate
+  result: BSPlate1
+  categories:
+  - Components
+  completetime: 20
+  materials:
+   Titanium: 3000
+   Plastitanium: 1000
+   Uranium-238: 300
+
+- type: latheRecipe
+  id: QuantumPlate
+  result: QuantumPlate1
+  categories:
+  - Components
+  completetime: 30
+  materials:
+   Titanium: 3000
+   Plastitanium: 4500
+   Plasteel: 2000
+   BSCrystal: 300
+   UnStableCrystal: 300
+   ElectricCompT5: 200
