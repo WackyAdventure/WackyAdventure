@@ -1,7 +1,7 @@
 - type: material
-  id: QuantumMotor
-  stackEntity: QuantumMotor1
-  name: materials-QuantumMotor
+  id: ElectricMotorT5
+  stackEntity: ElectricMotorT51
+  name: materials-ElectricMotorT5
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: QuantumMotor }
   price: 0.15 # $15 for 1 unit
 
