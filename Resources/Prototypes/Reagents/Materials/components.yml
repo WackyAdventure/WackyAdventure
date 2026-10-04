@@ -4,3 +4,10 @@
   name: materials-QuantumMotor
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: QuantumMotor }
   price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: UnStabilityCrystal
+  stackEntity: UnStabilityCrystal1
+  name: materials-UnStabilityCrystal
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
+  price: 0.15 # $15 for 1 unit
