@@ -441,6 +441,7 @@
     - TapeRecorderStatic
     - MiscSignallersStatic
     - HydroponicsStatic # CorvaxGoob
+    - T1Components #WackyAdventure
   - type: EmagLatheRecipes
     emagStaticPacks:
     - SecurityWeaponsStatic
@@ -549,6 +550,13 @@
     # CorvaxGoob Packs
     emagStaticPacks:
     - SyndicateBodyBagsStatic # AdvancedBodyBag
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - BlueprintProtolathe
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -614,6 +622,7 @@
     - BluespaceTechnologyBoards # BluespaceHarvester
     - BluespaceHarvesterBoards # BluespaceHarvester
     - Cloning # Cloning
+    - AdvMedBed
   - type: MaterialStorage
     whitelist:
       tags:

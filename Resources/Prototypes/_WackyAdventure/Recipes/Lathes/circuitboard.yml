@@ -1,0 +1,10 @@
+- type: latheRecipe
+  id: AdvancedmedicalBedCirciutBoard
+  result: AdvancedMedicalBedMachineCircuitboard
+  categories:
+  - Circuitry
+  completetime: 2
+  materials:
+    Glass: 500
+    Steel: 100
+    Gold: 100

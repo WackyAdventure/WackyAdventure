@@ -1,3 +1,7 @@
 - type: latheCategory
   id: Nuclear
   name: Ядерные
+
+- type: latheCategory
+  id: Components
+  name: Компоненты

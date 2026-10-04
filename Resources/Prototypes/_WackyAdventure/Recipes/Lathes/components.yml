@@ -1,3 +1,25 @@
+- type: latheRecipe
+  id: T2CompModule
+  result: BlueprintT2ComponentsModule
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    MechCompT1: 100
+    ElecticCompT1: 100
+    Steel: 500
+
+- type: latheRecipe
+  id: T3CompModule
+  result: BlueprintT3ComponentsModule
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    MechCompT2: 300
+    ElecticCompT2: 300
+    Plasteel: 500
+
 # Mechanical components
 - type: latheRecipe
   id: MechanicalComponent

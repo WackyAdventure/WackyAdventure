@@ -2,7 +2,7 @@
 
 - type: entity
   parent: BaseBlueprint
-  id: MaterialCloth3
+  id: BlueprintMaterialCloth3
   name: Чертеж ткани
   description: Чертеж который позволяет делать ткань.
   components:
@@ -149,3 +149,33 @@
   - type: Blueprint
     providedRecipes:
     - OreProcessorMachineCircuitboard11
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintT2ComponentsModule
+  name: Модуль улучшения протолата mk1
+  description: Специальный модуль, разработанный великим Александром Шишкановым для улучшения точности протолата. Позволяет производить улучшенные компоненты
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - AdvMechanicalComponent
+    - AdvElectricComponent
+    - ElectricMotor
+  - type: Tag
+    tags:
+    - BlueprintProtolathe
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintT3ComponentsModule
+  name: Модуль улучшения протолата mk2
+  description: Суперсложный модуль, позволяющий протолату производить суперкомпоненты
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - AdvMechanicalComponent
+    - AdvElectricComponent
+    - ElectricMotor
+  - type: Tag
+    tags:
+    - BlueprintProtolathe
