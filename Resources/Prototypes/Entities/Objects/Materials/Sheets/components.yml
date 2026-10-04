@@ -71,7 +71,7 @@
 - type: entity
   parent: SheetMetalBase
   id: UnStabilityCrystal
-  name: нестабильный кристал
+  name: Нестабильный кристал.
   description: Он странный.
   suffix: Full
   components:
@@ -115,7 +115,7 @@
 - type: entity
   parent: UnStabilityCrystal
   id: UnStabilityCrystal10
-  name: нестабильный кристал
+  name: Нестабильный кристал.
   description: Он странный.
   suffix: 10
   components:
@@ -128,7 +128,7 @@
 - type: entity
   parent: UnStabilityCrystal
   id: UnStabilityCrystal1
-  name: нестабильный кристал
+  name: Нестабильный кристал.
   description: Он странный.
   suffix: Single
   components:
@@ -136,5 +136,1545 @@
     state: UnStabilityCrystal
   - type: Stack
     stackType: UnStabilityCrystal
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricCompT1
+  name: Электронный компонент
+  description: Плата.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricCompT1
+    baseLayer: base
+    layerStates:
+    - ElectricCompT1
+    - ElectricCompT1_2
+    - ElectricCompT1_3
+  - type: Sprite
+    state: ElectricCompT1
+    layers:
+    - state: ElectricCompT1
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricCompT1
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricCompT1
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricCompT1
+
+- type: entity
+  parent: ElectricCompT1
+  id: ElectricCompT110
+  name: Электронный компонент
+  description: Плата.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricCompT1
+  - type: Stack
+    stackType: ElectricCompT1
+    count: 10
+
+- type: entity
+  parent: ElectricCompT1
+  id: ElectricCompT11
+  name: Электронный компонент
+  description: Плата.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricCompT1
+  - type: Stack
+    stackType: ElectricCompT1
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricCompT2
+  name: Улучшенный электронный компонент
+  description: Прикольная плата.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricCompT2
+    baseLayer: base
+    layerStates:
+    - ElectricCompT2
+    - ElectricCompT2_2
+    - ElectricCompT2_3
+  - type: Sprite
+    state: ElectricCompT2
+    layers:
+    - state: ElectricCompT2
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricCompT2
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricCompT2
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricCompT2
+
+- type: entity
+  parent: ElectricCompT2
+  id: ElectricCompT210
+  name: Улучшенный электронный компонент
+  description: Прикольная плата.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricCompT2
+  - type: Stack
+    stackType: ElectricCompT2
+    count: 10
+
+- type: entity
+  parent: ElectricCompT2
+  id: ElectricCompT21
+  name: Улучшенный электронный компонент
+  description: Прикольная плата.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricCompT2
+  - type: Stack
+    stackType: ElectricCompT2
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricCompT3
+  name: Продвинутый электронный компонент
+  description: Прикольная сложная плата.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricCompT3
+    baseLayer: base
+    layerStates:
+    - ElectricCompT3
+    - ElectricCompT3_2
+    - ElectricCompT3_3
+  - type: Sprite
+    state: ElectricCompT3
+    layers:
+    - state: ElectricCompT3
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricCompT3
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricCompT3
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricCompT3
+
+- type: entity
+  parent: ElectricCompT3
+  id: ElectricCompT310
+  name: Продвинутый электронный компонент
+  description: Прикольная сложная плата.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricCompT3
+  - type: Stack
+    stackType: ElectricCompT3
+    count: 10
+
+- type: entity
+  parent: ElectricCompT3
+  id: ElectricCompT31
+  name: Продвинутый электронный компонент
+  description: Прикольная сложная плата.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricCompT3
+  - type: Stack
+    stackType: ElectricCompT3
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricCompT4
+  name: Блюспейс электронный компонент
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricCompT4
+    baseLayer: base
+    layerStates:
+    - ElectricCompT4
+    - ElectricCompT4_2
+    - ElectricCompT4_3
+  - type: Sprite
+    state: ElectricCompT4
+    layers:
+    - state: ElectricCompT4
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricCompT4
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricCompT2
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricCompT2
+
+- type: entity
+  parent: ElectricCompT4
+  id: ElectricCompT410
+  name: Блюспейс электронный компонент
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricCompT4
+  - type: Stack
+    stackType: ElectricCompT4
+    count: 10
+
+- type: entity
+  parent: ElectricCompT4
+  id: ElectricCompT41
+  name: Блюспейс электронный компонент
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricCompT4
+  - type: Stack
+    stackType: ElectricCompT4
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricCompT5
+  name: Квантовый электронный компонент
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricCompT5
+    baseLayer: base
+    layerStates:
+    - ElectricCompT5
+    - ElectricCompT5_2
+    - ElectricCompT5_3
+  - type: Sprite
+    state: ElectricCompT5
+    layers:
+    - state: ElectricCompT5
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricCompT5
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricCompT5
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricCompT5
+
+- type: entity
+  parent: ElectricCompT5
+  id: ElectricCompT510
+  name: Квантовый электронный компонент
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricCompT5
+  - type: Stack
+    stackType: ElectricCompT5
+    count: 10
+
+- type: entity
+  parent: ElectricCompT5
+  id: ElectricCompT51
+  name: Квантовый электронный компонент
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricCompT5
+  - type: Stack
+    stackType: ElectricCompT5
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MechCompT1
+  name: Механический компонент
+  description: Простой механический компанент
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MechCompT1
+    baseLayer: base
+    layerStates:
+    - MechCompT1
+    - MechCompT1_2
+    - MechCompT1_3
+  - type: Sprite
+    state: MechCompT1
+    layers:
+    - state: MechCompT1
+      map: ["base"]
+  - type: Item
+    heldPrefix: MechCompT1
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MechCompT1
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MechCompT1
+
+- type: entity
+  parent: MechCompT1
+  id: MechCompT110
+  name: Механический компонент
+  description: Простой механический компанент
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MechCompT1
+  - type: Stack
+    stackType: MechCompT1
+    count: 10
+
+- type: entity
+  parent: MechCompT1
+  id: MechCompT11
+  name: Механический компонент
+  description: Простой механический компанент
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MechCompT1
+  - type: Stack
+    stackType: MechCompT1
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MechCompT2
+  name: Улучшенный механический компонент
+  description: Улучшенный механический компанент.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MechCompT2
+    baseLayer: base
+    layerStates:
+    - MechCompT2
+    - MechCompT2_2
+    - MechCompT2_3
+  - type: Sprite
+    state: MechCompT2
+    layers:
+    - state: MechCompT2
+      map: ["base"]
+  - type: Item
+    heldPrefix: MechCompT2
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MechCompT2
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MechCompT2
+
+- type: entity
+  parent: MechCompT2
+  id: MechCompT210
+  name: Улучшенный механический компонент
+  description: Улучшенный механический компанент.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MechCompT2
+  - type: Stack
+    stackType: MechCompT2
+    count: 10
+
+- type: entity
+  parent: MechCompT2
+  id: MechCompT21
+  name: Улучшенный механический компонент
+  description: Улучшенный механический компанент.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MechCompT2
+  - type: Stack
+    stackType: MechCompT2
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MechCompT3
+  name: Продвинутый механический компонент
+  description: Продвинутый механический компанент, ура!
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MechCompT3
+    baseLayer: base
+    layerStates:
+    - MechCompT3
+    - MechCompT3_2
+    - MechCompT3_3
+  - type: Sprite
+    state: MechCompT3
+    layers:
+    - state: MechCompT3
+      map: ["base"]
+  - type: Item
+    heldPrefix: MechCompT3
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MechCompT3
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MechCompT3
+
+- type: entity
+  parent: MechCompT3
+  id: MechCompT310
+  name: Продвинутый механический компонент
+  description: Продвинутый механический компанент, ура!
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MechCompT3
+  - type: Stack
+    stackType: MechCompT3
+    count: 10
+
+- type: entity
+  parent: MechCompT3
+  id: MechCompT31
+  name: Продвинутый механический компонент
+  description: Продвинутый механический компанент, ура!
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MechCompT3
+  - type: Stack
+    stackType: MechCompT3
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MechCompT4
+  name: Блюспейс механический компонент
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MechCompT4
+    baseLayer: base
+    layerStates:
+    - MechCompT4
+    - MechCompT4_2
+    - MechCompT4_3
+  - type: Sprite
+    state: MechCompT4
+    layers:
+    - state: MechCompT4
+      map: ["base"]
+  - type: Item
+    heldPrefix: MechCompT4
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MechCompT4
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MechCompT4
+
+- type: entity
+  parent: MechCompT4
+  id: MechCompT410
+  name: Блюспейс механический компонент
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MechCompT4
+  - type: Stack
+    stackType: MechCompT4
+    count: 10
+
+- type: entity
+  parent: MechCompT4
+  id: MechCompT41
+  name: Блюспейс механический компонент
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MechCompT4
+  - type: Stack
+    stackType: MechCompT4
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MechCompT5
+  name: Квантовый механический компонент
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MechCompT5
+    baseLayer: base
+    layerStates:
+    - MechCompT5
+    - MechCompT5_2
+    - MechCompT5_3
+  - type: Sprite
+    state: MechCompT5
+    layers:
+    - state: MechCompT5
+      map: ["base"]
+  - type: Item
+    heldPrefix: MechCompT5
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MechCompT5
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MechCompT5
+
+- type: entity
+  parent: MechCompT5
+  id: MechCompT510
+  name: Квантовый механический компонент
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MechCompT5
+  - type: Stack
+    stackType: MechCompT5
+    count: 10
+
+- type: entity
+  parent: MechCompT5
+  id: MechCompT51
+  name: Квантовый механический компонент
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MechCompT5
+  - type: Stack
+    stackType: MechCompT5
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: LaserT1
+  name: Лазер
+  description: Прикольный мощный лазер.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: LaserT1
+    baseLayer: base
+    layerStates:
+    - LaserT1
+    - LaserT1_2
+    - LaserT1_3
+  - type: Sprite
+    state: LaserT1
+    layers:
+    - state: LaserT1
+      map: ["base"]
+  - type: Item
+    heldPrefix: LaserT1
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: LaserT1
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - LaserT1
+
+- type: entity
+  parent: LaserT1
+  id: LaserT110
+  name: Лазер
+  description: Прикольный мощный лазер.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: LaserT1
+  - type: Stack
+    stackType: LaserT1
+    count: 10
+
+- type: entity
+  parent: LaserT1
+  id: LaserT11
+  name: Лазер
+  description: Прикольный мощный лазер.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: LaserT1
+  - type: Stack
+    stackType: LaserT1
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: LaserT2
+  name: Улучшенный лазер
+  description: Прикольный мощный лазер.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: LaserT2
+    baseLayer: base
+    layerStates:
+    - LaserT2
+    - LaserT2_2
+    - LaserT2_3
+  - type: Sprite
+    state: LaserT2
+    layers:
+    - state: LaserT2
+      map: ["base"]
+  - type: Item
+    heldPrefix: LaserT2
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: LaserT2
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - LaserT2
+
+- type: entity
+  parent: LaserT2
+  id: LaserT210
+  name: Улучшенный лазер
+  description: Прикольный мощный лазер.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: LaserT2
+  - type: Stack
+    stackType: LaserT2
+    count: 10
+
+- type: entity
+  parent: LaserT2
+  id: LaserT21
+  name: Улучшенный лазер
+  description: Прикольный мощный лазер.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: LaserT2
+  - type: Stack
+    stackType: LaserT2
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: LaserT3
+  name: Продвинутый лазер
+  description: Прикольный мощный лазер.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: LaserT3
+    baseLayer: base
+    layerStates:
+    - LaserT3
+    - LaserT3_2
+    - LaserT3_3
+  - type: Sprite
+    state: LaserT3
+    layers:
+    - state: LaserT3
+      map: ["base"]
+  - type: Item
+    heldPrefix: LaserT3
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: LaserT3
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - LaserT3
+
+- type: entity
+  parent: LaserT3
+  id: LaserT310
+  name: Продвинутый лазер
+  description: Прикольный мощный лазер.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: LaserT3
+  - type: Stack
+    stackType: LaserT3
+    count: 10
+
+- type: entity
+  parent: LaserT3
+  id: LaserT31
+  name: Продвинутый лазер
+  description: Прикольный мощный лазер.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: LaserT3
+  - type: Stack
+    stackType: LaserT3
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricMotorT1
+  name: Электрический мотор
+  description: Мотор, мужх мжух.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricMotorT1
+    baseLayer: base
+    layerStates:
+    - ElectricMotorT1
+    - ElectricMotorT1_2
+    - ElectricMotorT1_3
+  - type: Sprite
+    state: ElectricMotorT1
+    layers:
+    - state: ElectricMotorT1
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricMotorT1
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricMotorT1
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricMotorT1
+
+- type: entity
+  parent: ElectricMotorT1
+  id: ElectricMotorT110
+  name: Электрический мотор
+  description: Мотор, мужх мжух.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricMotorT1
+  - type: Stack
+    stackType: ElectricMotorT1
+    count: 10
+
+- type: entity
+  parent: ElectricMotorT1
+  id: ElectricMotorT11
+  name: Электрический мотор
+  description: Мотор, мужх мжух.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricMotorT1
+  - type: Stack
+    stackType: ElectricMotorT1
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricMotorT2
+  name: Улучшенный электрический мотор
+  description: Улучшенный мотор, мужх мжух.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricMotorT2
+    baseLayer: base
+    layerStates:
+    - ElectricMotorT2
+    - ElectricMotorT2_2
+    - ElectricMotorT2_3
+  - type: Sprite
+    state: ElectricMotorT2
+    layers:
+    - state: ElectricMotorT2
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricMotorT2
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricMotorT2
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricMotorT2
+
+- type: entity
+  parent: ElectricMotorT2
+  id: ElectricMotorT210
+  name: Улучшенный электрический мотор
+  description: Улучшенный мотор, мужх мжух.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricMotorT2
+  - type: Stack
+    stackType: ElectricMotorT2
+    count: 10
+
+- type: entity
+  parent: ElectricMotorT2
+  id: ElectricMotorT21
+  name: Улучшенный электрический мотор
+  description: Улучшенный мотор, мужх мжух.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricMotorT2
+  - type: Stack
+    stackType: ElectricMotorT2
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricMotorT3
+  name: Продвинутый электрический мотор
+  description: Продвинутый мотор, мужх мжух.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricMotorT3
+    baseLayer: base
+    layerStates:
+    - ElectricMotorT3
+    - ElectricMotorT3_2
+    - ElectricMotorT3_3
+  - type: Sprite
+    state: ElectricMotorT3
+    layers:
+    - state: ElectricMotorT3
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricMotorT3
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricMotorT3
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricMotorT3
+
+- type: entity
+  parent: ElectricMotorT3
+  id: ElectricMotorT310
+  name: Продвинутый электрический мотор
+  description: Продвинутый мотор, мужх мжух.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricMotorT3
+  - type: Stack
+    stackType: ElectricMotorT3
+    count: 10
+
+- type: entity
+  parent: ElectricMotorT3
+  id: ElectricMotorT31
+  name: Продвинутый электрический мотор
+  description: Продвинутый мотор, мужх мжух.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricMotorT3
+  - type: Stack
+    stackType: ElectricMotorT3
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: ElectricMotorT4
+  name: Блюспейс электрический мотор
+  description: Он странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: ElectricMotorT4
+    baseLayer: base
+    layerStates:
+    - ElectricMotorT4
+    - ElectricMotorT4_2
+    - ElectricMotorT4_3
+  - type: Sprite
+    state: ElectricMotorT4
+    layers:
+    - state: ElectricMotorT4
+      map: ["base"]
+  - type: Item
+    heldPrefix: ElectricMotorT4
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: ElectricMotorT4
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - ElectricMotorT4
+
+- type: entity
+  parent: ElectricMotorT4
+  id: ElectricMotorT410
+  name: Блюспейс электрический мотор
+  description: Он странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: ElectricMotorT4
+  - type: Stack
+    stackType: ElectricMotorT4
+    count: 10
+
+- type: entity
+  parent: ElectricMotorT4
+  id: ElectricMotorT41
+  name: Блюспейс электрический мотор
+  description: Он странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: ElectricMotorT4
+  - type: Stack
+    stackType: ElectricMotorT4
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: LightPlate
+  name: Легкая броне-пластина
+  description: Она выглядит прочно.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: LightPlate
+    baseLayer: base
+    layerStates:
+    - LightPlate
+    - LightPlate_2
+    - LightPlate_3
+  - type: Sprite
+    state: LightPlate
+    layers:
+    - state: LightPlate
+      map: ["base"]
+  - type: Item
+    heldPrefix: LightPlate
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: LightPlate
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - LightPlate
+
+- type: entity
+  parent: LightPlate
+  id: LightPlate10
+  name: Легкая броне-пластина
+  description: Она выглядит прочно.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: LightPlate
+  - type: Stack
+    stackType: LightPlate
+    count: 10
+
+- type: entity
+  parent: LightPlate
+  id: LightPlate1
+  name: Легкая броне-пластина
+  description: Она выглядит прочно.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: LightPlate
+  - type: Stack
+    stackType: LightPlate
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: MiddlePlate
+  name: Средняя броне-пластина
+  description: Она выглядит прочно.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: MiddlePlate
+    baseLayer: base
+    layerStates:
+    - MiddlePlate
+    - MiddlePlate_2
+    - MiddlePlate_3
+  - type: Sprite
+    state: MiddlePlate
+    layers:
+    - state: MiddlePlate
+      map: ["base"]
+  - type: Item
+    heldPrefix: MiddlePlate
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: MiddlePlate
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - MiddlePlate
+
+- type: entity
+  parent: MiddlePlate
+  id: MiddlePlate10
+  name: Средняя броне-пластина
+  description: Она выглядит прочно.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: MiddlePlate
+  - type: Stack
+    stackType: MiddlePlate
+    count: 10
+
+- type: entity
+  parent: MiddlePlate
+  id: MiddlePlate1
+  name: Средняя броне-пластина
+  description: Она выглядит прочно.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: MiddlePlate
+  - type: Stack
+    stackType: MiddlePlate
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: HardPlate
+  name: Тяжелая броне-пластина
+  description: Она выглядит прочно.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: HardPlate
+    baseLayer: base
+    layerStates:
+    - HardPlate
+    - HardPlate_2
+    - HardPlate_3
+  - type: Sprite
+    state: HardPlate
+    layers:
+    - state: HardPlate
+      map: ["base"]
+  - type: Item
+    heldPrefix: HardPlate
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: HardPlate
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - HardPlate
+
+- type: entity
+  parent: HardPlate
+  id: HardPlate10
+  name: Тяжелая броне-пластина
+  description: Она выглядит прочно.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: HardPlate
+  - type: Stack
+    stackType: HardPlate
+    count: 10
+
+- type: entity
+  parent: HardPlate
+  id: HardPlate1
+  name: Тяжелая броне-пластина
+  description: Она выглядит прочно.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: HardPlate
+  - type: Stack
+    stackType: HardPlate
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: BSPlate
+  name: Блюспейс броне-пластина
+  description: Она странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: BSPlate
+    baseLayer: base
+    layerStates:
+    - BSPlate
+    - BSPlate_2
+    - BSPlate_3
+  - type: Sprite
+    state: BSPlate
+    layers:
+    - state: BSPlate
+      map: ["base"]
+  - type: Item
+    heldPrefix: BSPlate
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: BSPlate
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - BSPlate
+
+- type: entity
+  parent: BSPlate
+  id: BSPlate10
+  name: Блюспейс броне-пластина
+  description: Она странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: BSPlate
+  - type: Stack
+    stackType: BSPlate
+    count: 10
+
+- type: entity
+  parent: BSPlate
+  id: BSPlate1
+  name: Блюспейс броне-пластина
+  description: Она странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: BSPlate
+  - type: Stack
+    stackType: BSPlate
+    count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: QuantumPlate
+  name: Квантовая броне-пластина
+  description: Она странный.
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: Stack
+    stackType: QuantumPlate
+    baseLayer: base
+    layerStates:
+    - QuantumPlate
+    - QuantumPlate_2
+    - QuantumPlate_3
+  - type: Sprite
+    state: QuantumPlate
+    layers:
+    - state: QuantumPlate
+      map: ["base"]
+  - type: Item
+    heldPrefix: QuantumPlate
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: QuantumPlate
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 7
+        - ReagentId: Carbon
+          Quantity: 2
+        - ReagentId: Lead
+          Quantity: 1
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - QuantumPlate
+
+- type: entity
+  parent: QuantumPlate
+  id: QuantumPlate10
+  name: Квантовая броне-пластина
+  description: Она странный.
+  suffix: 10
+  components:
+  - type: Sprite
+    state: QuantumPlate
+  - type: Stack
+    stackType: QuantumPlate
+    count: 10
+
+- type: entity
+  parent: QuantumPlate
+  id: QuantumPlate1
+  name: Квантовая броне-пластина
+  description: Она странный.
+  suffix: Single
+  components:
+  - type: Sprite
+    state: QuantumPlate
+  - type: Stack
+    stackType: QuantumPlate
     count: 1
 
