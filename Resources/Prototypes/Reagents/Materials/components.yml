@@ -11,3 +11,122 @@
   name: materials-UnStabilityCrystal
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
   price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricCompT1
+  stackEntity: ElectricCompT11
+  name: materials-ElectricCompT1
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT1 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricCompT2
+  stackEntity: ElectricCompT21
+  name: materials-ElectricCompT2
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT2 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricCompT3
+  stackEntity: ElectricCompT31
+  name: materials-ElectricCompT3
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT3 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricCompT4
+  stackEntity: ElectricCompT41
+  name: materials-ElectricCompT4
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT4 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricCompT5
+  stackEntity: ElectricCompT51
+  name: materials-ElectricCompT5
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT5 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: LaserT1
+  stackEntity: LaserT11
+  name: materials-LaserT1
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT1 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: LaserT2
+  stackEntity: LaserT21
+  name: materials-LaserT2
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT2 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: LaserT3
+  stackEntity: LaserT31
+  name: materials-LaserT3
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT3 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MechCompT1
+  stackEntity: MechCompT11
+  name: materials-MechCompT1
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT1 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MechCompT2
+  stackEntity: MechCompT21
+  name: materials-MechCompT2
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT2 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MechCompT3
+  stackEntity: MechCompT31
+  name: materials-MechCompT3
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT3 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MechCompT4
+  stackEntity: MechCompT41
+  name: materials-MechCompT4
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT4 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MechCompT5
+  stackEntity: MechCompT51
+  name: materials-MechCompT5
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT5 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricMotorT1
+  stackEntity: ElectricMotorT11
+  name: materials-ElectricMotorT1
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT1 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricMotorT2
+  stackEntity: ElectricMotorT21
+  name: materials-ElectricMotorT2
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT2 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricMotorT3
+  stackEntity: ElectricMotorT31
+  name: materials-ElectricMotorT3
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT3 }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: ElectricMotorT4
+  stackEntity: ElectricMotorT41
+  name: materials-ElectricMotorT4
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT4 }
+  price: 0.15 # $15 for 1 unit
