@@ -14,8 +14,6 @@
     baseLayer: base
     layerStates:
     - ElectricMotorT5
-    - ElectricMotorT5_2
-    - ElectricMotorT5_3
   - type: Sprite
     state: ElectricMotorT5
     layers:
@@ -84,8 +82,6 @@
     baseLayer: base
     layerStates:
     - UnStabilityCrystal
-    - UnStabilityCrystal_2
-    - UnStabilityCrystal_3
   - type: Sprite
     state: UnStabilityCrystal
     layers:
@@ -154,8 +150,6 @@
     baseLayer: base
     layerStates:
     - ElectricCompT1
-    - ElectricCompT1_2
-    - ElectricCompT1_3
   - type: Sprite
     state: ElectricCompT1
     layers:
@@ -224,8 +218,6 @@
     baseLayer: base
     layerStates:
     - ElectricCompT2
-    - ElectricCompT2_2
-    - ElectricCompT2_3
   - type: Sprite
     state: ElectricCompT2
     layers:
@@ -294,8 +286,6 @@
     baseLayer: base
     layerStates:
     - ElectricCompT3
-    - ElectricCompT3_2
-    - ElectricCompT3_3
   - type: Sprite
     state: ElectricCompT3
     layers:
@@ -364,8 +354,6 @@
     baseLayer: base
     layerStates:
     - ElectricCompT4
-    - ElectricCompT4_2
-    - ElectricCompT4_3
   - type: Sprite
     state: ElectricCompT4
     layers:
@@ -434,8 +422,6 @@
     baseLayer: base
     layerStates:
     - ElectricCompT5
-    - ElectricCompT5_2
-    - ElectricCompT5_3
   - type: Sprite
     state: ElectricCompT5
     layers:
@@ -504,8 +490,6 @@
     baseLayer: base
     layerStates:
     - MechCompT1
-    - MechCompT1_2
-    - MechCompT1_3
   - type: Sprite
     state: MechCompT1
     layers:
@@ -574,8 +558,6 @@
     baseLayer: base
     layerStates:
     - MechCompT2
-    - MechCompT2_2
-    - MechCompT2_3
   - type: Sprite
     state: MechCompT2
     layers:
@@ -644,8 +626,6 @@
     baseLayer: base
     layerStates:
     - MechCompT3
-    - MechCompT3_2
-    - MechCompT3_3
   - type: Sprite
     state: MechCompT3
     layers:
@@ -714,8 +694,6 @@
     baseLayer: base
     layerStates:
     - MechCompT4
-    - MechCompT4_2
-    - MechCompT4_3
   - type: Sprite
     state: MechCompT4
     layers:
@@ -784,8 +762,6 @@
     baseLayer: base
     layerStates:
     - MechCompT5
-    - MechCompT5_2
-    - MechCompT5_3
   - type: Sprite
     state: MechCompT5
     layers:
@@ -854,8 +830,6 @@
     baseLayer: base
     layerStates:
     - LaserT1
-    - LaserT1_2
-    - LaserT1_3
   - type: Sprite
     state: LaserT1
     layers:
@@ -924,8 +898,6 @@
     baseLayer: base
     layerStates:
     - LaserT2
-    - LaserT2_2
-    - LaserT2_3
   - type: Sprite
     state: LaserT2
     layers:
@@ -994,8 +966,6 @@
     baseLayer: base
     layerStates:
     - LaserT3
-    - LaserT3_2
-    - LaserT3_3
   - type: Sprite
     state: LaserT3
     layers:
@@ -1064,8 +1034,6 @@
     baseLayer: base
     layerStates:
     - ElectricMotorT1
-    - ElectricMotorT1_2
-    - ElectricMotorT1_3
   - type: Sprite
     state: ElectricMotorT1
     layers:
@@ -1134,8 +1102,6 @@
     baseLayer: base
     layerStates:
     - ElectricMotorT2
-    - ElectricMotorT2_2
-    - ElectricMotorT2_3
   - type: Sprite
     state: ElectricMotorT2
     layers:
@@ -1204,8 +1170,6 @@
     baseLayer: base
     layerStates:
     - ElectricMotorT3
-    - ElectricMotorT3_2
-    - ElectricMotorT3_3
   - type: Sprite
     state: ElectricMotorT3
     layers:
@@ -1274,8 +1238,6 @@
     baseLayer: base
     layerStates:
     - ElectricMotorT4
-    - ElectricMotorT4_2
-    - ElectricMotorT4_3
   - type: Sprite
     state: ElectricMotorT4
     layers:
@@ -1344,8 +1306,6 @@
     baseLayer: base
     layerStates:
     - LightPlate
-    - LightPlate_2
-    - LightPlate_3
   - type: Sprite
     state: LightPlate
     layers:
@@ -1414,8 +1374,6 @@
     baseLayer: base
     layerStates:
     - MiddlePlate
-    - MiddlePlate_2
-    - MiddlePlate_3
   - type: Sprite
     state: MiddlePlate
     layers:
@@ -1484,8 +1442,6 @@
     baseLayer: base
     layerStates:
     - HardPlate
-    - HardPlate_2
-    - HardPlate_3
   - type: Sprite
     state: HardPlate
     layers:
@@ -1554,8 +1510,6 @@
     baseLayer: base
     layerStates:
     - BSPlate
-    - BSPlate_2
-    - BSPlate_3
   - type: Sprite
     state: BSPlate
     layers:
@@ -1624,8 +1578,6 @@
     baseLayer: base
     layerStates:
     - QuantumPlate
-    - QuantumPlate_2
-    - QuantumPlate_3
   - type: Sprite
     state: QuantumPlate
     layers:
