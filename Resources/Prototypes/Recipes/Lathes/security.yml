@@ -285,6 +285,8 @@
     Steel: 2000
     Glass: 800
     Plastic: 500
+    ElectricCompT2: 100
+    LaserT1: 100
 
 - type: latheRecipe
   parent: BaseWeaponRecipeLong
@@ -295,6 +297,8 @@
     Glass: 1000
     Gold: 500
     Uranium: 300
+    ElectricCompT3: 200
+    LaserT2: 100
 
 - type: latheRecipe
   parent: BaseWeaponRecipeLong
@@ -304,6 +308,8 @@
     Steel: 1250
     Plastic: 750
     Gold: 350
+    ElectricCompT3: 200
+    LaserT2: 400
 
 - type: latheRecipe
   parent: BaseWeaponRecipeLong
@@ -314,6 +320,8 @@
     Glass: 500
     Plastic: 250
     Gold: 250
+    ElectricCompT2: 300
+    LaserT2: 200
 
 - type: latheRecipe
   parent: BaseWeaponRecipeLong
@@ -324,6 +332,8 @@
     Glass: 500
     Plastic: 500
     Gold: 500
+    ElectricCompT3: 200
+    LaserT3: 200
 
 # Sidearms
 - type: latheRecipe
@@ -334,6 +344,7 @@
     Steel: 300
     Glass: 200
     Plastic: 200
+    ElectricCompT1: 100
 
 - type: latheRecipe
   parent: BaseWeaponRecipeSidearm
@@ -343,6 +354,7 @@
     Steel: 1000
     Glass: 500
     Plastic: 500
+    ElectricCompT1: 400
 
 - type: latheRecipe
   parent: BaseWeaponRecipeSidearm
