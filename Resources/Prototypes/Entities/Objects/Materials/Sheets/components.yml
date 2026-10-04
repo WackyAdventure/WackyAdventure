@@ -13,13 +13,13 @@
     stackType: ElectricMotorT5
     baseLayer: base
     layerStates:
-    - QuantumMotor
-    - QuantumMotor_2
-    - QuantumMotor_3
+    - ElectricMotorT5
+    - ElectricMotorT5_2
+    - ElectricMotorT5_3
   - type: Sprite
-    state: QuantumMotor
+    state: ElectricMotorT5
     layers:
-    - state: QuantumMotor
+    - state: ElectricMotorT5
       map: ["base"]
   - type: Item
     heldPrefix: ElectricMotorT5
