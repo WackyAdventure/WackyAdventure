@@ -13,7 +13,10 @@
       Glass: 15
       Steel: 15
       CableHV: 5
-      BSCrystal: 4
+      BSCrystal: 5
+      ElectricMotorT4: 3
+      ElectricCompT4: 10
+      LaserT3: 5
   - type: Item
     size: Normal
 
@@ -31,7 +34,9 @@
     stackRequirements:
       Steel: 10
       CableHV: 30
-      BSCrystal: 4
+      BSCrystal: 5
+      ElectricCompT4: 25
+      LaserT3: 15
   - type: Item
     size: Normal
 
