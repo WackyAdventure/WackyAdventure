@@ -180,6 +180,15 @@
     {
       "name": "QuantumMotor-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "LaserT1"
+    },
+    {
+      "name": "LaserT2"
+    },
+    {
+      "name": "LaserT3"
     }
   ]
 }
