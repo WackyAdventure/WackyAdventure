@@ -189,6 +189,48 @@
     },
     {
       "name": "LaserT3"
+    },    
+    {
+      "name": "ElectricCompT1"
+    },
+    {
+      "name": "ElectricCompT2"
+    },
+    {
+      "name": "ElectricCompT3"
+    },
+        {
+      "name": "ElectricCompT4",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ElectricCompT5"
+    },
+    {
+      "name": "ElectricMotorT1"
+    },
+    {
+      "name": "ElectricMotorT2",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ]
+    },
+    {
+      "name": "ElectricMotorT3"
+    },
+        {
+      "name": "ElectricMotorT4"
+    },
+    {
+      "name": "ElectricMotorT5"
     }
   ]
 }
