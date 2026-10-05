@@ -3,4 +3,3 @@
   recipes:
   - MechanicalComponent
   - ElectricComponent
-  - ElectricMotor
