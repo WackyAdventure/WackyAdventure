@@ -9,7 +9,7 @@
   id: UnStabilityCrystal
   stackEntity: UnStabilityCrystal1
   name: materials-UnStabilityCrystal
-  icon: { sprite: Textures/_Goobstation/Objects/Materials/materials.rsi, state: UnStabilityCrystal }
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/materials.rsi, state: UnStabilityCrystal }
   price: 0.15 # $15 for 1 unit
 
 - type: material
