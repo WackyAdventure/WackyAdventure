@@ -8,7 +8,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricMotorT5: 100
   - type: Stack
     stackType: ElectricMotorT5
     baseLayer: base
@@ -76,7 +76,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      UnStabilityCrystal: 100
   - type: Stack
     stackType: UnStabilityCrystal
     baseLayer: base
@@ -144,7 +144,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricCompT1: 100
   - type: Stack
     stackType: ElectricCompT1
     baseLayer: base
@@ -212,7 +212,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricCompT2: 100
   - type: Stack
     stackType: ElectricCompT2
     baseLayer: base
@@ -280,7 +280,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricCompT3: 100
   - type: Stack
     stackType: ElectricCompT3
     baseLayer: base
@@ -348,7 +348,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricCompT4: 100
   - type: Stack
     stackType: ElectricCompT4
     baseLayer: base
@@ -416,7 +416,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricCompT5: 100
   - type: Stack
     stackType: ElectricCompT5
     baseLayer: base
@@ -484,7 +484,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MechCompT1: 100
   - type: Stack
     stackType: MechCompT1
     baseLayer: base
@@ -552,7 +552,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MechCompT2: 100
   - type: Stack
     stackType: MechCompT2
     baseLayer: base
@@ -620,7 +620,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MechCompT3: 100
   - type: Stack
     stackType: MechCompT3
     baseLayer: base
@@ -688,7 +688,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MechCompT4: 100
   - type: Stack
     stackType: MechCompT4
     baseLayer: base
@@ -756,7 +756,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MechCompT5: 100
   - type: Stack
     stackType: MechCompT5
     baseLayer: base
@@ -824,7 +824,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      LaserT1: 100
   - type: Stack
     stackType: LaserT1
     baseLayer: base
@@ -892,7 +892,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      LaserT2: 100
   - type: Stack
     stackType: LaserT2
     baseLayer: base
@@ -960,7 +960,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      LaserT3: 100
   - type: Stack
     stackType: LaserT3
     baseLayer: base
@@ -1028,7 +1028,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricMotorT1: 100
   - type: Stack
     stackType: ElectricMotorT1
     baseLayer: base
@@ -1096,7 +1096,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricMotorT2: 100
   - type: Stack
     stackType: ElectricMotorT2
     baseLayer: base
@@ -1164,7 +1164,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricMotorT3: 100
   - type: Stack
     stackType: ElectricMotorT3
     baseLayer: base
@@ -1232,7 +1232,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      ElectricMotorT4: 100
   - type: Stack
     stackType: ElectricMotorT4
     baseLayer: base
@@ -1300,7 +1300,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      LightPlate: 100
   - type: Stack
     stackType: LightPlate
     baseLayer: base
@@ -1368,7 +1368,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      MiddlePlate: 100
   - type: Stack
     stackType: MiddlePlate
     baseLayer: base
@@ -1436,7 +1436,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      HardPlate: 100
   - type: Stack
     stackType: HardPlate
     baseLayer: base
@@ -1504,7 +1504,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      BSPlate: 100
   - type: Stack
     stackType: BSPlate
     baseLayer: base
@@ -1572,7 +1572,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      QuantumPlate: 100
   - type: Stack
     stackType: QuantumPlate
     baseLayer: base
