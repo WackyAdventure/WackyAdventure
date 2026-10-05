@@ -1,0 +1,237 @@
+# Pyroclastic
+- type: constructionGraph
+  id: AnomalyBuffPyro
+  start: pyroanomaly
+  graph:
+  - node: pyroanomaly
+    entity: AnomalyPyroclastic
+    edges:
+      - to: pyroanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: pyroanomaly_buffed
+    entity: AnomalyPyroclasticBuffed
+
+# Gravity
+- type: constructionGraph
+  id: AnomalyBuffGrav
+  start: gravanomaly
+  graph:
+  - node: gravanomaly
+    entity: AnomalyGravity
+    edges:
+      - to: gravanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: gravanomaly_buffed
+    entity: AnomalyGravityBuffed
+
+# Electricity
+- type: constructionGraph
+  id: AnomalyBuffElectro
+  start: electroanomaly
+  graph:
+  - node: electroanomaly
+    entity: AnomalyElectricity
+    edges:
+      - to: electroanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: electroanomaly_buffed
+    entity: AnomalyElectricityBuffed
+
+# Flesh
+- type: constructionGraph
+  id: AnomalyBuffFlesh
+  start: fleshanomaly
+  graph:
+  - node: fleshanomaly
+    entity: AnomalyFlesh
+    edges:
+      - to: fleshanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: fleshanomaly_buffed
+    entity: AnomalyFleshBuffed
+
+# Bluespace
+- type: constructionGraph
+  id: AnomalyBuffBS
+  start: bsanomaly
+  graph:
+  - node: bsanomaly
+    entity: AnomalyBluespace
+    edges:
+      - to: bsanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: bsanomaly_buffed
+    entity: AnomalyBluespaceBuffed
+
+# Ice
+- type: constructionGraph
+  id: AnomalyBuffIce
+  start: iceanomaly
+  graph:
+  - node: iceanomaly
+    entity: AnomalyIce
+    edges:
+      - to: iceanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: iceanomaly_buffed
+    entity: AnomalyIceBuffed
+
+# Uranium
+- type: constructionGraph
+  id: AnomalyBuffUranium
+  start: uraniumanomaly
+  graph:
+  - node: uraniumanomaly
+    entity: AnomalyRockUranium
+    edges:
+      - to: uraniumanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: uraniumanomaly_buffed
+    entity: AnomalyRockUraniumBuffed
+
+# Bananium
+- type: constructionGraph
+  id: AnomalyBuffBananium
+  start: bananiumanomaly
+  graph:
+  - node: bananiumanomaly
+    entity: AnomalyRockBananium
+    edges:
+      - to: bananiumanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: bananiumanomaly_buffed
+    entity: AnomalyRockBananiumBuffed
+
+# Quartz
+- type: constructionGraph
+  id: AnomalyBuffQuartz
+  start: quartzanomaly
+  graph:
+  - node: quartzanomaly
+    entity: AnomalyRockQuartz
+    edges:
+      - to: quartzanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: quartzanomaly_buffed
+    entity: AnomalyRockQuartzBuffed
+
+# Silver
+- type: constructionGraph
+  id: AnomalyBuffSilver
+  start: silveranomaly
+  graph:
+  - node: silveranomaly
+    entity: AnomalyRockSilver
+    edges:
+      - to: silveranomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: silveranomaly_buffed
+    entity: AnomalyRockSilverBuffed
+
+# Gold
+- type: constructionGraph
+  id: AnomalyBuffGold
+  start: goldanomaly
+  graph:
+  - node: goldanomaly
+    entity: AnomalyRockGold
+    edges:
+      - to: goldanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: goldanomaly_buffed
+    entity: AnomalyRockGoldBuffed
+
+# Iron
+- type: constructionGraph
+  id: AnomalyBuffIron
+  start: ironanomaly
+  graph:
+  - node: ironanomaly
+    entity: AnomalyRockIron
+    edges:
+      - to: ironanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: ironanomaly_buffed
+    entity: AnomalyRockIronBuffed
+
+# Coal
+- type: constructionGraph
+  id: AnomalyBuffCoal
+  start: coalanomaly
+  graph:
+  - node: coalanomaly
+    entity: AnomalyRockCoal
+    edges:
+      - to: coalanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: coalanomaly_buffed
+    entity: AnomalyRockCoalBuffed
+
+# Flora
+- type: constructionGraph
+  id: AnomalyBuffFlora
+  start: floraanomaly
+  graph:
+  - node: floraanomaly
+    entity: AnomalyFlora
+    edges:
+      - to: floraanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: floraanomaly_buffed
+    entity: AnomalyFloraBuffed
+
+# Liquid
+- type: constructionGraph
+  id: AnomalyBuffLiquid
+  start: liquidanomaly
+  graph:
+  - node: liquidanomaly
+    entity: AnomalyLiquid
+    edges:
+      - to: liquidanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: liquidanomaly_buffed
+    entity: AnomalyLiquidBuffed
+
+# Shadow
+- type: constructionGraph
+  id: AnomalyBuffShadow
+  start: shadowanomaly
+  graph:
+  - node: shadowanomaly
+    entity: AnomalyShadow
+    edges:
+      - to: shadowanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: shadowanomaly_buffed
+    entity: AnomalyShadowBuffed
+
+# Tech
+- type: constructionGraph
+  id: AnomalyBuffTech
+  start: techanomaly
+  graph:
+  - node: techanomaly
+    entity: AnomalyTech
+    edges:
+      - to: techanomaly_buffed
+        steps:
+          - tag: RedspaceCore
+  - node: techanomaly_buffed
+    entity: AnomalyTechBuffed

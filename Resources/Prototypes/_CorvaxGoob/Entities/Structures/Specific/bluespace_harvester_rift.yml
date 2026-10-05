@@ -119,3 +119,6 @@
     energy: 3.5
     color: "#ff0000"
     castShadows: false
+  - type: Tag
+    tags:
+    - RedspaceCore
