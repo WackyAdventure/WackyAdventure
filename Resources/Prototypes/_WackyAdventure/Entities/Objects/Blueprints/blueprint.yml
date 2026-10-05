@@ -179,3 +179,13 @@
   - type: Tag
     tags:
     - BlueprintProtolathe
+
+- type: entity
+  parent: BaseBlueprint
+  id: WeaponShotgunEnforcer13
+  name: Чертеж силовика
+  description: Оу май гад.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - WeaponShotgunEnforcer12
