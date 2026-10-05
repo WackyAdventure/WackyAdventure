@@ -1,0 +1,43 @@
+- type: entity
+  id: ProjectileAnomalyFireballBuffed
+  name: fireball
+  description: Hovering blob of flame.
+  parent: ProjectileFireball
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Reflective
+    reflective: Magic
+  - type: TimedDespawn
+    lifetime: 60
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 300
+    intensitySlope: 0.1
+    totalIntensity: 0.3
+    maxTileBreak: 2
+
+- type: entity
+  id: ProjectileIcicleBuffed
+  parent: BaseBullet
+  name: icicle
+  description: Brrrrr.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Reflective
+    reflective: Magic
+  - type: Sprite
+    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Cold: 20
+        Structural: 50
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Cryo
+    maxIntensity: 300
+    intensitySlope: 1
+    totalIntensity: 1
+    maxTileBreak: 2

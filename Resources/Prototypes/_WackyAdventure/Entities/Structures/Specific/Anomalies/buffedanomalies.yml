@@ -129,7 +129,7 @@
     tileCount: 5
     tempChange: 420
   - type: ProjectileAnomaly
-    projectilePrototype: ProjectileAnomalyFireball
+    projectilePrototype: ProjectileAnomalyFireballBuffed
     projectileSpeed: 5
     minProjectiles: 7
     maxProjectiles: 15
