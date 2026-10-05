@@ -536,6 +536,8 @@
     - Translators
     # CorvaxGoob Packs
     - BodyBagsDynamic # AdvancedBodyBags
+    - T4Components
+    - T5Components
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - SecurityAmmo
@@ -547,8 +549,6 @@
     - SecurityWeaponsGoob
     - RestraintTechnology
     - MiningWeapons
-    - T4Components
-    - T5Components
     # CorvaxGoob Packs
     emagStaticPacks:
     - SyndicateBodyBagsStatic # AdvancedBodyBag

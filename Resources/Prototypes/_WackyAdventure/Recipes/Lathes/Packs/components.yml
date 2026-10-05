@@ -2,7 +2,7 @@
   id: T1Components
   recipes:
   - MechanicalComponent
-  - AdvMechanicalComponent
+  - ElectricCompT1Component
 
 - type: latheRecipePack
   id: T4Components # T2 and T3 are blueprints
