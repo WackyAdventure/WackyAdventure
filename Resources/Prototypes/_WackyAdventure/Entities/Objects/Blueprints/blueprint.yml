@@ -176,7 +176,7 @@
     - SuperMechanicalComponent
     - SuperElectricComponent
     - AdvElectricMotor
-    - SuperElectricMotor
+    - SupElectricMotor
     - Laser
     - AdvLaser
   - type: Tag
