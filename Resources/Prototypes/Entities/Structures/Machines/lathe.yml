@@ -553,6 +553,11 @@
   - type: EmptyOnMachineDeconstruct
     containers:
     - blueprint
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
   - type: BlueprintReceiver
     whitelist:
       tags:
