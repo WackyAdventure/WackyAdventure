@@ -23,7 +23,7 @@
 # Mechanical components
 - type: latheRecipe
   id: MechanicalComponent
-  result: SheetMechanicalComponent1
+  result: MechCompT11
   categories:
   - Components
   completetime: 1
@@ -32,7 +32,7 @@
 
 - type: latheRecipe
   id: AdvMechanicalComponent
-  result: SheetAdvMechanicalComponent1
+  result: MechCompT21
   categories:
   - Components
   completetime: 2
@@ -42,7 +42,7 @@
 
 - type: latheRecipe
   id: SuperMechanicalComponent
-  result: SheetSuperMechanicalComponent1
+  result: MechCompT31
   categories:
   - Components
   completetime: 3
@@ -54,7 +54,7 @@
 
 - type: latheRecipe
   id: BSMechanicalComponent
-  result: SheetBSMechanicalComponent1
+  result: MechCompT41
   categories:
   - Components
   completetime: 4
@@ -66,7 +66,7 @@
 
 - type: latheRecipe
   id: QuantumMechanicalComponent
-  result: SheetQuantumMechanicalComponent1
+  result: MechCompT51
   categories:
   - Components
   completetime: 5
@@ -80,7 +80,7 @@
 
 - type: latheRecipe
   id: ElectricComponent
-  result: SheetElectricComponent1
+  result: ElectricCompT11
   categories:
   - Components
   completetime: 1
@@ -89,7 +89,7 @@
 
 - type: latheRecipe
   id: AdvElectricComponent
-  result: SheetAdvElectricComponent1
+  result: ElectricCompT21
   categories:
   - Components
   completetime: 2
@@ -100,7 +100,7 @@
 
 - type: latheRecipe
   id: SuperElectricComponent
-  result: SheetSuperElectricComponent1
+  result: ElectricCompT31
   categories:
   - Components
   completetime: 3
@@ -112,7 +112,7 @@
 
 - type: latheRecipe
   id: BSElectricComponent
-  result: SheetBSElectricComponent1
+  result: ElectricCompT41
   categories:
   - Components
   completetime: 4
@@ -125,7 +125,7 @@
 
 - type: latheRecipe
   id: QuantumElectricComponent
-  result: SheetQuantumElectricComponent1
+  result: ElectricCompT51
   categories:
   - Components
   completetime: 5 
@@ -140,7 +140,7 @@
 
 - type: latheRecipe
   id: ElectricMotor
-  result: SheetElectricMotor1
+  result: ElectricMotorT11
   categories:
   - Components
   completetime: 2
@@ -151,7 +151,7 @@
 
 - type: latheRecipe
   id: AdvElectricMotor
-  result: SheetAdvElectricMotor1
+  result: ElectricMotorT21
   categories:
   - Components
   completetime: 4
@@ -163,7 +163,7 @@
 
 - type: latheRecipe
   id: SupElectricMotor
-  result: SheetSupElectricMotor1
+  result: ElectricMotorT31
   categories:
   - Components
   completetime: 6
@@ -176,7 +176,7 @@
 
 - type: latheRecipe
   id: BSElectricMotor
-  result: SheetBSElectricMotor1
+  result: ElectricMotorT41
   categories:
   - Components
   completetime: 8
@@ -189,7 +189,7 @@
 
 - type: latheRecipe
   id: QuantumElectricMotor
-  result: QuantumElectricMotor1
+  result: ElectricMotorT51
   categories:
   - Components
   completetime: 10
@@ -205,7 +205,7 @@
 
 - type: latheRecipe
   id: Laser
-  result: Laser1
+  result: LaserT11
   categories:
   - Components
   completetime: 2
@@ -218,7 +218,7 @@
 
 - type: latheRecipe
   id: AdvLaser
-  result: AdvLaser1
+  result: LaserT21
   categories:
   - Components
   completetime: 4
@@ -231,7 +231,7 @@
 
 - type: latheRecipe
   id: SuperLaser
-  result: SuperLaser1
+  result: LaserT31
   categories:
   - Components
   completetime: 6
