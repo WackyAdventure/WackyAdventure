@@ -7,7 +7,7 @@
 
 - type: stack
   id: UnStabilityCrystal
-  name: stack-UnStabilityCrystal
+  name: stack-UnSCrystal
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
   spawn: UnStabilityCrystal1
   maxCount: 30
