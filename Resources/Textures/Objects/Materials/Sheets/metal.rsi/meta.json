@@ -181,6 +181,41 @@
     },
     {
       "name": "MechCompT5"
+    },
+    {
+      "name": "LightPlate"
+    },
+    {
+      "name": "MiddlePlate"
+    },
+    {
+      "name": "HardPlate"
+    },
+    {
+      "name": "BSPlate",
+      "delays": [
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      ]
+    },
+    {
+      "name": "QuantumPlate    ",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
     }
   ]
 }
