@@ -1,0 +1,57 @@
+- type: technology
+  id: BluespaceComponents
+  name: Блюспейс компоненты
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: BSPlate
+  discipline: Experimental
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - BSMechanicalComponent
+  - BSElectricComponent
+  - BSElectricMotor
+  - BSPlate
+  - SuperLaser
+  # Goobstation R&D Console rework start
+  position: -5,-2
+  technologyPrerequisites:
+    - BluespaceTheory
+  # Goobstation R&D Console rework end
+
+# - type: technology
+#   id: CrystalDestabilishment
+#   name: Дестабилизация блюспейса
+#   icon:
+#     sprite: _Goobstation/Objects/Materials/materials.rsi
+#     state: UnStabilityCrystal
+#   discipline: Experimental
+#   tier: 4
+#   cost: 50000
+#   recipeUnlocks:
+#   - CrystalDestabilishment
+#   # Goobstation R&D Console rework start
+#   position: -7,-2
+#   technologyPrerequisites:
+#     - BluespaceHarvester
+#   # Goobstation R&D Console rework end
+
+- type: technology
+  id: QuantumComponents
+  name: Квантовые компоненты
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: ElectricMotorT5
+  discipline: Experimental
+  tier: 4
+  cost: 100000
+  recipeUnlocks:
+  - QuantumMechanicalComponent
+  - QuantumElectricComponent
+  - QuantumElectricMotor
+  - QuantumPlate
+  # Goobstation R&D Console rework start
+  position: -7,-2
+  technologyPrerequisites:
+    - BluespaceHarvester
+  # Goobstation R&D Console rework end

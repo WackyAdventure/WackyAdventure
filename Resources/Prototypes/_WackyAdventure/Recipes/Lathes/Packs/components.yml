@@ -2,4 +2,21 @@
   id: T1Components
   recipes:
   - MechanicalComponent
-  - ElectricComponent
+  - AdvMechanicalComponent
+
+- type: latheRecipePack
+  id: T4Components # T2 and T3 are blueprints
+  recipes:
+  - BSMechanicalComponent
+  - BSElectricComponent
+  - BSElectricMotor
+  - BSPlate
+  - SuperLaser
+
+- type: latheRecipePack
+  id: T5Components
+  recipes:
+  - QuantumMechanicalComponent
+  - QuantumElectricComponent
+  - QuantumElectricMotor
+  - QuantumPlate

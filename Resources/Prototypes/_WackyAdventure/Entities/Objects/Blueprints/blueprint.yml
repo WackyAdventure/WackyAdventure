@@ -176,9 +176,9 @@
     - SuperMechanicalComponent
     - SuperElectricComponent
     - AdvElectricMotor
+    - SuperElectricMotor
     - Laser
     - AdvLaser
-    - SuperLaser
   - type: Tag
     tags:
     - BlueprintProtolathe

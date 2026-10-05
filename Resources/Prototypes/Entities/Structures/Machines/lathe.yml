@@ -547,6 +547,8 @@
     - SecurityWeaponsGoob
     - RestraintTechnology
     - MiningWeapons
+    - T4Components
+    - T5Components
     # CorvaxGoob Packs
     emagStaticPacks:
     - SyndicateBodyBagsStatic # AdvancedBodyBag
