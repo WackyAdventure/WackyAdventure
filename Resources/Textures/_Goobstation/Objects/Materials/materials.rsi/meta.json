@@ -21,18 +21,6 @@
     },
     {
       "name": "screw_1"
-    },
-    {
-      "name": "UnStabilityCrystal",
-      "delays": [
-        [
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ]
-      ]
     }
   ]
 }
