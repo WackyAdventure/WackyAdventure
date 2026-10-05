@@ -130,3 +130,38 @@
   name: materials-ElectricMotorT4
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT4 }
   price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: LightPlate
+  stackEntity: LightPlate1
+  name: materials-LightPlate
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LightPlate }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: MiddlePlate
+  stackEntity: MiddlePlate1
+  name: materials-MiddlePlate
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MiddlePlate }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: HardPlate
+  stackEntity: HardPlate1
+  name: materials-HardPlate
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: HardPlate }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: BSPlate
+  stackEntity: BSPlate1
+  name: materials-BSPlate
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: BSPlate }
+  price: 0.15 # $15 for 1 unit
+
+- type: material
+  id: QuantumPlate
+  stackEntity: QuantumPlate1
+  name: materials-QuantumPlate
+  icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: QuantumPlate }
+  price: 0.15 # $15 for 1 unit
