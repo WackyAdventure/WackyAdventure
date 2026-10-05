@@ -173,9 +173,12 @@
   components:
   - type: Blueprint
     providedRecipes:
-    - AdvMechanicalComponent
-    - AdvElectricComponent
-    - ElectricMotor
+    - SuperMechanicalComponent
+    - SuperElectricComponent
+    - AdvElectricMotor
+    - Laser
+    - AdvLaser
+    - SuperLaser
   - type: Tag
     tags:
     - BlueprintProtolathe
