@@ -130,3 +130,38 @@
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT4 }
   spawn: ElectricMotorT41
   maxCount: 30
+
+- type: stack
+  id: LightPlate
+  name: stack-LightPlate
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: LightPlate }
+  spawn: LightPlate1
+  maxCount: 30
+
+- type: stack
+  id: MiddlePlate
+  name: stack-MiddlePlate
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MiddlePlate }
+  spawn: MiddlePlate1
+  maxCount: 30
+
+- type: stack
+  id: HardPlate
+  name: stack-HardPlate
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: HardPlate }
+  spawn: HardPlate1
+  maxCount: 30
+
+- type: stack
+  id: BSPlate
+  name: stack-BSPlate
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: BSPlate }
+  spawn: BSPlate1
+  maxCount: 30
+
+- type: stack
+  id: QuantumPlate
+  name: stack-QuantumPlate
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: QuantumPlate }
+  spawn: QuantumPlate1
+  maxCount: 30
