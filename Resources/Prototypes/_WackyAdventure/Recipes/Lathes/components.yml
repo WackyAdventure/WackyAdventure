@@ -1095,6 +1095,6 @@
   result: UnStabilityCrystal
   categories:
   - Components
-  completetime: 35
+  completetime: 3
   materials:
     BSCrystal: 100
