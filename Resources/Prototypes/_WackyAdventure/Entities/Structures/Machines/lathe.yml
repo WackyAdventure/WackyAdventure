@@ -39,7 +39,7 @@
   description: Высокотехнологичный станок для создания стрелкового оружия.
   components:
   - type: Sprite
-    sprite: _WackyAdventure/Structures/Machines/weaponlath.rsi
+    sprite: _WackyAdventure/Structures/Machines/HardLathe.rsi
     snapCardinals: true
     layers:
     - state: icon
