@@ -132,7 +132,7 @@
   materials:
     Plasteel: 500
     Plastitanium: 500
-    UnStableCrystal: 300
+    UnStabilityCrystal: 300
     Steel: 300
     Titanium: 200
     Glass: 500
@@ -198,8 +198,8 @@
     Plastitanium: 1000
     Plasteel: 500
     Steel: 1000
-    UnStableCrystal: 300
-    ElecticCompT5: 300
+    UnStabilityCrystal: 300
+    ElectricCompT5: 300
     MechCompT5: 300
 
 #Lasers
