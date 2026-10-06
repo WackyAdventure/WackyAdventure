@@ -26,7 +26,7 @@
     sprite: _Goobstation/Objects/Materials/materials.rsi
     state: UnStabilityCrystal
   discipline: Experimental
-  tier: 4
+  tier: 3
   cost: 50000
   recipeUnlocks:
   - USCrystal
@@ -51,7 +51,7 @@
   - QuantumElectricMotor
   - QuantumPlate
   # Goobstation R&D Console rework start
-  position: -7,-2
+  position: -8,-2
   technologyPrerequisites:
     - BluespaceMining
   
