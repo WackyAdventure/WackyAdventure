@@ -1,167 +1,167 @@
 - type: material
   id: ElectricMotorT5
   stackEntity: ElectricMotorT51
-  name: materials-ElectricMotorT5
+  name: квантовы мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT5 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: UnStabilityCrystal
   stackEntity: UnStabilityCrystal1
-  name: materials-UnSCrystal
+  name: нестабильный кристалл
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricCompT1
   stackEntity: ElectricCompT11
-  name: materials-ElectricCompT1
+  name: электронный компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT1 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricCompT2
   stackEntity: ElectricCompT21
-  name: materials-ElectricCompT2
+  name: улучшенный электронный компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT2 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricCompT3
   stackEntity: ElectricCompT31
-  name: materials-ElectricCompT3
+  name: продвинутый электронный компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT3 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricCompT4
   stackEntity: ElectricCompT41
-  name: materials-ElectricCompT4
+  name: блюспейс электронный компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT4 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricCompT5
   stackEntity: ElectricCompT51
-  name: materials-ElectricCompT5
+  name: квантовый электронный компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricCompT5 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: LaserT1
   stackEntity: LaserT11
-  name: materials-LaserT1
+  name: лазер
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT1 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: LaserT2
   stackEntity: LaserT21
-  name: materials-LaserT2
+  name: улучшенный лазер
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT2 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: LaserT3
   stackEntity: LaserT31
-  name: materials-LaserT3
+  name: продвинутый лазер
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LaserT3 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MechCompT1
   stackEntity: MechCompT11
-  name: materials-MechCompT1
+  name: механический компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT1 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MechCompT2
   stackEntity: MechCompT21
-  name: materials-MechCompT2
+  name: улучшенный механический компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT2 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MechCompT3
   stackEntity: MechCompT31
-  name: materials-MechCompT3
+  name: продвинутый механический компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT3 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MechCompT4
   stackEntity: MechCompT41
-  name: materials-MechCompT4
+  name: блюспейс механический компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT4 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MechCompT5
   stackEntity: MechCompT51
-  name: materials-MechCompT5
+  name: квантовый механический компонент
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MechCompT5 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricMotorT1
   stackEntity: ElectricMotorT11
-  name: materials-ElectricMotorT1
+  name: электрический мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT1 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricMotorT2
   stackEntity: ElectricMotorT21
-  name: materials-ElectricMotorT2
+  name: улучшенный электрический мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT2 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricMotorT3
   stackEntity: ElectricMotorT31
-  name: materials-ElectricMotorT3
+  name: продвинутый электрический мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT3 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: ElectricMotorT4
   stackEntity: ElectricMotorT41
-  name: materials-ElectricMotorT4
+  name: блюспейс электрический мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT4 }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: LightPlate
   stackEntity: LightPlate1
-  name: materials-LightPlate
+  name: легкая броне-пластина
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: LightPlate }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: MiddlePlate
   stackEntity: MiddlePlate1
-  name: materials-MiddlePlate
+  name: средняя броне-пластина
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: MiddlePlate }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: HardPlate
   stackEntity: HardPlate1
-  name: materials-HardPlate
+  name: тяжелая броне-пластина
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: HardPlate }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: BSPlate
   stackEntity: BSPlate1
-  name: materials-BSPlate
+  name: блюспейс броне-пластина
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: BSPlate }
   price: 0.15 # $15 for 1 unit
 
 - type: material
   id: QuantumPlate
   stackEntity: QuantumPlate1
-  name: materials-QuantumPlate
+  name: квантовая броне-пластина
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: QuantumPlate }
   price: 0.15 # $15 for 1 unit
