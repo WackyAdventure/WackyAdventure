@@ -19,7 +19,7 @@
     - BluespaceTheory
   # Goobstation R&D Console rework end
 
- - type: technology
+- type: technology
    id: CrystalDestabilishment
    name: Дестабилизация блюспейса
    icon:
