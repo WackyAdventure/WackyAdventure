@@ -1109,3 +1109,64 @@
     Steel: 500
     Glass: 100
     Gold: 100
+
+#Armor
+
+
+- type: latheRecipe
+  id: ClothingOuterArmorBasicSlim1
+  result: ClothingOuterArmorBasicSlim
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    LightPlate: 500
+    
+- type: latheRecipe
+  id: ClothingOuterArmorRiot1
+  result: ClothingOuterArmorRiot
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 1500
+    Plasteel: 1500
+    MiddlePlate: 500
+    LightPlate: 300
+
+- type: latheRecipe
+  id: ClothingOuterArmorBulletproof1
+  result: ClothingOuterArmorBulletproof
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 1500
+    Plasteel: 1500
+    HardPlate: 500
+
+- type: latheRecipe
+  id: ClothingOuterArmorHeavyRed1
+  result: ClothingOuterArmorHeavyRed
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 2000
+    Plasteel: 2500
+    Titanium: 1500
+    HardPlate: 1000
+
+- type: latheRecipe
+  id: ClothingOuterArmorHeavy1
+  result: ClothingOuterArmorHeavy
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 2000
+    Plasteel: 2500
+    Titanium: 1500
+    HardPlate: 1000
