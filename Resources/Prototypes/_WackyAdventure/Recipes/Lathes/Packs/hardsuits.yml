@@ -1,0 +1,8 @@
+- type: latheRecipePack
+  id: HardSuits
+  recipes:
+  - ClothingOuterHardsuitExperimentalNanorep
+  - ClothingOuterHardsuitCombatStandart
+  - ClothingOuterHardsuitEngineering
+  - ClothingOuterHardsuitCombatMedical
+  - ClothingOuterHardsuitCombatRiot

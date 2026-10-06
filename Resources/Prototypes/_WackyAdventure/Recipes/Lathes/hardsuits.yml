@@ -1,0 +1,103 @@
+- type: latheRecipe
+  id: ClothingOuterHardsuitExperimentalNanorep
+  result: ClothingOuterHardsuitExperimentalNanorep
+  completetime: 10
+  materials:
+    Durathread: 2000
+    Steel: 1000
+    LightPlate: 500
+    ElectricMotorT1: 400
+    MechCompT1: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCombatStandart
+  result: ClothingOuterHardsuitCombatStandart
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Titanium: 1000
+    HardPlate: 500
+    ElectricMotorT1: 400
+    MechCompT1: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitMaxim
+  result: ClothingOuterHardsuitMaxim
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Plasteel: 1000
+    MiddlePlate: 500
+    ElectricMotorT3: 400
+    MechCompT3: 400
+    ElectricCompT3: 200
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieElite
+  result: ClothingOuterHardsuitSyndieElite
+  completetime: 15
+  materials:
+    Durathread: 2500
+    Titanium: 1000
+    HardPlate: 500
+    ElectricMotorT3: 400
+    MechCompT3: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitEngineeringWhite
+  result: ClothingOuterHardsuitEngineeringWhite
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Titanium: 1000
+    HardPlate: 500
+    ElectricMotorT2: 400
+    MechCompT3: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCybersunStealth
+  result: ClothingOuterHardsuitCybersunStealth
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Plasteel: 1000
+    MiddlePlate: 300
+    BSPlate: 100
+    QuantumPlate: 100
+    ElectricCompT5: 400
+    ElectricMotorT1: 400
+    MechCompT2: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitEngineering
+  result: ClothingOuterHardsuitEngineering
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Plasteel: 1000
+    MiddlePlate: 500
+    ElectricMotorT1: 400
+    MechCompT2: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCombatMedical
+  result: ClothingOuterHardsuitCombatMedical
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Titanium: 1000
+    HardPlate: 400
+    MiddlePlate: 100
+    ElectricMotorT1: 400
+    MechCompT1: 400
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCombatRiot
+  result: ClothingOuterHardsuitCombatRiot
+  completetime: 15
+  materials:
+    Durathread: 2000
+    Titanium: 3000
+    HardPlate: 1000
+    ElectricMotorT1: 400
+    MechCompT1: 400

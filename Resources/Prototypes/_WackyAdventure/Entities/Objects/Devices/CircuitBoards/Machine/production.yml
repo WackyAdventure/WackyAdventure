@@ -29,3 +29,19 @@
         Cable: 3
         Glass: 2
         Steel: 5
+
+- type: entity
+  id: HardLatheMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: плата Станции экзокостюмов
+  description: Напечатанная плата для создания Станции экзокостюмов.
+  components:
+    - type: MachineBoard
+      prototype: Hardlathe
+      stackRequirements:
+        ElectricCompT3: 5
+        MechCompT3: 5
+        ElectricMotorT3: 2
+        Cable: 3
+        Glass: 2
+        Steel: 5
