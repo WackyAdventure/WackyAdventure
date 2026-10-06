@@ -630,6 +630,7 @@
     - BluespaceHarvesterBoards # BluespaceHarvester
     - Cloning # Cloning
     - AdvMedBed
+    - WeaponLathe
   - type: MaterialStorage
     whitelist:
       tags:

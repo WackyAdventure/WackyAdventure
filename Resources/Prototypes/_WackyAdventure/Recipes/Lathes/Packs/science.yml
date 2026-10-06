@@ -2,3 +2,8 @@
   id: AdvMedBed
   recipes:
   - AdvancedmedicalBedCirciutBoard
+
+- type: latheRecipePack
+  id: Weaponlathe
+  recipes:
+  - Weaponlathe

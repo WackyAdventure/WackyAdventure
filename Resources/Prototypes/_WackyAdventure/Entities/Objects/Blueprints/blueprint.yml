@@ -185,6 +185,58 @@
 
 - type: entity
   parent: BaseBlueprint
+  id: BlueprintHardsuitSyndieElite
+  name: Чертёж элитного скафандра синдиката
+  description: Абсолютно разные технологии по сравнению с НТ! Например у НТ используется дюраткань, а у нас смесь ткани и пластика
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingOuterHardsuitSyndieElite
+  - type: Tag
+    tags:
+    - BlueprintHardLathe
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintOuterHardsuitMaxim
+  name: Чертёж максимального утилизаторского скафандра
+  description: Абсолютно разные технологии по сравнению с Синдикатом! Например у синдиката используется смесь пластика и ткани, а у нас дюраткань
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingOuterHardsuitMaxim
+  - type: Tag
+    tags:
+    - BlueprintHardLathe
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintOuterHardsuitEngineeringWhite
+  name: Чертёж скафандра Старшего Инженера
+  description: Мало кто знает, но единственная причина повышенной защиты от радиации в скафандре старшего инженера - белая краска
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingOuterHardsuitEngineeringWhite
+  - type: Tag
+    tags:
+    - BlueprintHardLathe
+
+- type: entity
+  parent: BaseBlueprint
+  id: BlueprintOuterHardsuitCybersunStealth
+  name: Чертёж стелс костюма синдиката
+  description: На чертеже логотип клана паука зачёркнут маркером
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - ClothingOuterHardsuitCybersunStealth
+  - type: Tag
+    tags:
+    - BlueprintHardLathe
+
+- type: entity
+  parent: BaseBlueprint
   id: WeaponShotgunEnforcer13
   name: Чертеж силовика
   description: Оу май гад.
