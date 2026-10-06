@@ -15,7 +15,7 @@
         Steel: 2
 
 - type: entity
-  id: WeaponatheMachineCircuitboard
+  id: WeaponLtheMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ОружЛата
   description: Напечатанная плата для создания ОружЛата.
