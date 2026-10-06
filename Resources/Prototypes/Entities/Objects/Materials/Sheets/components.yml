@@ -1,5 +1,5 @@
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: ElectricMotorT5
   name: квантовый мотор
   description: Он не определился в какой руке находится.
@@ -67,7 +67,7 @@
     count: 1
 
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: UnStabilityCrystal
   name: Нестабильный кристалл
   description: Он странный.
@@ -339,7 +339,7 @@
     count: 1
 
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: ElectricCompT4
   name: Блюспейс электронный компонент
   description: Он странный.
@@ -1087,7 +1087,7 @@
     count: 1
 
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: ElectricMotorT2
   name: Улучшенный электрический мотор
   description: Улучшенный мотор, мужх мжух.
