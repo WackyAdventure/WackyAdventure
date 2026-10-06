@@ -134,8 +134,8 @@
 - type: entity
   id: Crystallathe
   parent: [BaseLatheLube, BaseSiloUtilizer] # Goob edit
-  name: Станция производства нестабильных кристаллов
-  description: Станок для производства нестабильный кристаллов.
+  name: СПНК
+  description: Станок для производства нестабильный кристаллов, сокращённо СПНК.
   components:
   - type: Sprite
     sprite: _WackyAdventure/Structures/Machines/CrystalLathe.rsi
