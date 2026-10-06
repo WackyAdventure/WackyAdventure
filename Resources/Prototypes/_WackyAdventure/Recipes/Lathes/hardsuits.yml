@@ -11,7 +11,7 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitCombatStandart
-  result: ClothingOuterHardsuitCombatStandart
+  result: ClothingOuterHardsuitCombatStandard
   completetime: 15
   materials:
     Durathread: 2000
