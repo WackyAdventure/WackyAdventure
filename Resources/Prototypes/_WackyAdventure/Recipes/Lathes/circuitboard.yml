@@ -8,3 +8,25 @@
     Glass: 500
     Steel: 100
     Gold: 100
+
+- type: latheRecipe
+  id: Weaponlathe
+  result: WeaponLatheMachineCircuitboard
+  categories:
+  - Circuitry
+  completetime: 2
+  materials:
+    Glass: 500
+    Steel: 100
+    Gold: 100
+
+- type: latheRecipe
+  id: HardLatheCircuitboard
+  result: HardLatheMachineCircuitboard
+  categories:
+  - Circuitry
+  completetime: 2
+  materials:
+    Glass: 500
+    Steel: 100
+    Gold: 100
