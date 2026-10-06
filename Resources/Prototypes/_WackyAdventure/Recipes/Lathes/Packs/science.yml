@@ -7,3 +7,8 @@
   id: Weaponlathe
   recipes:
   - Weaponlathe
+
+- type: latheRecipePack
+  id: Hardlathe
+  recipes:
+  - Hardlathe

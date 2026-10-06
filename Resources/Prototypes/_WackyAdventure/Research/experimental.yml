@@ -54,4 +54,18 @@
   position: -7,-2
   technologyPrerequisites:
     - BluespaceMining
-  # Goobstation R&D Console rework end
+  
+- type: technology
+  id: HardsuitsProducing
+  name: Производство скафандров
+  icon:
+    sprite: _WackyAdventure/Structures/Machines/HardLathe.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - HardLathe
+  position: -1,-1
+  technologyPrerequisites:
+    - BasicRobotics

@@ -1,5 +1,5 @@
 - type: technology
-  id: WeaponProfucing
+  id: WeaponProducing
   name: Производство вооружения
   icon:
     sprite: _WackyAdventure/Structures/Machines/weaponlath.rsi

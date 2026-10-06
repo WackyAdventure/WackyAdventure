@@ -631,6 +631,7 @@
     - Cloning # Cloning
     - AdvMedBed
     - WeaponLathe
+    - HardLathe
   - type: MaterialStorage
     whitelist:
       tags:
