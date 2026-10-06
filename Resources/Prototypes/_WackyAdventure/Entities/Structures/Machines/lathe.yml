@@ -99,6 +99,33 @@
     - CartridgeRocketSingularityBuster1
   - type: EmagLatheRecipes
     emagStaticPacks:
+    - WWeaponPistolDualetta1
+    - WeaponRifleEstoc1
+    - WeaponPistolCobra1
+    - MagazinePistolCaselessRifle1
+    - WeaponSubMachineGunAtreides1
+    - WeaponShotgunCombat1
+    - MagazineBoxShotgunHighCaliber1
+    - MagazineBoxShotgunHighCaliberEnsnaring1
+    - MagazineBoxShotgunIncendiaryHighCaliber1
+    - MagazineBoxShotgunHighCaliberSarin1
+    - MagazineBoxShotgunHighCaliberEMP1
+    - WeaponRifleBurner1
+    - MagazineHighCaliber1
+    - MagazineBoxMagnumAP1
+    - WeaponRevolverPython1
+    - WeaponShotgunHushpup1
+    - MagazineCaselessRifle1
+    - MagazineCaselessRifleShort1
+    - MagazineBoxCaselessRifle1
+    - MagazineBoxCaselessRifleBig1
+    - WeaponRifleWSPR1 
+    - WMagazineLowCaliberM7S1
+    - WeaponSniperHE1SG81
+    - CartridgeG8Demolishing1
+    - CartridgeG8Hypercharged1
+    - WeaponSubMachineGunC20r1
+    - WeaponRifleAnnie1
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
