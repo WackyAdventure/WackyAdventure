@@ -7,7 +7,7 @@
 
 - type: material
   id: UnStabilityCrystal
-  stackEntity: UnSCrystal1
+  stackEntity: UnStabilityCrystal1
   name: materials-UnSCrystal
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
   price: 0.15 # $15 for 1 unit
