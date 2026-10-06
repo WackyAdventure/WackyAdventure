@@ -100,7 +100,7 @@
   recipes:
     - USCrystal
 
-- type: latheRecipePack
-  id: HardLathe
-  recipes:
-    - HardLathe
+#- type: latheRecipePack
+#  id: HardLathe
+#  recipes:
+#    - HardLathe
