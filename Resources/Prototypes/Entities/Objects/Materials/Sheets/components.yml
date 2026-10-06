@@ -8,7 +8,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      ElectricMotorT51: 100
+      ElectricMotorT5: 100
   - type: Stack
     stackType: ElectricMotorT5
     baseLayer: base
