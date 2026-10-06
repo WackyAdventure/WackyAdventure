@@ -192,16 +192,3 @@
   - type: Blueprint
     providedRecipes:
     - WeaponShotgunEnforcer12
-
-- type: latheRecipe
-  id: WeaponShotgunEnforcer12
-  result: WeaponShotgunEnforcer
-  categories:
-  - Tools
-  completetime: 2
-  materials:
-    Steel: 10000
-    Plasma: 500
-    Titanium: 1000
-    MechCompT3: 500
-    MechCompT2: 200
