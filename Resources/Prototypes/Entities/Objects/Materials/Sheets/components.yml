@@ -1503,7 +1503,7 @@
     count: 1
 
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: BSPlate
   name: Блюспейс броне-пластина
   description: Она странный.
@@ -1519,11 +1519,13 @@
     layerStates:
     - BSPlate
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: BSPlate
     layers:
     - state: BSPlate
       map: ["base"]
   - type: Item
+    sprite: Objects/Materials/Sheets/metal.rsi
     heldPrefix: BSPlate
   - type: Appearance
   - type: Extractable
@@ -1571,7 +1573,7 @@
     count: 1
 
 - type: entity
-  parent: SheetMetalBase
+  parent: SheetOtherBase
   id: QuantumPlate
   name: Квантовая броне-пластина
   description: Она странный.
@@ -1582,11 +1584,13 @@
     materialComposition:
       QuantumPlate: 100
   - type: Stack
+    sprite: Objects/Materials/Sheets/metal.rsi
     stackType: QuantumPlate
     baseLayer: base
     layerStates:
     - QuantumPlate
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: QuantumPlate
     layers:
     - state: QuantumPlate
