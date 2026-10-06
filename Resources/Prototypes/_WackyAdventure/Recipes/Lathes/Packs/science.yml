@@ -4,11 +4,11 @@
   - AdvancedmedicalBedCirciutBoard
 
 - type: latheRecipePack
-  id: Weaponlathe
+  id: WeaponLathe
   recipes:
   - Weaponlathe
 
 - type: latheRecipePack
-  id: Hardlathe
+  id: HardLathe
   recipes:
   - Hardlathe
