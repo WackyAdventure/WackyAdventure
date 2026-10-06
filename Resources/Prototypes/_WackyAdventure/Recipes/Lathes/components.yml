@@ -322,7 +322,6 @@
     MechCompT3: 1000
     MechCompT2: 700
 
-
 - type: latheRecipe
   id: WeaponPistolMk581
   result: WeaponPistolMk58
