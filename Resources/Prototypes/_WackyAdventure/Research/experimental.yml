@@ -53,7 +53,7 @@
   # Goobstation R&D Console rework start
   position: -8,-2
   technologyPrerequisites:
-    - BluespaceMining
+    - CrystalDestabilishment
   
 - type: technology
   id: HardsuitsProducing
