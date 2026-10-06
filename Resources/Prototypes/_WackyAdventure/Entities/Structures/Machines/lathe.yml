@@ -52,7 +52,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: WeaponatheMachineCircuitboard
+    board: WeaponLatheMachineCircuitboard
   - type: MaterialStorage
     whitelist:
       tags:
@@ -65,9 +65,12 @@
     unlitIdleState: unlit
     unlitRunningState: unlit-building
     staticPacks:
-    - 
-#  - type: EmagLatheRecipes
-#    emagStaticPacks:
+    - WeaponShotgunEnforcer12
+    - WeaponPistolMk581
+    - WeaponShotgunBulldogLegallyDistinct1
+    -
+  - type: EmagLatheRecipes
+    emagStaticPacks:
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
