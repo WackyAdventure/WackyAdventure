@@ -87,3 +87,9 @@
     - CartridgeG8Hypercharged1
     - WeaponSubMachineGunC20r1
     - WeaponRifleAnnie1
+
+
+- type: latheRecipePack
+  id: UnSCrystal
+  recipes:
+    - USCrystal
