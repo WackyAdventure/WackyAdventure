@@ -21,7 +21,7 @@
     Gold: 100
 
 - type: latheRecipe
-  id: HardLatheCircuitboard
+  id: HardLathe
   result: HardLatheMachineCircuitboard
   categories:
   - Circuitry
