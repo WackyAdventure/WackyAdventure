@@ -56,6 +56,11 @@
     - WeaponPulseRifle1
     - WeaponLauncherSingularityBuster1
     - CartridgeRocketSingularityBuster1
+    - ClothingOuterArmorBasicSlim1
+    - ClothingOuterArmorRiot1
+    - ClothingOuterArmorBulletproof1
+    - ClothingOuterArmorHeavyRed1
+    - ClothingOuterArmorHeavy1
 
 - type: latheRecipePack
   id: WeaponLathEmag
