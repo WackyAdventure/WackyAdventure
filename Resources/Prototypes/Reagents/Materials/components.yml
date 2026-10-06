@@ -1,5 +1,5 @@
 - type: material
-  id: ElectricMotorT51
+  id: ElectricMotorT5
   stackEntity: ElectricMotorT51
   name: квантовы мотор
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT5 }
