@@ -86,6 +86,7 @@
   completetime: 1
   materials:
     Steel: 600
+    Gold: 100
 
 - type: latheRecipe
   id: AdvElectricComponent
@@ -97,6 +98,7 @@
     Steel: 700
     Plasteel: 300
     Silver: 100
+    Plastic: 100
 
 - type: latheRecipe
   id: SuperElectricComponent
@@ -109,6 +111,7 @@
     Gold: 200
     Silver: 100
     Titanium: 100
+    Plastic: 200
 
 - type: latheRecipe
   id: BSElectricComponent
@@ -136,6 +139,7 @@
     Steel: 300
     Titanium: 200
     Glass: 500
+    Plastic: 500
 
 #Electric motor
 
