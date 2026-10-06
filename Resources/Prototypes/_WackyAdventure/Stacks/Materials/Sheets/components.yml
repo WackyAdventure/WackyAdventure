@@ -1,166 +1,166 @@
 - type: stack
-  id: ElectricMotorT53
+  id: ElectricMotorT52
   name: stack-ElectricMotorT5
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT5 }
   spawn: ElectricMotorT51
   maxCount: 30
 
 - type: stack
-  id: UnStabilityCrystal3
+  id: UnStabilityCrystal2
   name: stack-UnSCrystal
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: UnStabilityCrystal }
   spawn: UnStabilityCrystal1
   maxCount: 30
 
 - type: stack
-  id: ElectricCompT13
+  id: ElectricCompT12
   name: stack-ElectricCompT1
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricCompT1 }
   spawn: ElectricCompT11
   maxCount: 30
 
 - type: stack
-  id: ElectricCompT23
+  id: ElectricCompT22
   name: stack-ElectricCompT2
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricCompT2 }
   spawn: ElectricCompT21
   maxCount: 30
 
 - type: stack
-  id: ElectricCompT33
+  id: ElectricCompT32
   name: stack-ElectricCompT3
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricCompT3 }
   spawn: ElectricCompT31
   maxCount: 30
 
 - type: stack
-  id: ElectricCompT43
+  id: ElectricCompT42
   name: stack-ElectricCompT4
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricCompT4 }
   spawn: ElectricCompT41
   maxCount: 30
 
 - type: stack
-  id: ElectricCompT53
+  id: ElectricCompT52
   name: stack-ElectricCompT5
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricCompT5 }
   spawn: ElectricCompT51
   maxCount: 30
 
 - type: stack
-  id: LaserT13
+  id: LaserT12
   name: stack-LaserT1
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: LaserT1 }
   spawn: LaserT11
   maxCount: 30
 
 - type: stack
-  id: LaserT23
+  id: LaserT22
   name: stack-LaserT2
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: LaserT2 }
   spawn: LaserT2
   maxCount: 30
 
 - type: stack
-  id: LaserT33
+  id: LaserT32
   name: stack-ULaserT3
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: LaserT3 }
   spawn: LaserT31
   maxCount: 30
 
 - type: stack
-  id: MechCompT13
+  id: MechCompT12
   name: stack-MechCompT1
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MechCompT1 }
   spawn: MechCompT11
   maxCount: 30
 
 - type: stack
-  id: MechCompT23
+  id: MechCompT22
   name: stack-MechCompT2
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MechCompT2 }
   spawn: MechCompT21
   maxCount: 30
 
 - type: stack
-  id: MechCompT33
+  id: MechCompT32
   name: stack-MechCompT3
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MechCompT3 }
   spawn: MechCompT31
   maxCount: 30
 
 - type: stack
-  id: MechCompT43
+  id: MechCompT42
   name: stack-MechCompT4
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MechCompT4 }
   spawn: MechCompT41
   maxCount: 30
 
 - type: stack
-  id: MechCompT53
+  id: MechCompT52
   name: stack-MechCompT5
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MechCompT5 }
   spawn: MechCompT51
   maxCount: 30
 
 - type: stack
-  id: ElectricMotorT13
+  id: ElectricMotorT12
   name: stack-ElectricMotorT1
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT1 }
   spawn: ElectricMotorT11
   maxCount: 30
 
 - type: stack
-  id: ElectricMotorT23
+  id: ElectricMotorT22
   name: stack-ElectricMotorT2
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT2 }
   spawn: ElectricMotorT21
   maxCount: 30
 
 - type: stack
-  id: ElectricMotorT33
+  id: ElectricMotorT32
   name: stack-ElectricMotorT3
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT3l }
   spawn: ElectricMotorT31
   maxCount: 30
 
 - type: stack
-  id: ElectricMotorT43
+  id: ElectricMotorT42
   name: stack-ElectricMotorT4
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT4 }
   spawn: ElectricMotorT41
   maxCount: 30
 
 - type: stack
-  id: LightPlate3
+  id: LightPlate2
   name: stack-LightPlate
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: LightPlate }
   spawn: LightPlate1
   maxCount: 30
 
 - type: stack
-  id: MiddlePlate3
+  id: MiddlePlate2
   name: stack-MiddlePlate
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: MiddlePlate }
   spawn: MiddlePlate1
   maxCount: 30
 
 - type: stack
-  id: HardPlate3
+  id: HardPlate2
   name: stack-HardPlate
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: HardPlate }
   spawn: HardPlate1
   maxCount: 30
 
 - type: stack
-  id: BSPlate3
+  id: BSPlate2
   name: stack-BSPlate
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: BSPlate }
   spawn: BSPlate1
   maxCount: 30
 
 - type: stack
-  id: QuantumPlate3
+  id: QuantumPlate2
   name: stack-QuantumPlate
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: QuantumPlate }
   spawn: QuantumPlate1
