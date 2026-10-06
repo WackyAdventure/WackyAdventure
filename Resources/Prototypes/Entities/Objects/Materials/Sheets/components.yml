@@ -69,7 +69,7 @@
 - type: entity
   parent: SheetMetalBase
   id: UnStabilityCrystal
-  name: Нестабильный кристал.
+  name: Нестабильный кристалл
   description: Он странный.
   suffix: Full
   components:
@@ -111,7 +111,7 @@
 - type: entity
   parent: UnStabilityCrystal
   id: UnStabilityCrystal10
-  name: Нестабильный кристал.
+  name: Нестабильный кристалл
   description: Он странный.
   suffix: 10
   components:
@@ -124,7 +124,7 @@
 - type: entity
   parent: UnStabilityCrystal
   id: UnStabilityCrystal1
-  name: Нестабильный кристал.
+  name: Нестабильный кристалл
   description: Он странный.
   suffix: Single
   components:
