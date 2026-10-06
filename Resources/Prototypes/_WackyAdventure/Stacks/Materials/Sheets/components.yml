@@ -1,5 +1,5 @@
 - type: stack
-  id: ElectricMotorT51
+  id: ElectricMotorT5
   name: stack-ElectricMotorT5
   icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: ElectricMotorT5 }
   spawn: ElectricMotorT51
