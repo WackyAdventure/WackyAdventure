@@ -306,3 +306,797 @@
    BSCrystal: 300
    UnStabilityCrystal: 300
    ElectricCompT5: 200
+
+#Weapon
+
+- type: latheRecipe
+  id: WeaponShotgunEnforcer12
+  result: WeaponShotgunEnforcer
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 2500
+    Plasteel: 1000
+    Titanium: 500
+    MechCompT3: 1000
+    MechCompT2: 700
+
+
+- type: latheRecipe
+  id: WeaponPistolMk581
+  result: WeaponPistolMk58
+  categories:
+  - Weapon
+  completetime: 5
+  materials:
+    Steel: 2500
+    Plasteel: 100
+    MechCompT1: 500
+
+- type: latheRecipe
+  id: WeaponShotgunBulldogLegallyDistinct1
+  result: WeaponShotgunBulldogLegallyDistinct
+  categories:
+  - Weapon
+  completetime: 13
+  materials:
+    Steel: 4500
+    Plasteel: 2000
+    Titanium: 1000
+    Plastitanium: 5000
+    MechCompT3: 2000
+    MechCompT2: 1500
+
+- type: latheRecipe
+  id: WeaponSubMachineGunWt5501
+  result: WeaponSubMachineGunWt550
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Titanium: 100
+    MechCompT3: 1200
+    MechCompT2: 500
+
+- type: latheRecipe
+  id: WeaponRevolverInspector1
+  result: WeaponRevolverInspector
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 1500
+    Plasteel: 1000
+    Titanium: 500
+    MechCompT3: 1500
+    MechCompT2: 700
+
+- type: latheRecipe
+  id: WeaponShotgunKammerer1
+  result: WeaponShotgunKammerer
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 1500
+    Plasteel: 1000
+    Titanium: 700
+    MechCompT3: 900
+    MechCompT2: 500
+
+- type: latheRecipe
+  id: WeaponSniperMosin1
+  result: WeaponSniperMosin
+  categories:
+  - Weapon
+  completetime: 14
+  materials:
+    Steel: 2000
+    Plasteel: 1200
+    Titanium: 1000
+    MechCompT2: 1500
+    MechCompT1: 1000
+
+- type: latheRecipe
+  id: WeaponShotgunAntelope1
+  result: WeaponShotgunAntelope
+  categories:
+  - Weapon
+  completetime: 14
+  materials:
+    Steel: 4500
+    Plasteel: 2000
+    Titanium: 1000
+    Plastitanium: 500
+    MechCompT3: 1500
+    MechCompT2: 1200
+
+- type: latheRecipe
+  id: WeaponSubMachineGunDrozd1
+  result: WeaponSubMachineGunDrozd
+  categories:
+  - Weapon
+  completetime: 14
+  materials:
+    Steel: 4500
+    Plasteel: 1500
+    Titanium: 1000
+    MechCompT3: 1500
+    MechCompT2: 1200
+
+- type: latheRecipe
+  id: WeaponSniperUncleStyopa1
+  result: WeaponSniperUncleStyopa
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 5000
+    Plasteel: 2000
+    Titanium: 2000
+    MechCompT3: 3500
+    MechCompT2: 2000
+    MechCompT1: 1000
+
+- type: latheRecipe
+  id: MagazineLargeCaliber1
+  result: MagazineLargeCaliber
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 5000
+    Plasitanium: 2000
+
+- type: latheRecipe
+  id: WeaponSniperHristov1
+  result: WeaponSniperHristov
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 6000
+    Plasteel: 2500
+    Titanium: 2500
+    MechCompT3: 4000
+    MechCompT2: 3500
+    MechCompT1: 2000
+
+- type: latheRecipe
+  id: MagazineAntiMateriel1
+  result: MagazineAntiMateriel
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 6000
+    Plastitanium: 2500
+
+- type: latheRecipe
+  id: WeaponRevolverMateba1
+  result: WeaponRevolverMateba
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 2000
+    Plasteel: 1000
+    Plastitanium: 500
+    MechCompT3: 1500
+    MechCompT2: 800
+
+- type: latheRecipe
+  id: WeaponRifleLecter1
+  result: WeaponRifleLecter
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 3000
+    Plasteel: 1000
+    Titanium: 700
+    MechCompT3: 2000
+    MechCompT2: 1000
+
+- type: latheRecipe
+  id: WeaponRifleAk1
+  result: WeaponRifleAk
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 4500
+    Plasteel: 2000
+    Titanium: 1500
+    Plastitanium: 1000
+    MechCompT3: 3000
+    MechCompT2: 1500
+
+- type: latheRecipe
+  id: WeaponRifleM90GrenadeLauncher1
+  result: WeaponRifleM90GrenadeLauncher
+  categories:
+  - Weapon
+  completetime: 15
+  materials:
+    Steel: 5000
+    Plasteel: 2500
+    Titanium: 3000
+    Plastitanium: 500
+    MechCompT3: 3500
+    MechCompT2: 2000
+
+- type: latheRecipe
+  id: WeaponRevolverDeckard1
+  result: WeaponRevolverDeckard
+  categories:
+  - Weapon
+  completetime: 14
+  materials:
+    Steel: 4500
+    Plasteel: 2000
+    Titanium: 300
+    MechCompT3: 1500
+    MechCompT2: 1000
+
+- type: latheRecipe
+  id: WeaponLeverChester1
+  result: WeaponLeverChester
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 10000
+    Plasteel: 5000
+    Titanium: 3500
+    Plastitanium: 2000
+    MechCompT4: 3000
+    MechCompT3: 2000
+    MechCompT2: 1500
+    ElectricCompT2: 500
+    BSCrystal: 500
+    
+- type: latheRecipe
+  id: WeaponShotgunDoubleBarreled1
+  result: WeaponShotgunDoubleBarreled
+  categories:
+  - Weapon
+  completetime: 15
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    MechCompT2: 1500
+    MechCompT1: 1000
+
+- type: latheRecipe
+  id: WeaponLauncherRocket1
+  result: WeaponLauncherRocket
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 5000
+    Plasteel: 3500
+    Titanium: 2000
+    Plastitanium: 1000
+    MechCompT3: 4000
+    MechCompT2: 3500
+    ElectricCompT3: 1000
+
+- type: latheRecipe
+  id: CartridgeRocket1
+  result: CartridgeRocket
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 1500
+    Titanium: 500
+    ElectricCompT1: 100
+
+- type: latheRecipe
+  id: WeaponMinigun1
+  result: WeaponMinigun
+  categories:
+  - Weapon
+  completetime: 40
+  materials:
+    Steel: 5000
+    Plasteel: 2000
+    Titanium: 1000
+    Plastitanium: 500
+    MechCompT3: 1500
+    MechCompT2: 1000
+    ElectricCompT3: 1000
+
+- type: latheRecipe
+  id: CartridgeMinigun1
+  result: CartridgeMinigun
+  categories:
+  - Weapon
+  completetime: 1
+  materials:
+    Steel: 5
+
+- type: latheRecipe
+  id: WeaponLauncherNonLethal1
+  result: WeaponLauncherNonLethal
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 6000
+    Plasteel: 2000
+    Titanium: 1500
+    Plastitanium: 500
+    MechCompT3: 3000
+    MechCompT2: 2000
+    ElectricCompT2: 500
+
+- type: latheRecipe
+  id: WeaponTaser1
+  result: WeaponTaser
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Titanium: 500
+    ElectricCompT3: 1000
+
+- type: latheRecipe
+  id: WeaponPlasmaRifle1
+  result: WeaponPlasmaRifle
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 3000
+    Plasteel: 1500
+    Titanium: 1000
+    Plastitanium: 1000
+    MechCompT4: 1000
+    MechCompT3: 500
+    ElectricCompT4: 1000
+    Plasma: 1000
+    LaserT3: 600
+
+- type: latheRecipe
+  id: WeaponEnergyShotgun1
+  result: WeaponEnergyShotgun
+  categories:
+  - Weapon
+  completetime: 30
+  materials:
+    Steel: 3000
+    Plasteel: 1500
+    Titanium: 300
+    Plastitanium: 1000
+    MechCompT3: 1500
+    ElectricCompT4: 1500
+    ElectricCompT3: 500
+    LaserT3: 500
+
+- type: latheRecipe
+  id: WeaponPulsePistol1
+  result: WeaponPulsePistol
+  categories:
+  - Weapon
+  completetime: 25
+  materials:
+    Steel: 1000
+    Plasteel: 1500
+    Titanium: 1000
+    Plastitanium: 500
+    ElectricCompT4: 1500
+    ElectricCompT3: 1000
+    LaserT3: 500
+    BSCrystal: 300
+
+- type: latheRecipe
+  id: WeaponPulseRifle1
+  result: WeaponPulseRifle
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 1000
+    Plasteel: 2000
+    Titanium: 1500
+    Plastitanium: 1000
+    ElectricCompT4: 1500
+    ElectricCompT3: 1000
+    ElectricCompT2: 2000
+    LaserT3: 1500
+    BSCrystal: 500
+
+- type: latheRecipe
+  id: WeaponLauncherSingularityBuster1
+  result: WeaponLauncherSingularityBuster
+  categories:
+  - Weapon
+  completetime: 40
+  materials:
+    Steel: 3000
+    Plasteel: 2500
+    Titanium: 3500
+    Plastitanium: 500
+    MechCompT4: 2000
+    MechCompT3: 1500
+    MechCompT2: 1000
+    ElectricCompT3: 500
+
+- type: latheRecipe
+  id: CartridgeRocketSingularityBuster1
+  result: WCartridgeRocketSingularityBuster
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 500
+    Plasteel: 100
+    ElectricCompT5: 500
+    UnStabilityCrystal: 500
+
+#Sindy Weapon
+
+- type: latheRecipe
+  id: WWeaponPistolDualetta1
+  result: WeaponPistolDualetta
+  categories:
+  - Weapon
+  completetime: 15
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Titanium: 500
+    MechCompT3: 1000
+    MechCompT2: 800
+    ElectricCompT1: 500
+
+- type: latheRecipe
+  id: WeaponRifleEstoc1
+  result: WeaponRifleEstoc
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 1000
+    Plasteel: 2000
+    Titanium: 1500
+    Plastitanium: 500
+    MechCompT3: 3000
+    ElectricCompT3: 1500
+
+- type: latheRecipe
+  id: WeaponPistolCobra1
+  result: WeaponPistolCobra
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Titanium: 500
+    MechCompT3: 2000
+    ElectricCompT2: 500
+
+- type: latheRecipe
+  id: MagazinePistolCaselessRifle1
+  result: MagazinePistolCaselessRifle
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 600
+    Titanium: 100
+
+- type: latheRecipe
+  id: WeaponSubMachineGunAtreides1
+  result: WeaponSubMachineGunAtreides
+  categories:
+  - Weapon
+  completetime: 25
+  materials:
+    Steel: 2000
+    Plasteel: 500
+    Titanium: 400
+    MechCompT3: 2000
+    MechCompT2: 1500
+
+- type: latheRecipe
+  id: WeaponShotgunCombat1
+  result: WeaponShotgunCombat
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 5000
+    Plasteel: 4500
+    Titanium: 3500
+    Plastitanium: 2000
+    MechCompT4: 3500
+    MechCompT3: 2000
+    MechCompT2: 2000
+    ElectricCompT3: 1000
+
+- type: latheRecipe
+  id: MagazineBoxShotgunHighCaliber1
+  result: MagazineBoxShotgunHighCaliber
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plasteel: 500
+
+- type: latheRecipe
+  id: MagazineBoxShotgunHighCaliberEnsnaring1
+  result: MagazineBoxShotgunHighCaliberEnsnaring
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1500
+    Plasteel: 1000
+    Plastic: 500
+
+- type: latheRecipe
+  id: MagazineBoxShotgunIncendiaryHighCaliber1
+  result: MagazineBoxShotgunIncendiaryHighCaliber
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Plastic: 1000
+
+- type: latheRecipe
+  id: MagazineBoxShotgunHighCaliberSarin1
+  result: MagazineBoxShotgunHighCaliberSarin
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 500
+    Titanium: 1000
+    Plastic: 500
+
+- type: latheRecipe
+  id: MagazineBoxShotgunHighCaliberEMP1
+  result: MagazineBoxShotgunHighCaliberEMP
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plasteel: 500
+    Titanium: 1000
+    Plastic: 500
+
+- type: latheRecipe
+  id: WeaponRifleBurner1
+  result: WeaponRifleBurner
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 5000
+    Plasteel: 2500
+    Titanium: 1000
+    Plastitanium: 500
+    MechCompT4: 3000
+    MechCompT3: 1500
+    MechCompT2: 1000
+    ElectricCompT3: 500
+
+- type: latheRecipe
+  id: MagazineHighCaliber1
+  result: MagazineHighCaliber
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    Titanium: 500
+    MechCompT1: 500
+
+- type: latheRecipe
+  id: MagazineHighCaliber1
+  result: MagazineHighCaliber
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    Titanium: 500
+    MechCompT1: 500
+
+- type: latheRecipe
+  id: MagazineBoxMagnumAP1
+  result: MagazineBoxMagnumAP
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 3000
+    Plasteel: 1500
+    Titanium: 3000
+    MechCompT1: 500
+    Plastitanium: 1000
+
+- type: latheRecipe
+  id: WeaponRevolverPython1
+  result: WeaponRevolverPython
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 2000
+    Plasteel: 1500
+    Plastitanium: 1000
+    MechCompT4: 3000
+    MechCompT3: 1500
+
+- type: latheRecipe
+  id: WeaponShotgunHushpup1
+  result: WeaponShotgunHushpup
+  categories:
+  - Weapon
+  completetime: 20
+  materials:
+    Steel: 2000
+    Plasteel: 2000
+    Plastitanium: 500
+    MechCompT4: 1500
+    MechCompT3: 500
+
+- type: latheRecipe
+  id: MagazineCaselessRifle1
+  result: MagazineCaselessRifle
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 600
+    Plasteel: 1200
+    Titanium: 200
+
+- type: latheRecipe
+  id: MagazineCaselessRifleShort1
+  result: MagazineCaselessRifleShort
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 500
+    Plasteel: 1000
+    Titanium: 100
+
+- type: latheRecipe
+  id: MagazineBoxCaselessRifle1
+  result: MagazineBoxCaselessRifle
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plasteel: 1500
+    Titanium: 1000
+
+- type: latheRecipe
+  id: MagazineBoxCaselessRifleBig1
+  result: MagazineBoxCaselessRifleBig
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 10000
+    Plasteel: 5000
+    Titanium: 2500
+
+- type: latheRecipe
+  id: WeaponRifleWSPR1 
+  result: WeaponRifleWSPR
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 2500
+    Plasteel: 2500
+    Titanium: 3500
+    Plastitanium: 1500
+    MechCompT3: 2500
+    MechCompT2: 1800
+    ElectricCompT2: 1000
+
+- type: latheRecipe
+  id: WMagazineLowCaliberM7S1
+  result: MagazineLowCaliberM7S
+  categories:
+  - Weapon
+  completetime: 3
+  materials:
+    Steel: 500
+    Plasteel: 500
+    Titanium: 400
+    MechCompT2: 500
+
+- type: latheRecipe
+  id: WeaponSniperHE1SG81
+  result: WeaponSniperHE1SG8
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 10000
+    Plasteel: 5000
+    Titanium: 3500
+    Plastitanium: 2000
+    MechCompT4: 3000
+    MechCompT3: 2000
+    ElectricCompT5: 1500
+    ElectricCompT4: 1000
+    UnStabilityCrystal: 500
+
+- type: latheRecipe
+  id: CartridgeG8Demolishing1
+  result: CartridgeG8Demolishing
+  categories:
+  - Weapon
+  completetime: 6
+  materials:
+    Steel: 5000
+    Plasteel: 5000
+    Titanium: 1500
+    Plastitanium: 500
+    UnStabilityCrystal: 100
+
+- type: latheRecipe
+  id: CartridgeG8Hypercharged1
+  result: CartridgeG8Hypercharged
+  categories:
+  - Weapon
+  completetime: 10
+  materials:
+    Steel: 5000
+    Plasteel: 5000
+    Titanium: 1500
+    Plastitanium: 500
+    UnStabilityCrystal: 500
+    BSCrystal: 300
+
+- type: latheRecipe
+  id: WeaponSubMachineGunC20r1
+  result: WeaponSubMachineGunC20r
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 35000
+    Plasteel: 1000
+    Titanium: 500
+    MechCompT3: 2000
+    MechCompT2: 1500
+
+- type: latheRecipe
+  id: WeaponRifleAnnie1
+  result: WeaponRifleAnnie
+  categories:
+  - Weapon
+  completetime: 35
+  materials:
+    Steel: 45000
+    Plasteel: 3500
+    Titanium: 1500
+    MechCompT4: 2500
+    MechCompT2: 1500
+    ElectricCompT3: 1000
+    BSCrystal: 300
