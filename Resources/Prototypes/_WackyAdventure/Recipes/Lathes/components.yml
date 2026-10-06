@@ -1092,7 +1092,7 @@
 
 - type: latheRecipe
   id: USCrystal
-  result: UnStabilityCrystal
+  result: UnStabilityCrystal1
   categories:
   - Components
   completetime: 3
