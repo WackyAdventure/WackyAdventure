@@ -39,7 +39,7 @@
   description: Высокотехнологичный станок для создания стрелкового оружия.
   components:
   - type: Sprite
-    sprite: _WackyAdventure/Structures/Machines/HardLathe.rsi
+    sprite: _WackyAdventure/Structures/Machines/weaponlath.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -89,7 +89,7 @@
   description: Станок для производства скафандров.
   components:
   - type: Sprite
-    sprite: _WackyAdventure/Structures/Machines/weaponlath.rsi
+    sprite: _WackyAdventure/Structures/Machines/HardLathe.rsi
     snapCardinals: true
     layers:
     - state: icon
@@ -164,18 +164,6 @@
     unlitIdleState: unlit
     unlitRunningState: unlit-building
     staticPacks:
-    - HardSuits
+    - UnSCrystal
 #  - type: EmagLatheRecipes
 #    emagStaticPacks:
-  - type: BlueprintReceiver
-    whitelist:
-      tags:
-      - BlueprintHardLathe
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      blueprint: !type:Container
-  - type: EmptyOnMachineDeconstruct
-    containers:
-    - blueprint
