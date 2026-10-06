@@ -93,3 +93,8 @@
   id: UnSCrystal
   recipes:
     - USCrystal
+
+- type: latheRecipePack
+  id: HardLathe
+  recipes:
+    - HardLathe
