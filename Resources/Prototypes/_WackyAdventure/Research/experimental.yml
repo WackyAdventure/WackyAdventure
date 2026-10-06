@@ -33,7 +33,7 @@
   # Goobstation R&D Console rework start
   position: -7,-2
   technologyPrerequisites:
-    - BluespaceHarvester
+    - BluespaceMining
   # Goobstation R&D Console rework end
 
 - type: technology
