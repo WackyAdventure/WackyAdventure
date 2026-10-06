@@ -12,3 +12,8 @@
   id: HardLathe
   recipes:
   - HardLatheMachineCircuitboard
+
+- type: latheRecipePack
+  id: RedspaceForgeCircuitBoard
+  recipes:
+  - RedspaceForgeCircuitBoard

@@ -29,7 +29,7 @@
   tier: 3
   cost: 50000
   recipeUnlocks:
-  - USCrystal
+  - RedspaceForgeCircuitBoard
   # Goobstation R&D Console rework start
   position: -7,-2
   technologyPrerequisites:

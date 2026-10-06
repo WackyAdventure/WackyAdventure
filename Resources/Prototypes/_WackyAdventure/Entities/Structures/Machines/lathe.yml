@@ -151,7 +151,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: HardLatheMachineCircuitboard
+    board: RedspaceForgeCircuitBoard
   - type: MaterialStorage
     whitelist:
       tags:

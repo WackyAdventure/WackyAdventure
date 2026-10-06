@@ -30,3 +30,14 @@
     Glass: 500
     Steel: 100
     Gold: 100
+
+- type: latheRecipe
+  id: RedspaceForgeCircuitBoard
+  result: RedspaceForgeCircuitBoard
+  categories:
+  - Circuitry
+  completetime: 2
+  materials:
+    Glass: 500
+    Steel: 100
+    Gold: 100
