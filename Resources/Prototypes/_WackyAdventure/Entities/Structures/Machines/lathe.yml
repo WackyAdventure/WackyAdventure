@@ -65,7 +65,7 @@
     unlitIdleState: unlit
     unlitRunningState: unlit-building
     staticPacks:
-    - WeaponLathe
+    - WeaponLath
   - type: EmagLatheRecipes
     emagStaticPacks:
     - WeaponLathEmag
