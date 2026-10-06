@@ -61,7 +61,7 @@
   materials:
     Steel: 1000
     Plastitanium: 500
-    MaterialBSCrystal: 200
+    BSCrystal: 200
     Uranium-235: 100
 
 - type: latheRecipe
@@ -74,7 +74,7 @@
     Plasteel: 500
     Plastitanium: 300
     Plutonium-239: 300
-    UnStableCrystal: 200
+    UnStabilityCrystal: 200
 
 # Electric components
 
@@ -300,5 +300,5 @@
    Plastitanium: 4500
    Plasteel: 2000
    BSCrystal: 300
-   UnStableCrystal: 300
+   UnStabilityCrystal: 300
    ElectricCompT5: 200
