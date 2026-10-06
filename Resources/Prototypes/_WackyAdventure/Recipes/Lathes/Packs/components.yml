@@ -20,3 +20,70 @@
   - QuantumElectricComponent
   - QuantumElectricMotor
   - QuantumPlate
+
+- type: latheRecipePack
+  id: WeaponLath
+  recipes:
+    - WeaponShotgunEnforcer12
+    - WeaponPistolMk581
+    - WeaponShotgunBulldogLegallyDistinct1
+    - WeaponSubMachineGunWt5501
+    - WeaponRevolverInspector1
+    - WeaponShotgunKammerer1
+    - WeaponSniperMosin1
+    - WeaponShotgunAntelope1
+    - WeaponSubMachineGunDrozd1
+    - WeaponSniperUncleStyopa1
+    - MagazineLargeCaliber1
+    - WeaponSniperHristov1
+    - MagazineAntiMateriel1
+    - WeaponRevolverMateba1
+    - WeaponRifleLecter1
+    - WeaponRifleAk1
+    - WeaponRifleM90GrenadeLauncher1
+    - WeaponRevolverDeckard1
+    - WeaponLeverChester1
+    - WeaponShotgunDoubleBarreled1
+    - WeaponLauncherRocket1
+    - CartridgeRocket1
+    - WeaponMinigun1
+    - CartridgeMinigun1
+    - WeaponLauncherNonLethal1
+    - WeaponTaser1
+    - WeaponPlasmaRifle1
+    - WeaponEnergyShotgun1
+    - WeaponPulsePistol1
+    - WeaponPulseRifle1
+    - WeaponLauncherSingularityBuster1
+    - CartridgeRocketSingularityBuster1
+
+- type: latheRecipePack
+  id: WeaponLathEmag
+  recipes:
+    - WWeaponPistolDualetta1
+    - WeaponRifleEstoc1
+    - WeaponPistolCobra1
+    - MagazinePistolCaselessRifle1
+    - WeaponSubMachineGunAtreides1
+    - WeaponShotgunCombat1
+    - MagazineBoxShotgunHighCaliber1
+    - MagazineBoxShotgunHighCaliberEnsnaring1
+    - MagazineBoxShotgunIncendiaryHighCaliber1
+    - MagazineBoxShotgunHighCaliberSarin1
+    - MagazineBoxShotgunHighCaliberEMP1
+    - WeaponRifleBurner1
+    - MagazineHighCaliber1
+    - MagazineBoxMagnumAP1
+    - WeaponRevolverPython1
+    - WeaponShotgunHushpup1
+    - MagazineCaselessRifle1
+    - MagazineCaselessRifleShort1
+    - MagazineBoxCaselessRifle1
+    - MagazineBoxCaselessRifleBig1
+    - WeaponRifleWSPR1 
+    - WMagazineLowCaliberM7S1
+    - WeaponSniperHE1SG81
+    - CartridgeG8Demolishing1
+    - CartridgeG8Hypercharged1
+    - WeaponSubMachineGunC20r1
+    - WeaponRifleAnnie1
