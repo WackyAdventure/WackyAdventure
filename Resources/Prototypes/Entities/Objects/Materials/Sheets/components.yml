@@ -10,7 +10,7 @@
     materialComposition:
       ElectricMotorT5: 100
   - type: Stack
-    stackType: ElectricMotorT5
+    stackType: ElectricMotorT53
     baseLayer: base
     layerStates:
     - ElectricMotorT5
@@ -80,7 +80,7 @@
     materialComposition:
       UnStabilityCrystal: 100
   - type: Stack
-    stackType: UnStabilityCrystal
+    stackType: UnStabilityCrystal3
     baseLayer: base
     layerStates:
     - UnStabilityCrystal
@@ -150,7 +150,7 @@
     materialComposition:
       ElectricCompT1: 100
   - type: Stack
-    stackType: ElectricCompT1
+    stackType: ElectricCompT13
     baseLayer: base
     layerStates:
     - ElectricCompT1
@@ -218,7 +218,7 @@
     materialComposition:
       ElectricCompT2: 100
   - type: Stack
-    stackType: ElectricCompT2
+    stackType: ElectricCompT23
     baseLayer: base
     layerStates:
     - ElectricCompT2
@@ -286,7 +286,7 @@
     materialComposition:
       ElectricCompT3: 100
   - type: Stack
-    stackType: ElectricCompT3
+    stackType: ElectricCompT33
     baseLayer: base
     layerStates:
     - ElectricCompT3
@@ -354,7 +354,7 @@
     materialComposition:
       ElectricCompT4: 100
   - type: Stack
-    stackType: ElectricCompT4
+    stackType: ElectricCompT43
     baseLayer: base
     layerStates:
     - ElectricCompT4
@@ -424,7 +424,7 @@
     materialComposition:
       ElectricCompT5: 100
   - type: Stack
-    stackType: ElectricCompT5
+    stackType: ElectricCompT53
     baseLayer: base
     layerStates:
     - ElectricCompT5
@@ -492,7 +492,7 @@
     materialComposition:
       MechCompT1: 100
   - type: Stack
-    stackType: MechCompT1
+    stackType: MechCompT13
     baseLayer: base
     layerStates:
     - MechCompT1
@@ -560,7 +560,7 @@
     materialComposition:
       MechCompT2: 100
   - type: Stack
-    stackType: MechCompT2
+    stackType: MechCompT23
     baseLayer: base
     layerStates:
     - MechCompT2
@@ -628,7 +628,7 @@
     materialComposition:
       MechCompT3: 100
   - type: Stack
-    stackType: MechCompT3
+    stackType: MechCompT33
     baseLayer: base
     layerStates:
     - MechCompT3
@@ -696,7 +696,7 @@
     materialComposition:
       MechCompT4: 100
   - type: Stack
-    stackType: MechCompT4
+    stackType: MechCompT43
     baseLayer: base
     layerStates:
     - MechCompT4
@@ -764,7 +764,7 @@
     materialComposition:
       MechCompT5: 100
   - type: Stack
-    stackType: MechCompT5
+    stackType: MechCompT53
     baseLayer: base
     layerStates:
     - MechCompT5
@@ -832,7 +832,7 @@
     materialComposition:
       LaserT1: 100
   - type: Stack
-    stackType: LaserT1
+    stackType: LaserT13
     baseLayer: base
     layerStates:
     - LaserT1
@@ -900,7 +900,7 @@
     materialComposition:
       LaserT2: 100
   - type: Stack
-    stackType: LaserT2
+    stackType: LaserT23
     baseLayer: base
     layerStates:
     - LaserT2
@@ -968,7 +968,7 @@
     materialComposition:
       LaserT3: 100
   - type: Stack
-    stackType: LaserT3
+    stackType: LaserT33
     baseLayer: base
     layerStates:
     - LaserT3
@@ -1036,7 +1036,7 @@
     materialComposition:
       ElectricMotorT1: 100
   - type: Stack
-    stackType: ElectricMotorT1
+    stackType: ElectricMotorT13
     baseLayer: base
     layerStates:
     - ElectricMotorT1
@@ -1104,7 +1104,7 @@
     materialComposition:
       ElectricMotorT2: 100
   - type: Stack
-    stackType: ElectricMotorT2
+    stackType: ElectricMotorT23
     baseLayer: base
     layerStates:
     - ElectricMotorT2
@@ -1174,7 +1174,7 @@
     materialComposition:
       ElectricMotorT3: 100
   - type: Stack
-    stackType: ElectricMotorT3
+    stackType: ElectricMotorT33
     baseLayer: base
     layerStates:
     - ElectricMotorT3
@@ -1242,7 +1242,7 @@
     materialComposition:
       ElectricMotorT4: 100
   - type: Stack
-    stackType: ElectricMotorT4
+    stackType: ElectricMotorT43
     baseLayer: base
     layerStates:
     - ElectricMotorT4
@@ -1310,7 +1310,7 @@
     materialComposition:
       LightPlate: 100
   - type: Stack
-    stackType: LightPlate
+    stackType: LightPlate3
     baseLayer: base
     layerStates:
     - LightPlate
@@ -1378,7 +1378,7 @@
     materialComposition:
       MiddlePlate: 100
   - type: Stack
-    stackType: MiddlePlate
+    stackType: MiddlePlate3
     baseLayer: base
     layerStates:
     - MiddlePlate
@@ -1446,7 +1446,7 @@
     materialComposition:
       HardPlate: 100
   - type: Stack
-    stackType: HardPlate
+    stackType: HardPlate3
     baseLayer: base
     layerStates:
     - HardPlate
@@ -1514,7 +1514,7 @@
     materialComposition:
       BSPlate: 100
   - type: Stack
-    stackType: BSPlate
+    stackType: BSPlate3
     baseLayer: base
     layerStates:
     - BSPlate
@@ -1585,7 +1585,7 @@
       QuantumPlate: 100
   - type: Stack
     sprite: Objects/Materials/Sheets/metal.rsi
-    stackType: QuantumPlate
+    stackType: QuantumPlate3
     baseLayer: base
     layerStates:
     - QuantumPlate
