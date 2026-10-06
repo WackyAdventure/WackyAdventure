@@ -1087,3 +1087,14 @@
     MechCompT2: 1500
     ElectricCompT3: 1000
     BSCrystal: 300
+
+# UnStabilityCristal
+
+- type: latheRecipe
+  id: USCrystal
+  result: UnStabilityCrystal
+  categories:
+  - Components
+  completetime: 35
+  materials:
+    BSCrystal: 100
