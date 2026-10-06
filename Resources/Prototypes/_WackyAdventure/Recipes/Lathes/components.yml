@@ -1098,3 +1098,14 @@
   completetime: 3
   materials:
     BSCrystal: 100
+
+- type: latheRecipe
+  id: HardLathe
+  result: HardLatheMachineCircuitboard
+  categories:
+  - Components
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 100
+    Gold: 100
