@@ -7,7 +7,25 @@
     - type: MachineBoard
       prototype: NukeLathe
       stackRequirements:
-        Manipulator: 5
+        ElectricCompT3: 5
+        MechCompT3: 5
+        ElectricMotorT3: 3
         Cable: 3
         Glass: 2
         Steel: 2
+
+- type: entity
+  id: WeaponatheMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: плата ОружЛата
+  description: Напечатанная плата для создания ОружЛата.
+  components:
+    - type: MachineBoard
+      prototype: Weaponlathe
+      stackRequirements:
+        ElectricCompT3: 5
+        MechCompT3: 5
+        ElectricMotorT3: 2
+        Cable: 3
+        Glass: 2
+        Steel: 5
