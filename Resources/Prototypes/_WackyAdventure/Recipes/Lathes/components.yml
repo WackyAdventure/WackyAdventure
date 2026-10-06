@@ -1170,3 +1170,28 @@
     Plasteel: 2500
     Titanium: 1500
     HardPlate: 1000
+
+- type: latheRecipe
+  id: ClothingOuterVestWebDurathread1
+  result: ClothingOuterVestWebDurathread
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Durathread: 3000
+    Steel: 500
+    Plasteel: 1500
+    Titanium: 1500
+    HardPlate: 1000
+
+- type: latheRecipe
+  id: ClothingOuterVestWeb1
+  result: ClothingOuterVestWeb
+  categories:
+  - Components
+  completetime: 10
+  materials:
+    Steel: 1500
+    Plasteel: 1500
+    Titanium: 1500
+    HardPlate: 1000
