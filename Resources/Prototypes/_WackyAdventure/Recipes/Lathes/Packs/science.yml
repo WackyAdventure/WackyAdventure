@@ -11,4 +11,4 @@
 - type: latheRecipePack
   id: HardLathe
   recipes:
-  - Hardlathe
+  - HardLatheMachineCircuitboard

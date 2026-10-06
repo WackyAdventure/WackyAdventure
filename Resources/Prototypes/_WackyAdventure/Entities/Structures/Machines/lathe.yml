@@ -83,7 +83,7 @@
     - blueprint
   
 - type: entity
-  id: Hardlathe
+  id: HardLathe
   parent: [BaseLatheLube, BaseSiloUtilizer] # Goob edit
   name: Станция экзокостюмов
   description: Станок для производства скафандров.

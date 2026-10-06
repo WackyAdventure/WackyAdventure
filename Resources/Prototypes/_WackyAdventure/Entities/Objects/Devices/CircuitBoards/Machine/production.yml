@@ -37,7 +37,7 @@
   description: Напечатанная плата для создания Станции экзокостюмов.
   components:
     - type: MachineBoard
-      prototype: Hardlathe
+      prototype: HardLathe
       stackRequirements:
         ElectricCompT3: 5
         MechCompT3: 5
