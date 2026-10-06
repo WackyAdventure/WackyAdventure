@@ -99,7 +99,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: WeaponatheMachineCircuitboard
+    board: HardLatheMachineCircuitboard
   - type: MaterialStorage
     whitelist:
       tags:
