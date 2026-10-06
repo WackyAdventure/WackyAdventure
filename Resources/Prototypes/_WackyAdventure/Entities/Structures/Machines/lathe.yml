@@ -78,6 +78,9 @@
     whitelist:
       tags:
       - BlueprintWeaponLathe
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint
   
 - type: entity
   id: Hardlathe
@@ -124,3 +127,6 @@
       machine_board: !type:Container
       machine_parts: !type:Container
       blueprint: !type:Container
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint

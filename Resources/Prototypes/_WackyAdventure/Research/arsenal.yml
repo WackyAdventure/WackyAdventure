@@ -2,7 +2,7 @@
   id: WeaponProfucing
   name: Производство вооружения
   icon:
-    sprite: _Goobstation/Objects/Weapons/Guns/SMGs/smartgun.rsi
+    sprite: _WackyAdventure/Structures/Machines/weaponlath.rsi
     state: icon
   discipline: Arsenal
   tier: 3
