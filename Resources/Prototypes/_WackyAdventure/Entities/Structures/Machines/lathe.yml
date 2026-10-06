@@ -68,7 +68,35 @@
     - WeaponShotgunEnforcer12
     - WeaponPistolMk581
     - WeaponShotgunBulldogLegallyDistinct1
-    -
+    - WeaponSubMachineGunWt5501
+    - WeaponRevolverInspector1
+    - WeaponShotgunKammerer1
+    - WeaponSniperMosin1
+    - WeaponShotgunAntelope1
+    - WeaponSubMachineGunDrozd1
+    - WeaponSniperUncleStyopa1
+    - MagazineLargeCaliber1
+    - WeaponSniperHristov1
+    - MagazineAntiMateriel1
+    - WeaponRevolverMateba1
+    - WeaponRifleLecter1
+    - WeaponRifleAk1
+    - WeaponRifleM90GrenadeLauncher1
+    - WeaponRevolverDeckard1
+    - WeaponLeverChester1
+    - WeaponShotgunDoubleBarreled1
+    - WeaponLauncherRocket1
+    - CartridgeRocket1
+    - WeaponMinigun1
+    - CartridgeMinigun1
+    - WeaponLauncherNonLethal1
+    - WeaponTaser1
+    - WeaponPlasmaRifle1
+    - WeaponEnergyShotgun1
+    - WeaponPulsePistol1
+    - WeaponPulseRifle1
+    - WeaponLauncherSingularityBuster1
+    - CartridgeRocketSingularityBuster1
   - type: EmagLatheRecipes
     emagStaticPacks:
   - type: ContainerContainer
