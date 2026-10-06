@@ -65,7 +65,7 @@
 - type: material
   id: Titanium
   stackEntity: SheetTitanium1
-  name: materials-titanium
+  name: титан
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: titanium }
   color: "#6f6f6f" #Okay, this is epic
   price: 0.5 # 1-1 mix of plasma and steel.
@@ -73,7 +73,7 @@
 - type: material
   id: Plastitanium
   stackEntity: SheetPlastitanium1
-  name: materials-Plastitanium
+  name: пластитан
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plastitanium }
   color: "#3c3c3c" #Okay, this is epic
   price: 0.5 # 1-1 mix of plasma and steel.
