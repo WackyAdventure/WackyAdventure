@@ -630,7 +630,6 @@
     - BluespaceHarvesterBoards # BluespaceHarvester
     - Cloning # Cloning
     - AdvMedBed
-    - WeaponLathe
     - HardLathe
   - type: MaterialStorage
     whitelist:
@@ -823,6 +822,7 @@
     # CorvaxGoob Packs
     - SecurityCaptureDevicePack # WeaponGrapplingGunHunter
     - WorkBeltsSecDynamic # WorkBelts-Techfab
+    - WeaponLathe
   - type: EmagLatheRecipes # Goobstation
     emagStaticPacks:
     - SyndicateAmmoLightStatic
