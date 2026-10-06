@@ -130,3 +130,52 @@
   - type: EmptyOnMachineDeconstruct
     containers:
     - blueprint
+
+- type: entity
+  id: Crystallathe
+  parent: [BaseLatheLube, BaseSiloUtilizer] # Goob edit
+  name: Станция производства нестабильных кристаллов
+  description: Станок для производства нестабильный кристаллов.
+  components:
+  - type: Sprite
+    sprite: _WackyAdventure/Structures/Machines/CrystalLathe.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: HardLatheMachineCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    unlitIdleState: unlit
+    unlitRunningState: unlit-building
+    staticPacks:
+    - HardSuits
+#  - type: EmagLatheRecipes
+#    emagStaticPacks:
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - BlueprintHardLathe
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint
