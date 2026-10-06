@@ -731,7 +731,7 @@
 
 - type: latheRecipe
   id: CartridgeRocketSingularityBuster1
-  result: WCartridgeRocketSingularityBuster
+  result: CartridgeRocketSingularityBuster
   categories:
   - Weapon
   completetime: 10
