@@ -19,22 +19,22 @@
     - BluespaceTheory
   # Goobstation R&D Console rework end
 
-# - type: technology
-#   id: CrystalDestabilishment
-#   name: Дестабилизация блюспейса
-#   icon:
-#     sprite: _Goobstation/Objects/Materials/materials.rsi
-#     state: UnStabilityCrystal
-#   discipline: Experimental
-#   tier: 4
-#   cost: 50000
-#   recipeUnlocks:
-#   - CrystalDestabilishment
-#   # Goobstation R&D Console rework start
-#   position: -7,-2
-#   technologyPrerequisites:
-#     - BluespaceHarvester
-#   # Goobstation R&D Console rework end
+ - type: technology
+   id: CrystalDestabilishment
+   name: Дестабилизация блюспейса
+   icon:
+     sprite: _Goobstation/Objects/Materials/materials.rsi
+     state: UnStabilityCrystal
+   discipline: Experimental
+   tier: 4
+   cost: 50000
+   recipeUnlocks:
+   - USCrystal
+   # Goobstation R&D Console rework start
+   position: -7,-2
+   technologyPrerequisites:
+     - BluespaceHarvester
+   # Goobstation R&D Console rework end
 
 - type: technology
   id: QuantumComponents
