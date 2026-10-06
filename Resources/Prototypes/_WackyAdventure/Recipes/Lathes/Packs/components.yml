@@ -22,7 +22,7 @@
   - QuantumPlate
 
 - type: latheRecipePack
-  id: WeaponLathe
+  id: WeaponLath
   recipes:
     - WeaponShotgunEnforcer12
     - WeaponPistolMk581
