@@ -61,6 +61,4 @@
         Cable: 5
         Plastitanium: 5
       tagRequirements:
-        RedspaceCore:
-        amount: 1
-        defaultPrototype: AnomalyCoreRedSpace
+        RedspaceCore: 1
