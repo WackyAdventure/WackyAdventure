@@ -10,10 +10,10 @@
     materialComposition:
       ElectricMotorT5: 100
   - type: Stack
-    stackType: ElectricMotorT51
+    stackType: ElectricMotorT5
     baseLayer: base
     layerStates:
-    - ElectricMotorT52
+    - ElectricMotorT5
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricMotorT5
