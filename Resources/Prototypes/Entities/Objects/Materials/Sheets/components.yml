@@ -15,11 +15,13 @@
     layerStates:
     - ElectricMotorT5
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricMotorT5
     layers:
     - state: ElectricMotorT5
       map: ["base"]
   - type: Item
+    sprite: Objects/Materials/Sheets/metal.rsi
     heldPrefix: ElectricMotorT5
   - type: Appearance
   - type: Extractable
@@ -83,11 +85,13 @@
     layerStates:
     - UnStabilityCrystal
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: UnStabilityCrystal
     layers:
     - state: UnStabilityCrystal
       map: ["base"]
   - type: Item
+    sprite: Objects/Materials/Sheets/metal.rsi
     heldPrefix: UnStabilityCrystal
   - type: Appearance
   - type: Extractable
@@ -355,11 +359,13 @@
     layerStates:
     - ElectricCompT4
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricCompT4
     layers:
     - state: ElectricCompT4
       map: ["base"]
   - type: Item
+    sprite: Objects/Materials/Sheets/metal.rsi
     heldPrefix: ElectricCompT4
   - type: Appearance
   - type: Extractable
@@ -1103,11 +1109,13 @@
     layerStates:
     - ElectricMotorT2
   - type: Sprite
+    sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricMotorT2
     layers:
     - state: ElectricMotorT2
       map: ["base"]
   - type: Item
+    sprite: Objects/Materials/Sheets/metal.rsi
     heldPrefix: ElectricMotorT2
   - type: Appearance
   - type: Extractable
