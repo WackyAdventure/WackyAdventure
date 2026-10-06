@@ -92,7 +92,8 @@
     - CartridgeG8Hypercharged1
     - WeaponSubMachineGunC20r1
     - WeaponRifleAnnie1
-
+    - ClothingOuterVestWeb1
+    - ClothingOuterVestWebDurathread1
 
 - type: latheRecipePack
   id: UnSCrystal
