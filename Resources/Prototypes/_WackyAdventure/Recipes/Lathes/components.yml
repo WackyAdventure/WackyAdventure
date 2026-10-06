@@ -907,18 +907,6 @@
     MechCompT1: 500
 
 - type: latheRecipe
-  id: MagazineHighCaliber1
-  result: MagazineHighCaliber
-  categories:
-  - Weapon
-  completetime: 3
-  materials:
-    Steel: 1500
-    Plasteel: 500
-    Titanium: 500
-    MechCompT1: 500
-
-- type: latheRecipe
   id: MagazineBoxMagnumAP1
   result: MagazineBoxMagnumAP
   categories:
