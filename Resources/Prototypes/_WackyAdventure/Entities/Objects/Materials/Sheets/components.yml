@@ -12,8 +12,6 @@
   - type: Stack
     stackType: ElectricMotorT5
     baseLayer: base
-    layerStates:
-    - ElectricMotorT5
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricMotorT5
