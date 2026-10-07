@@ -446,7 +446,7 @@
     - BSAnomaly
   - type: Construction
     deconstructionTarget: null
-    graph: AnomalyBluespaceBuffed
+    graph: AnomalyBSBuffed
     node: bsanomaly
 
 - type: entity
