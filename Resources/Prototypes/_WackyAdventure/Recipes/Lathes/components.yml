@@ -1067,7 +1067,7 @@
   - Weapon
   completetime: 35
   materials:
-    Steel: 35000
+    Steel: 3500
     Plasteel: 1000
     Titanium: 500
     MechCompT3: 2000
