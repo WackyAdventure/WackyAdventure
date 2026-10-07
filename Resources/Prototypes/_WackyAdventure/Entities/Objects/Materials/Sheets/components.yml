@@ -80,8 +80,6 @@
   - type: Stack
     stackType: UnStabilityCrystal
     baseLayer: base
-    layerStates:
-    - UnStabilityCrystal
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: UnStabilityCrystal
@@ -150,8 +148,6 @@
   - type: Stack
     stackType: ElectricCompT1
     baseLayer: base
-    layerStates:
-    - ElectricCompT1
   - type: Sprite
     state: ElectricCompT1
     layers:
@@ -218,8 +214,6 @@
   - type: Stack
     stackType: ElectricCompT2
     baseLayer: base
-    layerStates:
-    - ElectricCompT2
   - type: Sprite
     state: ElectricCompT2
     layers:
@@ -286,8 +280,6 @@
   - type: Stack
     stackType: ElectricCompT3
     baseLayer: base
-    layerStates:
-    - ElectricCompT3
   - type: Sprite
     state: ElectricCompT3
     layers:
@@ -354,8 +346,6 @@
   - type: Stack
     stackType: ElectricCompT4
     baseLayer: base
-    layerStates:
-    - ElectricCompT4
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricCompT4
@@ -424,8 +414,6 @@
   - type: Stack
     stackType: ElectricCompT5
     baseLayer: base
-    layerStates:
-    - ElectricCompT5
   - type: Sprite
     state: ElectricCompT5
     layers:
@@ -492,8 +480,6 @@
   - type: Stack
     stackType: MechCompT1
     baseLayer: base
-    layerStates:
-    - MechCompT1
   - type: Sprite
     state: MechCompT1
     layers:
@@ -560,8 +546,6 @@
   - type: Stack
     stackType: MechCompT2
     baseLayer: base
-    layerStates:
-    - MechCompT2
   - type: Sprite
     state: MechCompT2
     layers:
@@ -628,8 +612,6 @@
   - type: Stack
     stackType: MechCompT3
     baseLayer: base
-    layerStates:
-    - MechCompT3
   - type: Sprite
     state: MechCompT3
     layers:
@@ -696,8 +678,6 @@
   - type: Stack
     stackType: MechCompT4
     baseLayer: base
-    layerStates:
-    - MechCompT4
   - type: Sprite
     state: MechCompT4
     layers:
@@ -764,8 +744,6 @@
   - type: Stack
     stackType: MechCompT5
     baseLayer: base
-    layerStates:
-    - MechCompT5
   - type: Sprite
     state: MechCompT5
     layers:
@@ -832,8 +810,6 @@
   - type: Stack
     stackType: LaserT1
     baseLayer: base
-    layerStates:
-    - LaserT1
   - type: Sprite
     state: LaserT1
     layers:
@@ -900,8 +876,6 @@
   - type: Stack
     stackType: LaserT2
     baseLayer: base
-    layerStates:
-    - LaserT2
   - type: Sprite
     state: LaserT2
     layers:
@@ -968,8 +942,6 @@
   - type: Stack
     stackType: LaserT3
     baseLayer: base
-    layerStates:
-    - LaserT3
   - type: Sprite
     state: LaserT3
     layers:
@@ -1036,8 +1008,6 @@
   - type: Stack
     stackType: ElectricMotorT1
     baseLayer: base
-    layerStates:
-    - ElectricMotorT1
   - type: Sprite
     state: ElectricMotorT1
     layers:
@@ -1104,8 +1074,6 @@
   - type: Stack
     stackType: ElectricMotorT2
     baseLayer: base
-    layerStates:
-    - ElectricMotorT2
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: ElectricMotorT2
@@ -1174,8 +1142,6 @@
   - type: Stack
     stackType: ElectricMotorT3
     baseLayer: base
-    layerStates:
-    - ElectricMotorT3
   - type: Sprite
     state: ElectricMotorT3
     layers:
@@ -1242,8 +1208,6 @@
   - type: Stack
     stackType: ElectricMotorT4
     baseLayer: base
-    layerStates:
-    - ElectricMotorT4
   - type: Sprite
     state: ElectricMotorT4
     layers:
@@ -1310,8 +1274,6 @@
   - type: Stack
     stackType: LightPlate
     baseLayer: base
-    layerStates:
-    - LightPlate
   - type: Sprite
     state: LightPlate
     layers:
@@ -1378,8 +1340,6 @@
   - type: Stack
     stackType: MiddlePlate
     baseLayer: base
-    layerStates:
-    - MiddlePlate
   - type: Sprite
     state: MiddlePlate
     layers:
@@ -1446,8 +1406,6 @@
   - type: Stack
     stackType: HardPlate
     baseLayer: base
-    layerStates:
-    - HardPlate
   - type: Sprite
     state: HardPlate
     layers:
@@ -1514,8 +1472,6 @@
   - type: Stack
     stackType: BSPlate
     baseLayer: base
-    layerStates:
-    - BSPlate
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: BSPlate
@@ -1585,8 +1541,6 @@
     sprite: Objects/Materials/Sheets/metal.rsi
     stackType: QuantumPlate
     baseLayer: base
-    layerStates:
-    - QuantumPlate
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
     state: QuantumPlate

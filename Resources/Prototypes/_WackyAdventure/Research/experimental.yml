@@ -23,7 +23,7 @@
   id: CrystalDestabilishment
   name: Дестабилизация блюспейса
   icon:
-    sprite: _Goobstation/Objects/Materials/materials.rsi
+    sprite: _WackyAdventure/Objects/Materials/materials.rsi
     state: UnStabilityCrystal
   discipline: Experimental
   tier: 3
