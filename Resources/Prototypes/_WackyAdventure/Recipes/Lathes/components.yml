@@ -448,7 +448,7 @@
   completetime: 3
   materials:
     Steel: 5000
-    Plasitanium: 2000
+    Plastitanium: 2000
 
 - type: latheRecipe
   id: WeaponSniperHristov1
