@@ -14,5 +14,52 @@
   - type: Gun
     requiresSkill: false
     
-    
-    
+- type: entity
+  name: БСА миниган
+  parent: WeaponMinigun
+  id: WeaponMinigunAdmemeBSA
+  suffix: Admeme
+  description: Запускает снаряды с бсс взрывами
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 99999
+    proto: GrenadeBlastBSA
+  - type: Gun
+    fireRate: 30
+    requiresSkill: false
+
+- type: entity
+  id: BulletGrenadeBlastBSA
+  name: bsa grenade
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grenade
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Bluespace
+    totalIntensity: 600
+    intensitySlope: 5
+    maxIntensity: 30
+    canCreateVacuum: true
+  - type: SmartLinkBlacklist  # Goobstation
+  
+- type: entity
+  id: GrenadeBlastBSA
+  name: bsa grenade (40mm) # Goobstation
+  parent: BaseGrenade
+  components:
+  - type: CartridgeAmmo
+    proto: BulletGrenadeBlastBSA
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    layers:
+    - state: blast
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+    state: blast
+#    suffix: false - Goobstat
