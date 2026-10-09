@@ -54,6 +54,7 @@
 // SPDX-FileCopyrightText: 2024 OrangeMoronage9622 <whyteterry0092@gmail.com>
 // SPDX-FileCopyrightText: 2024 PJBot <pieterjan.briers+bot@gmail.com>
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+// SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers@gmail.com>
 // SPDX-FileCopyrightText: 2024 Plykiya <58439124+Plykiya@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 Preston Smith <92108534+thetolbean@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 Psychpsyo <60073468+Psychpsyo@users.noreply.github.com>
@@ -127,6 +128,7 @@ using Content.Server.Atmos.EntitySystems;
 using Content.Server.Cargo.Systems;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Weapons.Ranged.Components;
+using Content.Shared.Armor;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
@@ -170,6 +172,7 @@ public sealed partial class GunSystem : SharedGunSystem
     [Dependency] private readonly PowerCellSystem _powerCell = default!;
     [Dependency] private readonly SkillsSystem _skills = default!; // CorvaxGoob-Skills
     [Dependency] private readonly SharedMapSystem _map = default!;
+    [Dependency] private readonly SharedArmorSystem _armor = default!; // Armor passthrough
 
     // Goobstation
     [Dependency] private readonly FlammableSystem _flammable = default!;
@@ -323,7 +326,7 @@ public sealed partial class GunSystem : SharedGunSystem
                             if (!rayCastResults.Any())
                                 break;
 
-                            var result = rayCastResults[0];
+                            RayCastResults? result = null;
 
                             // Check if laser is shot from in a container
                             if (!_container.IsEntityOrParentInContainer(lastUser))
@@ -331,6 +334,10 @@ public sealed partial class GunSystem : SharedGunSystem
                                 // Checks if the laser should pass over unless targeted by its user
                                 foreach (var collide in rayCastResults)
                                 {
+                                    // Armor passthrough: если броня цели пропускает хитскан — луч летит дальше.
+                                    if (_armor.TryHitscanPassthrough(collide.HitEntity))
+                                        continue;
+
                                     if (collide.HitEntity != gun.Target &&
                                         CompOrNull<RequireProjectileTargetComponent>(collide.HitEntity)?.Active == true &&
                                         (_transform.GetMapCoordinates(collide.HitEntity).Position - toMapBeforeRecoil).Length() > _crawlHitzoneSize)
@@ -342,11 +349,27 @@ public sealed partial class GunSystem : SharedGunSystem
                                     break;
                                 }
                             }
+                            else
+                            {
+                                // Shooter inside a container — старая логика без crawl-проверки, но с учётом пасстхру.
+                                foreach (var collide in rayCastResults)
+                                {
+                                    if (_armor.TryHitscanPassthrough(collide.HitEntity))
+                                        continue;
 
-                            var hit = result.HitEntity;
+                                    result = collide;
+                                    break;
+                                }
+                            }
+
+                            // Всё, что попало под луч, пропустило его. Урона нет, рисуем эффект на полную длину.
+                            if (result == null)
+                                break;
+
+                            var hit = result.Value.HitEntity;
                             lastHit = hit;
 
-                            FireEffects(fromEffect, result.Distance, dir.Normalized().ToAngle(), hitscan, hit);
+                            FireEffects(fromEffect, result.Value.Distance, dir.Normalized().ToAngle(), hitscan, hit);
 
                             var ev = new HitScanReflectAttemptEvent(user, gunUid, hitscan.Reflective, dir, false, hitscan.Damage); // WD EDIT
                             RaiseLocalEvent(hit, ref ev);

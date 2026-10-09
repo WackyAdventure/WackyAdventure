@@ -163,6 +163,7 @@ public partial class InventorySystem
 
         SubscribeLocalEvent<InventoryComponent, GetVerbsEvent<EquipmentVerb>>(OnGetEquipmentVerbs);
         SubscribeLocalEvent<InventoryComponent, GetVerbsEvent<InnateVerb>>(OnGetInnateVerbs);
+        SubscribeLocalEvent<InventoryComponent, ArmorPassthroughQueryEvent>(RelayInventoryEvent);
 
     }
 

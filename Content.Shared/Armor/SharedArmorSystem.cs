@@ -30,6 +30,7 @@ using Content.Shared.Examine;
 using Content.Shared.Inventory;
 using Content.Shared.Silicons.Borgs;
 using Content.Shared.Verbs;
+using Robust.Shared.Random;
 using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
 
@@ -48,6 +49,7 @@ public abstract class SharedArmorSystem : EntitySystem
 {
     [Dependency] private readonly ExamineSystemShared _examine = default!;
     [Dependency] private readonly SharedBodySystem _body = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
 
     /// <inheritdoc />
     public override void Initialize()
@@ -58,6 +60,27 @@ public abstract class SharedArmorSystem : EntitySystem
         SubscribeLocalEvent<ArmorComponent, InventoryRelayedEvent<CoefficientQueryEvent>>(OnCoefficientQuery);
         SubscribeLocalEvent<ArmorComponent, BorgModuleRelayedEvent<DamageModifyEvent>>(OnBorgDamageModify);
         SubscribeLocalEvent<ArmorComponent, GetVerbsEvent<ExamineVerb>>(OnArmorVerbExamine);
+        SubscribeLocalEvent<ArmorComponent, InventoryRelayedEvent<ArmorPassthroughQueryEvent>>(OnPassthroughQuery);
+    }
+
+    /// <summary>
+    /// Проверяет, прошёл ли физический снаряд сквозь носителя брони.
+    /// </summary>
+    public bool TryProjectilePassthrough(EntityUid target, SlotFlags slots = SlotFlags.WITHOUT_POCKET)
+    {
+        var ev = new ArmorPassthroughQueryEvent(slots, ArmorPassthroughSource.Projectile);
+        RaiseLocalEvent(target, ev, true);
+        return ev.Chance > 0f && _random.Prob(ev.Chance);
+    }
+
+    /// <summary>
+    /// Проверяет, прошёл ли хитскан (лазер) сквозь носителя брони.
+    /// </summary>
+    public bool TryHitscanPassthrough(EntityUid target, SlotFlags slots = SlotFlags.WITHOUT_POCKET)
+    {
+        var ev = new ArmorPassthroughQueryEvent(slots, ArmorPassthroughSource.Hitscan);
+        RaiseLocalEvent(target, ev, true);
+        return ev.Chance > 0f && _random.Prob(ev.Chance);
     }
 
     private void OnDamageModify(EntityUid uid, ArmorComponent component, DamageModifyEvent args)
@@ -70,6 +93,20 @@ public abstract class SharedArmorSystem : EntitySystem
         if (component.ArmorCoverage.Contains(partType))
             args.Damage = DamageSpecifier.ApplyModifierSet(args.Damage,
             DamageSpecifier.PenetrateArmor(component.Modifiers, args.Damage.ArmorPenetration));
+    }
+
+    private void OnPassthroughQuery(EntityUid uid, ArmorComponent component,
+        ref InventoryRelayedEvent<ArmorPassthroughQueryEvent> args)
+    {
+        var chance = args.Args.Source == ArmorPassthroughSource.Hitscan
+            ? component.HitscanPassthroughChance
+            : component.ProjectilePassthroughChance;
+
+        if (chance <= 0f)
+            return;
+
+        // Берём максимум: носителю достаточно одной вещи с нужным шансом.
+        args.Args.Chance = MathF.Max(args.Args.Chance, chance);
     }
 
     /// <summary>

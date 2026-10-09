@@ -52,6 +52,20 @@ public sealed partial class ArmorComponent : Component
     public float PriceMultiplier = 1;
 
     /// <summary>
+    /// Шанс (0..1), что снаряд с ProjectileComponent пройдёт сквозь носителя брони,
+    /// не нанеся никакого урона. 0 — никогда, 1 — всегда.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public float ProjectilePassthroughChance = 0f;
+
+    /// <summary>
+    /// Шанс (0..1), что хитскан (лазер, луч) пройдёт сквозь носителя брони,
+    /// не нанеся никакого урона. 0 — никогда, 1 — всегда.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public float HitscanPassthroughChance = 0f;
+
+    /// <summary>
     /// If true, you can examine the armor to see the protection. If false, the verb won't appear.
     /// </summary>
     [DataField]
@@ -114,6 +128,36 @@ public sealed class CoefficientQueryEvent : EntityEventArgs, IInventoryRelayEven
     public CoefficientQueryEvent(SlotFlags slots)
     {
         TargetSlots = slots;
+    }
+}
+
+/// <summary>
+/// Источник, для которого запрашивается шанс пролёта сквозь броню.
+/// </summary>
+public enum ArmorPassthroughSource
+{
+    Projectile,
+    Hitscan,
+}
+
+/// <summary>
+/// Релейное событие инвентаря: собирает максимальный шанс пролёта
+/// снаряда/хитскана сквозь носителя брони.
+/// </summary>
+public sealed class ArmorPassthroughQueryEvent : EntityEventArgs, IInventoryRelayEvent
+{
+    public SlotFlags TargetSlots { get; set; }
+    public ArmorPassthroughSource Source { get; set; }
+
+    /// <summary>
+    /// Итоговый шанс (0..1). Берём максимум из всех источников.
+    /// </summary>
+    public float Chance { get; set; }
+
+    public ArmorPassthroughQueryEvent(SlotFlags slots, ArmorPassthroughSource source)
+    {
+        TargetSlots = slots;
+        Source = source;
     }
 }
 

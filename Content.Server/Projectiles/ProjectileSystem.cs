@@ -89,6 +89,7 @@ public sealed class ProjectileSystem : SharedProjectileSystem
     [Dependency] private readonly GunSystem _guns = default!;
     [Dependency] private readonly SharedCameraRecoilSystem _sharedCameraRecoil = default!;
     [Dependency] private readonly SharedTransformSystem _xform = default!;
+    [Dependency] private readonly Content.Server.Armor.ArmorSystem _armor = default!;
 
     public override void Initialize()
     {
@@ -114,6 +115,11 @@ public sealed class ProjectileSystem : SharedProjectileSystem
             component.IgnoredEntities.Clear(); // Goobstation
             return;
         }
+
+    if (_armor.TryProjectilePassthrough(target))
+    {
+        return;
+    }
 
         var ev = new ProjectileHitEvent(component.Damage * _damageableSystem.UniversalProjectileDamageModifier, target, component.Shooter);
         RaiseLocalEvent(uid, ref ev);
