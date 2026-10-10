@@ -8,7 +8,7 @@ public sealed class LightDisablerSystem : EntitySystem
     [Dependency] private readonly SharedPointLightSystem _pointLightSystem = default!;
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
 
-    private readonly Dictionary<EntityUid, bool> _previousLightState = new();
+    private readonly Dictionary<EntityUid, float> _originalEnergy = new();
 
     public override void Update(float frameTime)
     {
@@ -19,36 +19,39 @@ public sealed class LightDisablerSystem : EntitySystem
         while (q.MoveNext(out _, out var comp, out var xform))
             suppressors.Add((comp, xform));
 
-        if (suppressors.Count == 0 && _previousLightState.Count == 0)
+        if (suppressors.Count == 0 && _originalEnergy.Count == 0)
             return;
 
         foreach (var (comp, xform) in suppressors)
         {
             foreach (var entity in _entityLookup.GetEntitiesInRange(xform.Coordinates, comp.Radius))
             {
+
                 if (!_pointLightSystem.TryGetLight(entity, out var light))
                     continue;
-
                 if (!light.Enabled)
                     continue;
+                if (!_originalEnergy.TryGetValue(entity,out var original))
+                {
+                    original = light.Energy;
+                    _originalEnergy[entity] = original;
+                }
 
-                _previousLightState.TryAdd(entity, true);
-                _pointLightSystem.SetEnabled(entity, false, light);
+                var target = MathF.Max(0f, original - comp.Power);
+                var newEnergy = MathF.Max(target, light.Energy - comp.DecaySpeed * frameTime);
+                _pointLightSystem.SetEnergy(entity, newEnergy, light);
             }
         }
 
-        if (_previousLightState.Count == 0)
+        if (_originalEnergy.Count == 0)
             return;
 
-        var toEnable = new List<EntityUid>();
-        foreach (var (entity, wasEnabled) in _previousLightState)
+        var toRestore = new List<EntityUid>();
+        foreach (var entity in _originalEnergy.Keys)
         {
-            if (!wasEnabled)
-                continue;
-
             if (!TryComp<TransformComponent>(entity, out var lightXform))
             {
-                toEnable.Add(entity);
+                toRestore.Add(entity);
                 continue;
             }
 
@@ -64,15 +67,15 @@ public sealed class LightDisablerSystem : EntitySystem
             }
 
             if (!stillSuppressed)
-                toEnable.Add(entity);
+                toRestore.Add(entity);
         }
 
-        foreach (var entity in toEnable)
+        foreach (var entity in toRestore)
         {
             if (_pointLightSystem.TryGetLight(entity, out var light))
-                _pointLightSystem.SetEnabled(entity, true, light);
+                _pointLightSystem.SetEnergy(entity, _originalEnergy[entity], light);
 
-            _previousLightState.Remove(entity);
+            _originalEnergy.Remove(entity);
         }
     }
 }

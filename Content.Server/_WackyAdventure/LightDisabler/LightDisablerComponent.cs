@@ -9,4 +9,10 @@ public sealed partial class LightDisablerComponent : Component
 {
     [DataField]
     public float Radius = 5f;
+
+    [DataField]
+    public float Power = 1f;
+    
+    [DataField]
+    public float DecaySpeed = 2f;
 }
