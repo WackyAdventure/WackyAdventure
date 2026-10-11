@@ -112,6 +112,118 @@
   - type: Puller
     needsHands: false
 
+# - type: entity
+#   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
+#   id: MobShadowMonster
+#   name: Нечто
+#   description: И лишь силует виден во тьме
+#   components:
+# #  - type: Bloodstream
+# #    bloodMaxVolume: 1984
+# #    bleedReductionAmount: 5
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTypeTrigger
+#         damageType: Blunt
+#         damage: 1000 # no gibbing at 400
+#       behaviors:
+#       - !type:GibBehavior
+#   - type: NpcFactionMember
+#     factions:
+#     - Passive
+#   - type: CombatMode
+#   - type: MovementSpeedModifier
+#     baseWalkSpeed: 3
+#     baseSprintSpeed: 6
+#     weightlessModifier: 1.5
+#   - type: Sprite
+#     drawdepth: Mobs
+#     sprite: _WackyAdventure/Mobs/Demons/tumper.rsi
+#     noRot: true
+#     scale: 0.75,0.75
+#     layers:
+#     - map: [ "enum.DamageStateVisualLayers.Base" ]
+#       state: tumper
+#   - type: DamageStateVisuals
+#     states:
+#       Alive:
+#         Base: tumper
+#       Dead:
+#         Base: tumper1
+#   - type: Clickable
+#   - type: InteractionOutline
+#   - type: Physics
+#     bodyType: KinematicController
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeCircle
+#           radius: 0.40
+#         density: 100
+#         mask:
+#         - FlyingMobMask
+#         layer:
+#         - FlyingMobLayer
+#   - type: MobState
+#     allowedStates:
+#       - Alive
+#       - Dead
+#   - type: MobThresholds
+#     thresholds:
+#       0: Alive
+#       10000: Dead
+#   - type: SlowOnDamage
+#     speedModifierThresholds:
+#       15: 0.75 # it's an unstoppable flesh abomination
+#   - type: Damageable
+#     damageContainer: FlimsyMetallic
+#   - type: MeleeWeapon
+#     hidden: true
+#     altDisarm: false
+#     autoAttack: false
+#     range: 2.2 # Goob
+#     attackRate: 0.8
+#     damage:
+#       types:
+#        Piercing: 20
+#        Structural: 10
+#     soundHit:
+#       path: /Audio/Weapons/bladeslice.ogg
+#     animation: WeaponArcFist
+#   - type: Devourer
+#     foodPreferenceWhitelist:
+#       components:
+#       - HumanoidAppearance
+#     stomachStorageWhitelist:
+#       components:
+#       - MobState
+#     chemical: Ichor
+#     healRate: 50.0
+#     whitelist:
+#       components:
+#       - MobState
+#       - Door
+#       tags:
+#       - Wall
+#   - type: Tag
+#     tags:
+#     - CannotSuicide
+#     - DoorBumpOpener
+#   - type: Examiner
+#   - type: Pullable
+#   - type: FootstepModifier
+#     footstepSoundCollection:
+#       collection: FootstepThud
+#   - type: Flammable
+#     damage:
+#       types: {}
+#   - type: Temperature
+#     damageCap: 0 # immune to temperature damage
+#   - type: Puller
+#     needsHands: false
+
 - type: entity
   parent: MobTumper
   id: MobTumperAgressive

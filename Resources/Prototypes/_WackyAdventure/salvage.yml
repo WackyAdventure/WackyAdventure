@@ -82,14 +82,14 @@
     Gold: 200
 
 - type: latheRecipe
-  id: Plastal12
+  id: Plasteel12
   result: SheetPlasteel1
   categories:
   - Tools
   completetime: 0
   materials:
-    Steel: 30
-    Plasma: 30
+    Steel: 100
+    Plasma: 100
 
 - type: latheRecipe
   id: Plastitan12
