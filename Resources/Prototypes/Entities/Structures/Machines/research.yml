@@ -124,7 +124,7 @@
     guides:
     - Science
   - type: ResearchPointSource # Goobstation
-    pointspersecond: 15
+    pointspersecond: 0
     active: true
 
 - type: entity
